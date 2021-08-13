@@ -42,7 +42,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   font-family: Cera-Pro, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: $text-descr;
   background-color: $primary-white-color;
 }
@@ -76,16 +76,14 @@ img {
   }
 }
 
-.section {
+section {
   padding-bottom: 52px;
 
   @media screen and (min-width: 768px) {
-
     padding-bottom: 52px;
   }
 
-   @media screen and (min-width: 1200px) {
-
+  @media screen and (min-width: 1200px) {
     padding-bottom: 100px;
   }
 }
