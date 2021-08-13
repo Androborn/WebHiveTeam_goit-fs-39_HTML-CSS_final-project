@@ -76,6 +76,21 @@ img {
   }
 }
 
+.section {
+  padding-top: 32px;
+  padding-bottom: 52px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 44px;
+    padding-bottom: 52px;
+  }
+
+   @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 100px;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
