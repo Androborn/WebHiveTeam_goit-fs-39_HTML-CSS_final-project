@@ -76,6 +76,20 @@ img {
   }
 }
 
+.section {
+  padding-bottom: 52px;
+
+  @media screen and (min-width: 768px) {
+
+    padding-bottom: 52px;
+  }
+
+   @media screen and (min-width: 1200px) {
+
+    padding-bottom: 100px;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
