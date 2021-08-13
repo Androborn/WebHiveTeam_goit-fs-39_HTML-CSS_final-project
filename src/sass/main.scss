@@ -6,3 +6,9 @@
 // Стили для файла с примером HTML-фрагмента
 @import url(./utils/_variables.scss);
 @import url(./utils/_fonts.scss);
+body {
+  font-family: Cera-Pro;
+  font-weight: 700;
+  font-style: normal;
+  background-color: tomato;
+}
