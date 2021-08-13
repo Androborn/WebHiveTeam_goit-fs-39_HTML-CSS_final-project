@@ -1,0 +1,50 @@
+<form class="order-form" name="order-form">
+  <p class="order-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</p>
+  <label class="order-form__label">
+    Ім’я
+    <input class="order-form__input" type="text" name="username" />
+  </label>
+  <label class="order-form__label">
+    Email
+    <input class="order-form__input" type="email" name="email" />
+  </label>
+
+  <label class="order-form__label" for="plastic">Види пластика</label>
+  <select class="order-form__select" id="plastic" name="plastic">
+    <option value="PLA">PLA (поллактід)</option>
+    <option value="ABS">ABS (акрилонітрілбутадієнстірол)</option>
+    <option value="PVA">PVA (полівініловий спирт)</option>
+    <option value="Nylone">Nylone (нейлон)</option>
+    <option value="HIPS">HIPS (ударостійкий полістирол)</option>
+  </select>
+
+  <label class="order-form__label" for="quality">Якість друку</label>
+  <select class="order-form__select" id="quality" name="quality">
+    <option value="normal">Звичайна якість</option>
+    <option value="jewelry">Ювелірна якість</option>
+  </select>
+
+  <label class="order-form__label" for="color">Колір</label>
+  <select id="color" name="color">
+    <option value="red">Червоний</option>
+    <option value="black">Чорний</option>
+    <option value="blue">Синій</option>
+    <option value="white">Білий</option>
+    <option value="yellow">Жовтий</option>
+    <option value="green">Зелений</option>
+  </select>
+
+  <label class="order-form__label">
+    Повідомлення
+    <textarea
+      class="order-form__textarea"
+      name="message"
+      rows="5"
+      placeholder="Залишіть своє повідомлення"
+    ></textarea>
+    <input class="order-form__pin" type="file" name="file" />
+  </label>
+  <p class="order-form__message">*Прикріпіть зображення / креслення / STL / Obj / CAD-модель</p>
+
+  <button class="order-form__submit-btn" type="submit">Відправити</button>
+</form>
