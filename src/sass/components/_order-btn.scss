@@ -1,0 +1,17 @@
+.order-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 280px;
+  height: 56px;
+  background: #f5f5fa;
+  box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
+    5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
+  border-radius: 30.5px;
+  padding: 16px 32.5px;
+  color: $accent-color;
+}

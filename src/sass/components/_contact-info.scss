@@ -1,0 +1,21 @@
+.contact-info__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.27;
+  color: $accent-color;
+  margin-bottom: 8px;
+}
+
+.contact-info__list {
+  margin-bottom: 24px;
+}
+
+.contact-info__item {
+  font-size: 16px;
+  line-height: 1.25;
+  color: $text-descr;
+}
+
+.contact-info__item:not(:last-child) {
+  margin-bottom: 8px;
+}
