@@ -1,18 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../sass/main.scss" />
 
-    <title>Document</title>
-  </head>
-  <body>
-    <include src="./partials/contact/hero.html"></include>
-    <include src="./partials/components/contact-info.html"></include>
-    <include src="./partials/components/order-form.html"></include>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../sass/main.scss" />
 
-    <script src="../index.js"></script>
-  </body>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <!-- <include src="../partials/header.html"></include> -->
+
+  </header>
+  <main>
+    <h1 class="contact__title">Контакти</h1>
+    <div class="contact__main">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/FqQAjkZOBeY" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+      <p class="contact__paragraph">
+        Людина уперше побачивши процес 3D друку може легко захопитися спостереженням за цим процесом не на десяток
+        хвилин.
+      </p>
+      <p class="contact__paragraph">
+        Наша команда створює timelapse відео що б ви могли краще ознайомитися з технологією 3D друку і просто
+        помилуватися
+        красою цього процесу
+      </p>
+      <p class="contact__paragraph">
+        Приємного перегляду!
+      </p>
+    </div>
+    <div class="contact__contact-desk">
+      <ul class="contact__contact-desk-item">
+        <li class="contact__contact-part">
+          <h2 class="contact__contact-title">ТЕЛЕФОНИ</h2>
+          <ul class="contact__contact-discription">
+            <li class="contact__tell"><a href="tel:+380957384551" class="tell">+38 (095) -73-84-551</a></li>
+            <li class="contact__tell"><a href="tel:+380980025235" class="tell">+38 (098) -00-25-235</a></li>
+          </ul>
+        </li>
+        <li class="contact__contact-part">
+          <h2 class="contact__contact-title">Email</h2>
+          <a href="milto:3dfreedom.info@gmail.com" class="contact__email">3dfreedom.info@gmail.com</a>
+        </li>
+        <li class="contact__contact-part">
+          <h2 class="contact__contact-title">Робочий час</h2>
+          <ul class="contact__time-work">
+            <li class="contact__time">Пн-пт: з 8:00 до 19:00</li>
+            <li class="contact__time">Сб, Нд: з 10:00 до 17:00</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="contact__form">
+      <include src="./partials/components/order-form.html"></include>
+
+    </div>
+  </main>
+  <script src="../index.js"></script>
+</body>
+
 </html>
