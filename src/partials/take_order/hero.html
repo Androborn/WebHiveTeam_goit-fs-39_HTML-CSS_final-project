@@ -1,49 +1,32 @@
-<section class="take-order">
-    <div class="container">
+<section class="take-order container">
+    <h1 class="take-order__title">ЗРОБИТИ ЗАМОВЛЕННЯ</h1>
         <div class="take-order-box">
-
-
-        </div>
-        <h1 class="take-order__title">ЗРОБИТИ ЗАМОВЛЕННЯ</h1>
-        <div class="take-order-main-image">
-            <picture>
-                <sourse media="(min-width: 1440px)"
-                type="image/webp" srcset="./images/deckstope/take-order/image.webp 1x, ./images/deckstope/take-order/image@2x.webp 2x" />
-                <sourse media="(min-width: 1440px)" srcset="./images/deckstope/take-order/image.jpg 1x, ./images/deckstope/take-order/image@2x.jpg 2x" />
-                <sourse media="(min-width: 768px)" type="image/webp" srcset="./images/tablet/take-order/image.webp 1x, ./images/tablet/take-order/image@2x.webp 2x">
-                <sourse media="(min-width: 768px)" srcset="./images/tablet/take-order/image.jpg 1x, ./images/tablet/take-order/image@2x.jpg 2x" />
-                <sourse media="(min-width: 320px)" type="image/webp" srcset="../images/mobile/take-order/image.webp 1x, ../images/mobile/take-order/image@2x.webp 2x">
-                <sourse media="(min-width: 320px)" srcset="../images/mobile/take-order/image.jpg 1x, ../images/mobile/take-order/image@2x.jpg 2x" />
-                <img class="take-order__main-img" src="../images/mobile/take-order/image.jpg" alt="Тривимірний куб">
-            </picture>
-        </div>
-        <div class="take-order-info">
-            <div class="take-order-description">
-                <p class="take-order__text">
-                    На цій сторінці ви можете зробити замовлення заповнивши форму і ми
-                    зв'яжемося з вами.
-                  </p>
-                  <p class="take-order__text">
-                    Наші фахівці допоможуть підібрати оптимальні для вас параметри і дадуть
-                    відповідь на всі ваші запитання.
-                  </p>
+            <div class="take-order-main-image">
+                <picture>
+                    <sourse media="(min-width: 1440px)" type="image/webp" srcset="../images/deckstope/take-order/image.webp 1x, ../images/deckstope/take-order/image@2x.webp 2x" />
+                    <sourse media="(min-width: 1440px)" srcset="../images/deckstope/take-order/image.jpg 1x, ../images/deckstope/take-order/image@2x.jpg 2x" />
+                    <sourse media="(min-width: 768px)" type="image/webp" srcset="../images/tablet/take-order/image.webp 1x, ../images/tablet/take-order/image@2x.webp 2x">
+                    <sourse media="(min-width: 768px)" srcset="../images/tablet/take-order/image.jpg 1x, ../images/tablet/take-order/image@2x.jpg 2x" />
+                    <sourse media="(min-width: 320px)" type="image/webp" srcset="../images/mobile/take-order/image.webp 1x, ../images/mobile/take-order/image@2x.webp 2x">
+                    <sourse media="(min-width: 320px)" srcset="../images/mobile/take-order/image.jpg 1x, ../images/mobile/take-order/image@2x.jpg 2x" />
+                    <img class="take-order__main-img" src="../images/mobile/take-order/image.jpg" alt="Тривимірний куб">
+                </picture>
             </div>
-            <!-- <ul class="take-order_list is-hidden">
-                <li class="take-order_item">
-
-                </li>
-                <li class="take-order_item">
-
-                </li>
-                <li class="take-order_item">
-
-                </li>
-            </ul> -->
-
-        </div>
-
-    </div>
+            <div class="take-order-info">
+                <div class="take-order-description">
+                    <p class="take-order__text">
+                        На цій сторінці ви можете зробити замовлення заповнивши форму і ми
+                        зв'яжемося з вами.
+                      </p>
+                      <p class="take-order__text">
+                        Наші фахівці допоможуть підібрати оптимальні для вас параметри і дадуть
+                        відповідь на всі ваші запитання.
+                      </p>
+            </div>
+                <include src="./partials/components/order-form.html"></include>
+                <include src="./partials/components/contact-info.html"></include>
    
 
-  
+        </div>
+
   </section>
