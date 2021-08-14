@@ -1,0 +1,44 @@
+.contact__title{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25; 
+    color: #487996;
+}
+
+.contact__main{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.28;
+    color: #2B2B2B;
+}
+
+.smile::after{
+    content: "\1F609";
+    width: 49px;
+    height: 49px;
+    display: block;
+}
+
+.contact__contact-title{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+    color: #487996;
+}
+
+
+.contact__contact-part-discriptionl{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2B2B2B
+}
