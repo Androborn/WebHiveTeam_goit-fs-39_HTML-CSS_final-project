@@ -1,0 +1,10 @@
+.models-image {
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  color: $accent-color;
+
+  &__item {
+    margin-top: 16px;
+  }
+}
