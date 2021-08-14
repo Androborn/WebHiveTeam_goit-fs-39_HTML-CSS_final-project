@@ -25,22 +25,16 @@ line-height: 1.25;
 
 color: $text-descr;
 
-width: 320px;
-
 padding-left: 20px;
 padding-right: 20px;
 
 
     @media screen and (min-width: 768px) {
-    width: 768px;
-
     padding-left: 60px;
     padding-right: 60px;   
     }
 
     @media screen and (min-width: 1440px) {
-        
-        width: 1440px;
         padding-left: 189px;
         padding-right: 189px; 
 
