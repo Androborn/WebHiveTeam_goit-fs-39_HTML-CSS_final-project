@@ -105,6 +105,13 @@ margin-bottom: 16px;
     width: 280px;
     height: 199px;
 
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+     (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
+     (min-resolution: 192dpi) and (min-width: 280px),
+     (min-resolution: 2dppx) and (min-width: 280px) {
+      background-image: url(../images/mobile/3d-scanning/image@2x.jpg);
+  }
+
     @media screen and (min-width: 768px) and (max-width: 1439px) {
      background-image: url(../images/tablet/3d-scanning/image.jpg);
     
@@ -117,6 +124,15 @@ margin-bottom: 16px;
     z-index: -1;
     }
 
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+     (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+     (min-resolution: 192dpi) and (min-width: 768px),
+     (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/tablet/3d-scanning/image@2x.jpg);
+  }
+
+   
+
     @media screen and (min-width: 1440px) {
        background-image: url(../images/deckstope/3d-scanning/image.jpg); 
        
@@ -128,4 +144,10 @@ margin-bottom: 16px;
        bottom: -97px;
        z-index: -1;
     }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+     (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+     (min-resolution: 192dpi) and (min-width: 1440px),
+     (min-resolution: 2dppx) and (min-width: 1440px) {
+      background-image: url(../images/dackstop/3d-scanning/image@2x.jpg);
+  }
 }
