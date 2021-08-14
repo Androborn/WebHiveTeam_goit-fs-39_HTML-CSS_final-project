@@ -1,0 +1,42 @@
+.main__overlay {
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../../src/images/mobile/main/page_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+    screen and (min-resolution: 192dpi) and (max-width: 767px),
+    screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    background-image: url(../../src/images/mobile/main/page_bg@2x.jpg);
+  }
+
+  /*   @media screen and (min-width: 768px) {
+    background-image: url(../../src/images/tablet/main/page_bg.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    background-image: url(../../src/images/tablet/main/page_bg@2x.jpg);
+  }
+
+  @media screen and (min-width: 1444px) {
+    background-image: url(../../src/images/desktope/main/page_bg.jpg);
+  }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1444px),
+    screen and (min-resolution: 192dpi) and (min-width: 1444px),
+    screen and (min-resolution: 2dppx) and (min-width: 1444px) {
+    background-image: url(../../src/images/desktope/main/page_bg@2x.jpg);
+  } */
+}
+
+.main__page-head {
+  font-family: 'CaviarDreams';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: $text-descr;
+}
