@@ -24,10 +24,10 @@
   @media screen and (max-width: 767px) {
     &:not(:nth-child(-n + 3)) {
       display: none;
+    }
 
-      &:not(:last-child) {
-        margin-bottom: 16px;
-      }
+    &:not(:last-child) {
+      margin-bottom: 16px;
     }
   }
 
