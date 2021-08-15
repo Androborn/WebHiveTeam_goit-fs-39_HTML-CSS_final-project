@@ -1,0 +1,25 @@
+.methods {
+  font-size: 18px;
+  line-height: 1.28;
+  text-transform: uppercase;
+  color: $accent-color;
+
+  &__item {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 16px;
+  }
+
+  &__item::before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: $accent-color;
+    border-radius: 3px 0px;
+    margin-right: 10px;
+    align-items: center;
+    transform: translateY(-2px);
+  }
+}
