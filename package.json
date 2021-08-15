@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://codajoker.github.io/team-3-project",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "dev": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /team-3-project/"
   },
   "repository": {
