@@ -2,11 +2,19 @@
     font-family: Cera Pro;
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 24px;
     line-height: 1.25; 
     color: $accent-color;
 }
+.contact__paragraph{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $text-descr;
 
+}
 .contact__main{
     font-family: Cera Pro;
     font-style: normal;
@@ -18,27 +26,152 @@
 
 .smile::after{
     content: "\1F609";
-    width: 49px;
-    height: 49px;
-    display: block;
+    //display: block;
 }
 
 .contact__contact-title{
     font-family: Cera Pro;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 18px;
     line-height: 1.25;
     color: $accent-color;
+    margin-bottom: 8px ;
 }
 
-
-.contact__contact-part-discriptionl{
+.contact__contact-part-discription{
     font-family: Cera Pro;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 1.11;
+    font-size: 16px;
+    line-height: 1.25;
     text-transform: capitalize;
     color: $text-descr;
+    
+        &:not(:last-child){
+        margin-bottom: 8px;
+        }
 }
+.contact__contact-part:not(:last-child){
+    margin-bottom: 24px;
+}
+
+
+.contact__video{
+    // width: 100vw;
+    // height: 100hw;
+    border-radius: 15px;
+    
+   
+}
+
+.contact__section{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.contact__form-and-desk{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 76px;
+
+}
+
+.contact__form{
+    margin-bottom: 52px;
+    margin-top: 36px;
+}
+
+.perenos{
+    @media screen and (min-width: 1440px) {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px){
+        .contact__top-part{
+            display: flex;
+        }
+        .contact__paragraph{
+            margin-left: 0;
+            &:not(:last-child){
+                margin-bottom: 16px;
+            }
+        }
+        .contact__form{
+            display: flex;
+           justify-content: center;
+        }
+        .contact__contact-desk-item{
+            display: flex;
+            justify-content: space-around;
+        }
+        .contact__contact-part:not(:last-child){
+            margin-bottom: 0px;
+        }
+        .contact__section{
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        .contact___paragraph-section{
+            margin-left: 20px;
+        }
+}
+ @media screen and (min-width: 1440px){
+        .contact__paragraph{
+            margin-left: 0;
+            &:not(:last-child){
+                margin-bottom: 24px;
+            }
+        }
+        .contact__form{
+            margin-top: 0px;
+        }
+        .contact__form-and-desk{
+            flex-direction: row;
+            padding-top: 100px;
+        }
+        .contact__contact-desk-item{
+            display: inline;
+            
+        }
+        .contact__contact-part:not(:last-child){
+            margin-bottom: 64px;
+        }
+        .contact__section{
+            margin-left: 190px;
+            margin-right: 190px;
+        }
+        .contact___paragraph-section{
+            margin-left: 32px;
+        }
+        .smile::after{
+            display: block;
+            margin-top: 58px;
+            width: 49px;
+            height: 49px;
+            font-size: 36px;
+            padding: 0px;
+        }
+        .contact__title{
+            font-size: 48px;
+            line-height: 1.25;
+        }
+        .contact__paragraph{
+            font-size: 18px;
+            line-height: 1.278;
+        }
+        .contact__video{
+            display: block;
+            width: 516px;
+            height: 316px;
+        }
+
+ }
+ .contact__form {
+    
+    .order-form__select {
+     display: none;
+   }
+ }
