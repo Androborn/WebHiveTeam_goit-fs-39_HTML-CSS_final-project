@@ -1,3 +1,20 @@
+.hero__container,
+.gallery__container,
+.more-photo__container {
+  min-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: 768px) {
+    min-width: 768px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-left: 189px;
+    padding-right: 189px;
+  }
+}
+
 .hero {
   position: relative;
 }
