@@ -1,11 +1,14 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 h1,
 h2,
 h3,
@@ -20,6 +23,7 @@ ul {
   margin-right: 0;
   padding: 0;
 }
+
 button,
 button:active,
 button:focus,
@@ -32,12 +36,15 @@ textarea:focus {
   outline: none;
   border: none;
 }
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 body {
   margin-left: 0;
   margin-right: 0;
@@ -46,18 +53,22 @@ body {
   color: $text-descr;
   background-color: $primary-white-color;
 }
+
 body.modal-open {
   overflow: hidden;
 }
+
 select,
 textarea {
   font-family: Cera-Pro;
 }
+
 img {
   display: block;
   width: 100%;
   height: auto;
 }
+
 .container {
   height: 100%;
   margin-left: auto;

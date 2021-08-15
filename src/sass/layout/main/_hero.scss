@@ -1,28 +1,7 @@
-.hero__container,
-.gallery__container,
-.more-photo__container {
-  min-width: 320px;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media screen and (min-width: 768px) {
-    min-width: 768px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    padding-left: 189px;
-    padding-right: 189px;
-  }
-}
-
-.hero {
-  position: relative;
-}
-
 .main__overlay {
   margin-left: auto;
   margin-right: auto;
-  background-position: center -93px;
+
   background-image: url(../images/mobile/main/page_bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -34,7 +13,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    background-position: center -105px;
     background-image: url(../images/tablet/main/page_bg.jpg);
   }
 
@@ -45,7 +23,6 @@
   }
 
   @media screen and (min-width: 1440px) {
-    background-position: 0 -163px;
     background-image: url(../images/desktope/main/page_bg.jpg);
   }
 
@@ -85,6 +62,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  position: relative;
 }
 
 .carousel {
@@ -98,7 +76,7 @@
     margin-bottom: 64px;
   }
 
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1440px) {
     width: 688px;
     margin: calc(-1 * 18px);
     margin-bottom: 100px;
@@ -114,7 +92,7 @@
     flex-basis: calc(100% / 3 - 10px * 2);
   }
 
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1440px) {
     margin: 18px;
     flex-basis: calc(100% / 3 - 18px * 2);
   }
@@ -143,6 +121,7 @@
 
 .hero__ancor-gide--arrow {
   display: none;
+  fill: #008cef;
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -152,16 +131,16 @@
     width: 16px;
     display: block;
     position: absolute;
-    top: 220px;
-    left: 134px;
+    bottom: 62px;
+    left: 75px;
   }
 
   @media screen and (min-width: 1440px) {
     display: inherit;
     height: 32px;
     width: 32px;
-    top: 476px;
-    left: 232px;
+    bottom: 33px;
+    left: 43px;
   }
 }
 
