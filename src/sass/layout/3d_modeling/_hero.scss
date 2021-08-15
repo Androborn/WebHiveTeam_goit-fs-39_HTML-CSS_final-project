@@ -1,3 +1,7 @@
+.section-modeling {
+  padding-top: 32px;
+}
+
 .modeling-hero__title {
   font-size: 24px;
   line-height: 1.25;
@@ -10,4 +14,25 @@
   font-size: 16px;
   line-height: 1.25;
   margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-modeling {
+    padding-top: 35px;
+  }
+
+  .modeling-hero__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .section-modeling {
+    padding-top: 24px;
+  }
+
+  .modeling-hero {
+    padding-left: 189px;
+    padding-right: 189px;
+  }
 }

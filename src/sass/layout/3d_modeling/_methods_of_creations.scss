@@ -23,3 +23,36 @@
     transform: translateY(-2px);
   }
 }
+
+.background-modeling {
+  width: 260px;
+  height: 164px;
+  background-image: url(../images/mobile/3d-modeling/image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .methods {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  .background-modeling {
+    width: 246px;
+    height: 144px;
+    background-image: url(../images/tablet/3d-modeling/image.png);
+    margin-top: 0;
+    background-position: right bottom;
+  }
+}
+
+@media screen and (min-width: 1444px) {
+  .background-modeling {
+    width: 515px;
+    height: 301px;
+    background-image: url(../images/desktope/3d-modeling/image.png);
+    background-position: right bottom;
+  }
+}
