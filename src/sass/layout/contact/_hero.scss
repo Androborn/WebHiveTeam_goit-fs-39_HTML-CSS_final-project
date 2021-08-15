@@ -4,7 +4,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 1.25; 
-    color: #487996;
+    color: $accent-color;
 }
 
 .contact__main{
@@ -13,7 +13,7 @@
     font-weight: 300;
     font-size: 18px;
     line-height: 1.28;
-    color: #2B2B2B;
+    color: $text-descr;
 }
 
 .smile::after{
@@ -29,7 +29,7 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.25;
-    color: #487996;
+    color: $accent-color;
 }
 
 
@@ -40,5 +40,5 @@
     font-size: 18px;
     line-height: 1.11;
     text-transform: capitalize;
-    color: #2B2B2B
+    color: $text-descr;
 }
