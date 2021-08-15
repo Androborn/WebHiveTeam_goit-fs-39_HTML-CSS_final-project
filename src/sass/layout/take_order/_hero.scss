@@ -1,0 +1,107 @@
+
+.take-order__title {
+    margin-top: 32px;
+    font-family: Cera Pro, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.25;
+  
+    color: $accent-color;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 35px;
+        text-align: left;
+        font-size: 36px;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-top: 85px;
+        font-size: 48px;
+    }
+}
+ 
+  .take-order-box{
+    @media screen and (min-width: 768px) {
+      display: flex;
+      margin-top: 24px;
+    }
+}
+
+.take-order-main-image {
+    width: 280px;
+    margin-top: 16px;
+    border-radius: 15px;
+
+    @media screen and (min-width: 768px) {
+        width: 247px;
+        height: 116px;
+        margin-right: 20px;
+        margin-top: 0;
+        overflow: hidden
+    }
+    
+    @media screen and (min-width: 1440px) {
+        width: 515px;
+        height: 315px;
+        margin-right: 32px;
+        overflow: unset;
+    }
+}
+
+ .take-order-info{
+    @media screen and (min-width: 768px) {
+        max-width: 381px;        
+      }
+      @media screen and (min-width: 1440px) {
+        max-width: 515px;        
+      }
+  }
+  
+  .take-order-description{
+    margin-top: 16px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 0;
+    }
+  }
+
+  .take-order__text {
+    font-family: Cera Pro, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25;
+    color: $text-descr;
+
+    @media screen and (min-width: 1440px) {
+        font-size: 18px;
+        line-height: 1.28;    
+      }
+
+    & + .take-order__text{
+        margin-top: 16px;
+        
+        @media screen and (min-width: 1440px) {
+            margin-top: 24px;      
+          }
+    }
+  }
+
+  .take-order_list{
+    display: none;
+    margin-top: 55px;
+    
+      @media screen and (min-width: 1440px) {
+        display: flex;    
+      }
+  }
+  
+  .take-order_item{
+      width: 144px;
+      height: 144px;
+      background-color: violet;
+
+      &:not(:last-child){
+          margin-right: 42px;
+      }
+  }

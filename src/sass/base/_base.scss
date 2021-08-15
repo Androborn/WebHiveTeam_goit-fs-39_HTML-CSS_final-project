@@ -1,11 +1,14 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 h1,
 h2,
 h3,
@@ -20,6 +23,7 @@ ul {
   margin-right: 0;
   padding: 0;
 }
+
 button,
 button:active,
 button:focus,
@@ -32,12 +36,15 @@ textarea:focus {
   outline: none;
   border: none;
 }
+
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
+
 body {
   margin-left: 0;
   margin-right: 0;
@@ -46,8 +53,14 @@ body {
   color: $text-descr;
   background-color: $primary-white-color;
 }
+
 body.modal-open {
   overflow: hidden;
+}
+
+select,
+textarea {
+  font-family: Cera-Pro;
 }
 
 img {
@@ -55,35 +68,32 @@ img {
   width: 100%;
   height: auto;
 }
+
 .container {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  @media screen and (min-width: 320px) {
-    width: 280px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  //   @media screen and (min-width: 320px) {
+  //     width: 320px;
+  //     padding-left: 20px;
+  //     padding-right: 20px;
+  //   }
   @media screen and (min-width: 768px) {
-    width: 648px;
+    width: 768px;
     padding-left: 60px;
     padding-right: 60px;
   }
   @media screen and (min-width: 1440px) {
-    width: 1280px;
-    padding-left: 80px;
-    padding-right: 80px;
+    width: 1440px;
+    padding-left: 189px;
+    padding-right: 189px;
   }
 }
 
 section {
   padding-bottom: 52px;
 
-  @media screen and (min-width: 768px) {
-    padding-bottom: 52px;
-  }
-
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1440px) {
     padding-bottom: 100px;
   }
 }

@@ -1,0 +1,126 @@
+.footer {
+  background-color: #f5f5fa;
+  box-shadow: 5px 2px 5px 8px rgba(72, 121, 150, 0.1);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer__logo {
+  display: block;
+  width: 192px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.footer__nav {
+  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__nav-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.footer__nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  color: $text-descr;
+}
+.footer__social {
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__social-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.footer__social-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: $text-descr;
+}
+.footer__contact {
+  margin-top: 24px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer__contact-tel-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer__mail-heading,
+.footer__tel-heading {
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: $text-descr;
+}
+@media screen and (max-width: 767px) {
+  .footer__tel-heading {
+    margin-top: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__tel-heading {
+    margin-top: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__mail-heading,
+  .footer__tel-heading {
+    text-align: right;
+  }
+}
+.footer__contact-tel-link,
+.footer__contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: $accent-color;
+}
+@media screen and (min-width: 768px) {
+  .footer__contact-link {
+    margin-bottom: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__contact-tel-item {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__nav,
+  .footer__social,
+  .footer__contact {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .footer-container {
+    margin-top: 20px;
+  }
+}
