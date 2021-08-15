@@ -56,9 +56,8 @@ ul, ol {
 .header__btn-burger{
     width: 32px;
     height: 32px;
-    fill: #487996;}
-
-
+    fill: #487996;
+}
 @media screen and (max-width: 1444px){
     .page-header__conteiner {
         display: flex;
@@ -123,8 +122,7 @@ ul, ol {
   
  @media screen and (max-width: 1444px){
     .header__language  {
-      margin-left: auto;}
-       
+      margin-left: auto;
     }
 
 
@@ -212,7 +210,7 @@ select{
     .header__btn-tel {
         width: 24px;
         height: 24px;
-       left: 222px;
+        left: 222px;
         top: 33px;
         margin-right: 21px;
   }
