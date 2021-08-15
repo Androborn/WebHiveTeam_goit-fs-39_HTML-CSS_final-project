@@ -1,107 +1,167 @@
 
 .take-order__title {
-    margin-top: 32px;
-    font-family: Cera Pro, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 22px;
-    line-height: 1.25;
-  
-    color: $accent-color;
+  margin-top: 32px;
+  font-family: Cera Pro, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 7vw;
+  line-height: 1.25;
 
-    @media screen and (min-width: 768px) {
-        margin-top: 35px;
-        text-align: left;
-        font-size: 36px;
-    }
+  color: $accent-color;
 
-    @media screen and (min-width: 1440px) {
-        margin-top: 85px;
-        font-size: 48px;
-    }
+  @media screen and (min-width: 320px) {
+    font-size: 24px;
 }
- 
-  .take-order-box{
-    @media screen and (min-width: 768px) {
-      display: flex;
-      margin-top: 24px;
-    }
+
+  @media screen and (min-width: 768px) {
+      margin-top: 35px;
+      text-align: left;
+      font-size: 36px;
+  }
+
+  @media screen and (min-width: 1440px) {
+      margin-top: 85px;
+      font-size: 48px;
+  }
+}
+
+.take-order-box{
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-top: 24px;
+  }
 }
 
 .take-order-main-image {
-    width: 280px;
-    margin-top: 16px;
-    border-radius: 15px;
+  width: 280px;
+  margin-top: 16px;
+  border-radius: 15px;
+  overflow: hidden;
 
-    @media screen and (min-width: 768px) {
-        width: 247px;
-        height: 116px;
-        margin-right: 20px;
-        margin-top: 0;
-        overflow: hidden
+  @media screen and (min-width: 768px) {
+      width: 247px;
+      height: 116px;
+      margin-right: 20px;
+      margin-top: 0;
+      
+  }
+  
+  @media screen and (min-width: 1440px) {
+      width: 515px;
+      height: 315px;
+      margin-right: 32px;
+      
+  }
+}
+
+.take-order-info{
+  @media screen and (min-width: 768px) {
+      max-width: 381px;        
     }
-    
     @media screen and (min-width: 1440px) {
-        width: 515px;
-        height: 315px;
-        margin-right: 32px;
-        overflow: unset;
+      max-width: 515px;        
     }
 }
 
- .take-order-info{
-    @media screen and (min-width: 768px) {
-        max-width: 381px;        
-      }
-      @media screen and (min-width: 1440px) {
-        max-width: 515px;        
-      }
-  }
-  
-  .take-order-description{
-    margin-top: 16px;
+.take-order-description{
+  margin-top: 16px;
 
-    @media screen and (min-width: 768px) {
-        margin-top: 0;
+  @media screen and (min-width: 768px) {
+      margin-top: 0;
+  }
+}
+
+.take-order__text {
+  font-family: Cera Pro, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25;
+  color: $text-descr;
+
+  @media screen and (min-width: 1440px) {
+      font-size: 18px;
+      line-height: 1.28;    
     }
+
+  & + .take-order__text{
+      margin-top: 16px;
+      
+      @media screen and (min-width: 1440px) {
+          margin-top: 24px;      
+        }
   }
+}
 
-  .take-order__text {
-    font-family: Cera Pro, sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 1.25;
-    color: $text-descr;
-
+.take-order__list{
+  display: none;
+  margin-top: 55px;
+  
     @media screen and (min-width: 1440px) {
-        font-size: 18px;
-        line-height: 1.28;    
-      }
-
-    & + .take-order__text{
-        margin-top: 16px;
-        
-        @media screen and (min-width: 1440px) {
-            margin-top: 24px;      
-          }
+      display: flex;    
     }
+}
+
+.take-order__item{
+    width: 144px;
+    height: 144px;
+    overflow: hidden;
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.25);
+
+    &:not(:last-child){
+        margin-right: 42px;
+    }
+}
+
+  .desc-box-1{
+    border-radius: 0 72px 72px 0;
+  }
+  .desc-box-2{
+    border-radius: 72px 0 72px 0;
+  }
+  .desc-box-3{
+    border-radius: 0 0 72px 0;
   }
 
-  .take-order_list{
-    display: none;
-    margin-top: 55px;
-    
-      @media screen and (min-width: 1440px) {
-        display: flex;    
-      }
-  }
+.take-order-info-box{
+  display: flex;
+  flex-direction: column;
+  margin-top: 52px;
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+
+.take-order-form{
   
-  .take-order_item{
-      width: 144px;
-      height: 144px;
-      background-color: violet;
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 1440px) {
+  margin-left: 0;
+  margin-right: 0;
+}
+}
 
-      &:not(:last-child){
-          margin-right: 42px;
-      }
-  }
+.take-order-contacts{
+  margin-top: 52px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 76px;
+}
+
+   @media screen and (min-width: 1440px) {
+    margin-top: 0;
+}
+}
+
+
+
+.futuristic-flowerpot{
+  margin-top: 75px;
+  // box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.25);
+}
