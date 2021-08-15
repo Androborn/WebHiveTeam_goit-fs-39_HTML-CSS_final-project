@@ -1,0 +1,153 @@
+.scan-hero {
+    
+
+    @media screen and (max-width: 320px) {
+       padding-top: 32px;
+    padding-bottom: 24px; 
+    }
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        position: relative;
+
+        padding-top: 35px;
+    }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 24px;
+  }
+
+}
+
+.scan-hero__container {
+font-family: 'Cera-Pro';
+font-weight: 300;
+font-size: 16px;
+line-height: 1.25;
+
+color: $text-descr;
+
+padding-left: 20px;
+padding-right: 20px;
+
+
+    @media screen and (min-width: 768px) {
+    padding-left: 60px;
+    padding-right: 60px;   
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding-left: 189px;
+        padding-right: 189px; 
+
+        font-size: 18px;
+        line-height: 1.27; 
+    }
+
+}
+
+.scan-hero__title {
+font-family: 'Cera-Pro';
+font-weight: bold;
+font-size: 24px;
+line-height: 1.25;
+
+color: $accent-color;
+
+margin-bottom: 16px;
+
+@media screen and (min-width: 768px) {
+    font-size: 36px;
+}
+
+@media screen and (min-width: 1440px) {
+      font-size: 48px;
+      line-height: 1.25;
+      
+    }
+}
+
+.scan-hero__descrip-box {
+    @media screen and (min-width: 1440px) {
+      display: flex;
+      &--left {
+        margin-right: 32px;  
+      }
+      &--right {
+        position: relative; 
+      }
+     }
+}
+
+.scan-hero__descrip {
+    margin-bottom: 16px;
+
+    @media screen and (min-width: 768px) {
+     max-width: 515px; 
+     .scan-hero__descip-span {
+         display: block;
+     } 
+    }
+     @media screen and (min-width: 1440px) {
+        //  margin-bottom: 0;
+    
+     }
+}
+
+.scan-hero__descrip:last-child {
+    margin-bottom: 24px;  
+}
+
+
+.scan-hero__bgd-pic {
+    background-image: url(../images/mobile/3d-scanning/image.jpg);
+    background-color: transparent;
+    background-size: cover;
+    
+    width: 280px;
+    height: 199px;
+
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+     (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
+     (min-resolution: 192dpi) and (min-width: 280px),
+     (min-resolution: 2dppx) and (min-width: 280px) {
+      background-image: url(../images/mobile/3d-scanning/image@2x.jpg);
+  }
+
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+     background-image: url(../images/tablet/3d-scanning/image.jpg);
+    
+     width: 241px;
+     height: 172px; 
+
+    position: absolute;
+    right: 8px;
+    bottom: 103px;
+    z-index: -1;
+    }
+
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+     (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+     (min-resolution: 192dpi) and (min-width: 768px),
+     (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/tablet/3d-scanning/image@2x.jpg);
+  }
+
+   
+
+    @media screen and (min-width: 1440px) {
+       background-image: url(../images/deckstope/3d-scanning/image.jpg); 
+       
+       width: 515px;
+       height: 368px;
+
+       position: absolute;
+       right: 0;
+       bottom: -97px;
+       z-index: -1;
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+     (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+     (min-resolution: 192dpi) and (min-width: 1440px),
+     (min-resolution: 2dppx) and (min-width: 1440px) {
+      background-image: url(../images/deckstope/3d-scanning/image@2x.jpg);
+  }
+}
