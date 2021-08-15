@@ -1,0 +1,131 @@
+.order-form {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+.order-form__input {
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 4px;
+  font-size: 24px;
+  color: $text-descr;
+  font-family: inherit;
+  cursor: pointer;
+  width: 100%;
+  &:focus {
+    border-bottom: 1px solid $border-color;
+  }
+}
+
+.order-form__input:focus + .order-form__label {
+  font-size: 14px;
+  transform: translateY(-28px);
+}
+
+.order-form__label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: $text-descr;
+  position: absolute;
+  top: 46%;
+  left: 0;
+  padding-left: 4px;
+  transition: transform 250ms ease;
+}
+.order-form__wrapper {
+  position: relative;
+  margin-bottom: 44px;
+}
+
+.order-form__select {
+  border: none;
+  border-bottom: 1px solid $border-color;
+  width: 100%;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  margin-bottom: 44px;
+  position: relative;
+  appearance: none;
+
+  //   option:hover {
+  //     background-color: rgba(72, 121, 150, 0.5);
+  //   }
+
+  //   &::after {
+  //     position: absolute;
+  //     content: 'b';
+  //     right: 0;
+  //     top: 0;
+  //   }
+}
+
+.order-form__label-textarea {
+  margin-bottom: 4px;
+  font-weight: 400;
+  resize: none;
+}
+
+.order-form__pin {
+  display: none;
+}
+.order-form__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  color: $accent-color;
+  margin-bottom: 35px;
+}
+
+.order-form__textarea {
+  border: 1px solid $border-color;
+  box-sizing: border-box;
+  border-radius: 50px 0px;
+  padding-left: 20px;
+  padding-top: 22px;
+  width: 100%;
+  height: 199px;
+  font-size: 16px;
+  line-height: 1.25;
+  resize: none;
+}
+
+.order-form__textarea-wrapper {
+  position: relative;
+}
+
+.order-form__file-add {
+  position: absolute;
+  bottom: 18px;
+  right: 21px;
+  cursor: pointer;
+}
+
+.order-form__message {
+  width: 100%;
+  font-weight: 400;
+  color: $textarea-color;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+
+.order-form__submit-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $accent-color;
+  width: 280px;
+  height: 56px;
+  background: $background-btn;
+  box-shadow: $btn-color;
+  border-radius: 30.5px;
+  padding: 16px 32px;
+}

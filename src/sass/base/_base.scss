@@ -49,7 +49,10 @@ body {
 body.modal-open {
   overflow: hidden;
 }
-
+select,
+textarea {
+  font-family: Cera-Pro;
+}
 img {
   display: block;
   width: 100%;

@@ -1,0 +1,16 @@
+.order-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  width: 280px;
+  height: 56px;
+  background: $background-btn;
+  box-shadow: $btn-color;
+  border-radius: 30.5px;
+  padding: 16px 32.5px;
+  color: $accent-color;
+}
