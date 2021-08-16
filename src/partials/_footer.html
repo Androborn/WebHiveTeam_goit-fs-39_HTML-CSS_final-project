@@ -2,7 +2,16 @@
   <div class="container footer-box">
     <div class="footer__logo-wrapper">
       <a class="footer__logo" href="./index.html">
-        <img src="./images/logo/footer-logo.png" alt="Логотип" />
+        <picture>
+          <source
+            srcset="./images/logo/footer-logo.webp 1x, ./images/logo/footer-logo@2x.webp 2x"
+            type="image/webp"
+            media="(min-width:1440px)" />
+          <source
+            srcset="./images/logo/footer-logo.png 1x, ./images/logo/footer-logo.png 2x"
+            media="(min-width:14400px)" />
+          <img src="./images/logo/footer-logo.png" alt="Логотип"
+        /></picture>
       </a>
     </div>
     <div class="footer-container">
