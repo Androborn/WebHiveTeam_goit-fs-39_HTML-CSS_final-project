@@ -1,3 +1,7 @@
+// .section-models {
+//   margin-bottom: 52px;
+// }
+
 .models-image {
   font-size: 16px;
   line-height: 1.25;
@@ -8,6 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: -10.77px;
+    margin-bottom: 52px;
   }
 
   &__item {
@@ -15,6 +20,12 @@
     margin-left: 10.77px;
     flex-basis: calc((100% - 21.54px) / 2);
   }
+}
+
+.modeling-btn {
+  text-align: center;
+  // margin-top: 52px;
+  // margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -40,6 +51,10 @@
 
     &__item {
       margin-top: 52px;
+    }
+
+    &__list {
+      margin-bottom: 100px;
     }
   }
 }
