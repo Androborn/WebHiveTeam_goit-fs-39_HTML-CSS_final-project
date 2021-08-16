@@ -2,41 +2,55 @@
   <p class="order-form__title">ЗВ’ЯЖІТЬСЯ З НАМИ</p>
 
   <span class="order-form__wrapper">
-    <input class="order-form__input" type="text" name="username" />
+    <input
+      required
+      class="order-form__input"
+      type="text"
+      name="username"
+      minlength="2"
+      title="Ім'я повинно містити символи латиниці і кирилиці"
+      pattern="[A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ\s-]{2,20}{2,50}"
+      placeholder=" "
+    />
     <label class="order-form__label">Ім’я </label>
   </span>
 
   <span class="order-form__wrapper">
-    <input class="order-form__input" type="email" name="email" />
+    <input class="order-form__input" type="email" name="email" placeholder=" " required />
     <label class="order-form__label"> Email </label>
   </span>
+  <div class="order-form__select-wrapper">
+    <select class="order-form__select" id="plastic" name="plastic" required>
+      <option value="" selected disabled hidden>Види пластика</option>
+      <option value="PLA">PLA (поллактід)</option>
+      <option value="ABS">ABS (акрилонітрілбутадієнстірол)</option>
+      <option value="PVA">PVA (полівініловий спирт)</option>
+      <option value="Nylone">Nylone (нейлон)</option>
+      <option value="HIPS">HIPS (ударостійкий полістирол)</option>
+    </select>
+  </div>
 
-  <select class="order-form__select" id="plastic" name="plastic">
-    <option value="" selected disabled hidden>Види пластика</option>
-    <option value="PLA">PLA (поллактід)</option>
-    <option value="ABS">ABS (акрилонітрілбутадієнстірол)</option>
-    <option value="PVA">PVA (полівініловий спирт)</option>
-    <option value="Nylone">Nylone (нейлон)</option>
-    <option value="HIPS">HIPS (ударостійкий полістирол)</option>
-  </select>
+  <div class="order-form__select-wrapper">
+    <select class="order-form__select" id="quality" name="quality" required>
+      <option value="" selected disabled hidden>Якість друку</option>
+      <option value="large">300 мікрон</option>
+      <option value="med">200 мікрон</option>
+      <option value="light">100 мікрон</option>
+      <option value="dfclt">Труднощі у виборі - ми допоможемо</option>
+    </select>
+  </div>
 
-  <select class="order-form__select" id="quality" name="quality">
-    <option value="" selected disabled hidden>Якість друку</option>
-    <option value="large">300 мікрон</option>
-    <option value="med">200 мікрон</option>
-    <option value="light">100 мікрон</option>
-    <option value="dfclt">Труднощі у виборі - ми допоможемо</option>
-  </select>
-
-  <select class="order-form__select" id="color" name="color">
-    <option value="" selected disabled hidden>Колір</option>
-    <option value="red">Червоний</option>
-    <option value="black">Чорний</option>
-    <option value="blue">Синій</option>
-    <option value="white">Білий</option>
-    <option value="yellow">Жовтий</option>
-    <option value="green">Зелений</option>
-  </select>
+  <div class="order-form__select-wrapper">
+    <select class="order-form__select" id="color" name="color" required>
+      <option value="" selected disabled hidden>Колір</option>
+      <option value="red">Червоний</option>
+      <option value="black">Чорний</option>
+      <option value="blue">Синій</option>
+      <option value="white">Білий</option>
+      <option value="yellow">Жовтий</option>
+      <option value="green">Зелений</option>
+    </select>
+  </div>
 
   <label class="order-form__label-textarea"> Повідомлення </label>
   <div class="order-form__textarea-wrapper">
