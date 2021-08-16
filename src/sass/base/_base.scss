@@ -25,16 +25,18 @@ ul {
 }
 
 button,
+input,
+textarea {
+  border: none;
+}
+
 button:active,
 button:focus,
-input,
 input:active,
 input:focus,
-textarea,
 textarea:active,
 textarea:focus {
   outline: none;
-  border: none;
 }
 
 .list {
