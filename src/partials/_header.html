@@ -1,14 +1,24 @@
 <header class="header link">
   <div class="page-header__conteiner link">
     <span class="span_logo">
-      <a href="index.html" class="logo link">
-        <img src="/images/logo/footer-logo.png" lang="ru" alt="логотип" width="" height="" />
+      <a href="./index.html" class="logo link">
+       <picture>
+
+                    <sourse media="(min-width: 1440px)" type="image/webp" srcset="/images/logo/desktope-logo.webp. 1x, /images/desktope-logo@2x.webp 2x" />
+                    <sourse media="(min-width: 1440px)" srcset="/images/desktope-logo.png 1x, /images/desktope-logo@2x.png 2x" />
+                    <sourse media="(min-width: 768px)" type="image/webp" srcset="/images/logo/tablet-logo.webp 1x, /images/logo/tablet-logo@2x.webp 2x">
+                    <sourse media="(min-width: 768px)" srcset="/images/logo/tablet-logo.png 1x, /images/logo/tablet-logo@2x.png 2x" />
+                    <sourse media="(min-width: 320px)" type="image/webp" srcset="/images/logo/mobile-logo.webp 1x, /images/logo/mobile-logo/@2x.webp 2x">
+                    <sourse media="(min-width: 320px)" srcset="/images/logo/mobile-logo.jpg 1x, /images/logo/mobile-logo@2x.png 2x" />
+                    <img class="take-order__main-img" src="/images/logo/mobile-logo@2x.png" alt="Тривимірний куб">
+
+                </picture>
       </a>
     </span>
-    <button class="header__btn">
-      <svg class="header__btn-burger">
-        <use href="/images/sprite.svg#icon-burger-menu_32x32"></use>
-      </svg>
+    <button class="hamburger " type="button">
+   <span class="hamburger__item"></span>
+   <span class="hamburger__item"></span>
+   <span class="hamburger__item"></span>
     </button>
     <button class="header__btn-tel">
       <svg class="header__btn-tel-icon">
