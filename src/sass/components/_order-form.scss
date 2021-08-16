@@ -1,13 +1,20 @@
 .order-form {
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: 420px;
+  }
+  @media screen and (min-width: 1444px) {
+    width: 515px;
+  }
 }
 
 .order-form__input {
   border-bottom: 1px solid $border-color;
   padding-bottom: 4px;
-  font-size: 24px;
+  font-size: 16px;
+  height: 20px;
   color: $text-descr;
   font-family: inherit;
   cursor: pointer;
@@ -17,7 +24,8 @@
   }
 }
 
-.order-form__input:focus + .order-form__label {
+.order-form__input:focus + .order-form__label,
+.order-form__input:not(:placeholder-shown) + .order-form__label {
   font-size: 14px;
   transform: translateY(-28px);
 }
@@ -29,10 +37,14 @@
   text-transform: capitalize;
   color: $text-descr;
   position: absolute;
-  top: 46%;
+  bottom: 0;
   left: 0;
-  padding-left: 4px;
   transition: transform 250ms ease;
+
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
 .order-form__wrapper {
   position: relative;
@@ -43,24 +55,25 @@
   border: none;
   border-bottom: 1px solid $border-color;
   width: 100%;
-  height: 24px;
+  height: 20px;
   font-size: 16px;
   font-weight: 400;
   outline: none;
-  margin-bottom: 44px;
-  position: relative;
   appearance: none;
+}
 
-  //   option:hover {
-  //     background-color: rgba(72, 121, 150, 0.5);
-  //   }
-
-  //   &::after {
-  //     position: absolute;
-  //     content: 'b';
-  //     right: 0;
-  //     top: 0;
-  //   }
+.order-form__select-wrapper {
+  position: relative;
+  margin-bottom: 44px;
+  &::after {
+    content: '◢';
+    display: inline-block;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    pointer-events: none;
+  }
 }
 
 .order-form__label-textarea {
@@ -74,11 +87,22 @@
 }
 .order-form__title {
   font-weight: bold;
-  font-size: 24px;
-  line-height: 1.25;
-  text-align: center;
+  font-size: 18px;
+  line-height: 1.27;
+  text-align: left;
   color: $accent-color;
-  margin-bottom: 35px;
+  margin-bottom: 28px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.26;
+    text-align: center;
+  }
+  @media screen and (min-width: 1444px) {
+    font-size: 36px;
+    line-height: 1.26;
+    text-align: left;
+  }
 }
 
 .order-form__textarea {
@@ -92,6 +116,17 @@
   font-size: 16px;
   line-height: 1.25;
   resize: none;
+  &::placeholder {
+    color: $textarea-color;
+  }
+  &:hover {
+    border: 1px solid $border-color;
+  }
+
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
 
 .order-form__textarea-wrapper {
@@ -112,6 +147,15 @@
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 44px;
+  }
+
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+  }
 }
 
 .order-form__submit-btn {
@@ -125,7 +169,25 @@
   width: 280px;
   height: 56px;
   background: $background-btn;
-  box-shadow: $btn-color;
+  box-shadow: $btn-shadow;
   border-radius: 30.5px;
   padding: 16px 32px;
+  cursor: pointer;
+  transition: box-shadow $main-duration $timing-function;
+  &:hover,
+  &:focus {
+    box-shadow: $btn-shadow-dark;
+  }
+  @media screen and (min-width: 768px) {
+    width: 177px;
+    height: 56px;
+    margin-left: auto;
+  }
+  @media screen and (min-width: 1444px) {
+    width: 175px;
+    height: 55px;
+    font-size: 18px;
+    line-height: 1.25;
+    letter-spacing: 0;
+  }
 }
