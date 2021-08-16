@@ -26,14 +26,17 @@
 }
 
 .contact-info__item {
-  font-size: 16px;
-  line-height: 1.25;
-  font-weight: 400;
-  color: $text-descr;
   @media screen and (min-width: 768px) {
     &:not(:last-child) {
       margin-bottom: 8px;
     }
+  }
+
+  .contact-info__link {
+    color: $text-descr;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
   }
 
   @media screen and (min-width: 1444px) {
@@ -56,9 +59,6 @@
   @media screen and (min-width: 1444px) {
     display: flex;
     justify-content: flex-end;
-    // &:not(:last-child) {
-    //   margin-bottom: 18px;
-    // }
   }
 }
 .contact-info__item-day {
