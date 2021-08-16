@@ -1,5 +1,5 @@
 .scan-hero {
-    
+    position: relative;
 
     @media screen and (max-width: 320px) {
        padding-top: 32px;
@@ -150,4 +150,97 @@ margin-bottom: 16px;
      (min-resolution: 2dppx) and (min-width: 1440px) {
       background-image: url(../images/desktope/3d-scanning/image@2x.jpg);
   }
+}
+
+.scan-hero__bg-shape--1 {
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    width: 73.65px;
+    height: 73.65px;
+    right: -15px;
+    bottom: 235px;
+    z-index: -2;
+
+    background: $primary-white-color;
+    
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 72px;
+    }
+
+    @media screen and (max-width: 1439px) {
+      position: absolute;
+      width: 73.65px;
+      height: 63.42px;
+      right: 8px;
+      top: 20px;
+      z-index: -1;
+
+      background: $primary-white-color;
+      
+
+      box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+      border-radius: 0px 35px 0px 0px;
+      transform: rotate(180deg);
+          }
+      @media screen and (min-width: 1440px) and ( max-width: 3000px){
+        position: absolute;
+        width: 144px;
+        height: 144px;
+        right: 13px;
+        bottom: 356px;
+
+        background: $primary-white-color;
+        z-index: -1;
+
+        box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 72px 0px;
+        transform: rotate(90deg);
+      }    
+}
+
+.scan-hero__bg-shape--2 {
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    width: 73.65px;
+    height: 73.65px;
+    left: -29px;
+    bottom: 522px;
+    z-index: -1;
+
+    background: $primary-white-color;
+   
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 35px 0px;
+    }
+
+    @media screen and (max-width: 1439px) {
+      position: absolute;
+      width: 74px;
+      height: 74px;
+      left: 12px;
+      bottom: 248px;
+      z-index: -1;
+
+      background: $primary-white-color;
+      
+      box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+      border-radius: 0px 0px 0px 35px;
+      transform: rotate(-90deg);
+      }
+
+      @media screen and (min-width: 1440px) and ( max-width: 3000px) {
+        position: absolute;
+        width: 144px;
+        height: 144px;
+        left: 13px;
+        bottom: 245px;
+        transform: revert;
+
+        background: $primary-white-color;
+        z-index: -1;
+
+        box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+        border-radius: 0px 0px 72px 0px;
+      }
 }
