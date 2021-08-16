@@ -9,8 +9,18 @@
   width: 280px;
   height: 56px;
   background: $background-btn;
-  box-shadow: $btn-color;
+  box-shadow: $btn-shadow;
   border-radius: 30.5px;
   padding: 16px 32.5px;
   color: $accent-color;
+  cursor: pointer;
+  transition: box-shadow $main-duration $timing-function;
+  &:hover,
+  &:focus {
+    box-shadow: $btn-shadow-dark;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 277px;
+  }
 }
