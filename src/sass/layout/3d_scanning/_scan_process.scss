@@ -1,18 +1,20 @@
 .scan-process {
-    
-
-    @media screen and (max-width: 320px) {
-       padding-top: 32px;
+    padding-top: 32px;
        padding-bottom: 76px;
-    }
+
+    // @media screen and (max-width: 320px) {
+    //    padding-top: 32px;
+    //    padding-bottom: 76px;
+    // }
     @media screen and (min-width: 768px) and (max-width: 1439px) {
         position: relative;
-
+        
         padding-top: 35px;
     }
 
     @media screen and (min-width: 1440px) {
         padding-top: 24px;
+        padding-bottom: 100px;
     }
 
 }
@@ -63,6 +65,7 @@ margin-bottom: 16px;
     @media screen and (min-width: 1440px) {
           margin-top: -21px;
           margin-left: -21px;
+          margin-bottom: 100px;
     }
 }
 
@@ -317,5 +320,5 @@ margin-bottom: 16px;
 }
 
 .scan-process__order-btn {
-margin: 0 auto;
+text-align: center;
 }
