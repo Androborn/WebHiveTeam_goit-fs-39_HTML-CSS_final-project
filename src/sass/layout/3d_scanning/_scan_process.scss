@@ -1,6 +1,6 @@
 .scan-process {
     padding-top: 32px;
-       padding-bottom: 76px;
+    padding-bottom: 76px;
 
     // @media screen and (max-width: 320px) {
     //    padding-top: 32px;
@@ -11,7 +11,7 @@
     }
     @media screen and (min-width: 768px) and (max-width: 1439px) {
         position: relative;
-        
+
         padding-top: 35px;
     }
 
@@ -20,56 +20,55 @@
         padding-bottom: 100px;
         position: relative;
     }
-
 }
 
 .scan-process__container {
     @media screen and (min-width: 1440px) {
         font-size: 18px;
-        line-height: 1.27; 
+        line-height: 1.27;
     }
 }
 
 .scan-process__title {
-font-family: 'Cera-Pro';
-font-weight: bold;
-font-size: 18px;
-line-height: 1.27;
+    font-family: "Cera-Pro";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.27;
 
-color: $accent-color;
+    color: $accent-color;
 
-margin-bottom: 16px;
+    margin-bottom: 16px;
 
-@media screen and (min-width: 768px) {
-    font-size: 24px;
-    line-height: 1.25;
-    margin-bottom: 24px;
-}
+    @media screen and (min-width: 768px) {
+        font-size: 24px;
+        line-height: 1.25;
+        margin-bottom: 24px;
+    }
 
-@media screen and (min-width: 1440px) {
-      font-size: 48px;
-      line-height: 1.25;
-      margin-bottom: 52px;
+    @media screen and (min-width: 1440px) {
+        font-size: 48px;
+        line-height: 1.25;
+        margin-bottom: 52px;
     }
 }
 
 .scan-process__list {
     color: $accent-color;
-    display:flex;
-      margin-top: -15px;
-      margin-left: -15px;
+    display: flex;
+    margin-top: -15px;
+    margin-left: -15px;
 
-      margin-bottom: 52px;
+    margin-bottom: 52px;
 
     @media screen and (max-width: 767px) {
         flex-wrap: wrap;
         margin-top: -12px;
-        margin-left: -12px;    
+        margin-left: -12px;
     }
     @media screen and (min-width: 1440px) {
-          margin-top: -21px;
-          margin-left: -21px;
-          margin-bottom: 100px;
+        margin-top: -21px;
+        margin-left: -21px;
+        margin-bottom: 100px;
     }
 }
 
@@ -78,11 +77,13 @@ margin-bottom: 16px;
     justify-content: center;
     align-items: center;
 
+
     background: $primary-white-color;
     opacity: 0.8;
     box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8), inset -1px -1px 16px $primary-white-color;
+
     border-radius: 50px 0px;
-    
+
     flex-basis: calc(100% / 2 - 15px);
     height: 182px;
 
@@ -91,25 +92,23 @@ margin-bottom: 16px;
 
     padding: 22px 15px 15px 15px;
 
-    
+    @media screen and (min-width: 768px) {
+        margin-top: 12px;
+        margin-left: 12px;
+        flex-basis: calc(100% / 4 - 12px);
+        padding-left: 23px;
+        padding-right: 23px;
 
-     @media screen and (min-width: 768px) {
-          margin-top: 12px;
-          margin-left: 12px;
-         flex-basis: calc(100% / 4 - 12px);
-         padding-left: 23px;
-         padding-right: 23px;
+        height: 210px;
+    }
 
-         height: 210px;
-     }
+    @media screen and (min-width: 1440px) {
+        margin-top: 21px;
+        margin-left: 21px;
 
-      @media screen and (min-width: 1440px) {
-          margin-top: 21px;
-          margin-left: 21px;
-
-          height: 298px;
-          padding: 49px 15px 22px 15px;
-      }
+        height: 298px;
+        padding: 49px 15px 22px 15px;
+    }
 }
 
 .scan-process__descrip {
@@ -120,14 +119,14 @@ margin-bottom: 16px;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
-    text-align: center; 
+    text-align: center;
 
     @media screen and (min-width: 1440px) {
         font-size: 18px;
         line-height: 1.27;
         font-weight: 300;
     }
-  
+
     &-before1::before {
         margin-bottom: 18px;
         content: "";
@@ -137,41 +136,41 @@ margin-bottom: 16px;
         background-size: 94px 82px;
 
         background-color: transparent;
-        background-image: url(../images/mobile/3d-scanning/image1.png); 
+        background-image: url(../images/mobile/3d-scanning/image1.png);
 
-         @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
             (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
             (min-resolution: 192dpi) and (min-width: 280px),
             (min-resolution: 2dppx) and (min-width: 280px) {
             background-image: url(../images/mobile/3d-scanning/image1@2x.png);
-            }
-
-       @media screen and (min-width: 768px) {
-           width: 108px;
-           height: 94px;
-           background-size: 108px 94px;
-            background-image: url(../images/tablet/3d-scanning/image1.png);  
-        }
-       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-        (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-        (min-resolution: 192dpi) and (min-width: 768px),
-        (min-resolution: 2dppx) and (min-width: 768px) {
-        background-image: url(../images/tablet/3d-scanning/image1@2x.png);
         }
 
-      @media screen and (min-width: 1440px) {
-        margin-bottom: 27px;
-        width: 177px;
-        height: 154px;
-        background-size: 177px 154px;
-        background-image: url(../images/desktope/3d-scanning/image1.png); 
+        @media screen and (min-width: 768px) {
+            width: 108px;
+            height: 94px;
+            background-size: 108px 94px;
+            background-image: url(../images/tablet/3d-scanning/image1.png);
         }
-     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (min-resolution: 192dpi) and (min-width: 1440px),
-        (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/3d-scanning/image1@2x.png);
-         }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+            (min-resolution: 192dpi) and (min-width: 768px),
+            (min-resolution: 2dppx) and (min-width: 768px) {
+            background-image: url(../images/tablet/3d-scanning/image1@2x.png);
+        }
+
+        @media screen and (min-width: 1440px) {
+            margin-bottom: 27px;
+            width: 177px;
+            height: 154px;
+            background-size: 177px 154px;
+            background-image: url(../images/desktope/3d-scanning/image1.png);
+        }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (min-resolution: 192dpi) and (min-width: 1440px),
+            (min-resolution: 2dppx) and (min-width: 1440px) {
+            background-image: url(../images/desktope/3d-scanning/image1@2x.png);
+        }
     }
 
     &-before2::before {
@@ -181,41 +180,41 @@ margin-bottom: 16px;
         height: 82px;
         background-size: 94px 82px;
         background-color: transparent;
-        background-image: url(../images/mobile/3d-scanning/image2.png); 
+        background-image: url(../images/mobile/3d-scanning/image2.png);
 
-         @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
             (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
             (min-resolution: 192dpi) and (min-width: 280px),
             (min-resolution: 2dppx) and (min-width: 280px) {
             background-image: url(../images/mobile/3d-scanning/image2@2x.png);
-            }
-
-       @media screen and (min-width: 768px) {
-           width: 108px;
-           height: 94px;
-           background-size: 108px 94px;
-            background-image: url(../images/tablet/3d-scanning/image1.png);  
-        }
-       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-        (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-        (min-resolution: 192dpi) and (min-width: 768px),
-        (min-resolution: 2dppx) and (min-width: 768px) {
-        background-image: url(../images/tablet/3d-scanning/image2@2x.png);
         }
 
-      @media screen and (min-width: 1440px) {
-        margin-bottom: 27px;
-        width: 177px;
-        height: 154px;
-        background-size: 177px 154px;
-        background-image: url(../images/desktope/3d-scanning/image2.png); 
+        @media screen and (min-width: 768px) {
+            width: 108px;
+            height: 94px;
+            background-size: 108px 94px;
+            background-image: url(../images/tablet/3d-scanning/image1.png);
         }
-     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (min-resolution: 192dpi) and (min-width: 1440px),
-        (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/3d-scanning/image2@2x.png);
-         }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+            (min-resolution: 192dpi) and (min-width: 768px),
+            (min-resolution: 2dppx) and (min-width: 768px) {
+            background-image: url(../images/tablet/3d-scanning/image2@2x.png);
+        }
+
+        @media screen and (min-width: 1440px) {
+            margin-bottom: 27px;
+            width: 177px;
+            height: 154px;
+            background-size: 177px 154px;
+            background-image: url(../images/desktope/3d-scanning/image2.png);
+        }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (min-resolution: 192dpi) and (min-width: 1440px),
+            (min-resolution: 2dppx) and (min-width: 1440px) {
+            background-image: url(../images/desktope/3d-scanning/image2@2x.png);
+        }
     }
 
     &-before3::before {
@@ -225,41 +224,41 @@ margin-bottom: 16px;
         height: 82px;
         background-size: 94px 82px;
         background-color: transparent;
-        background-image: url(../images/mobile/3d-scanning/image3.png); 
+        background-image: url(../images/mobile/3d-scanning/image3.png);
 
-         @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
             (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
             (min-resolution: 192dpi) and (min-width: 280px),
             (min-resolution: 2dppx) and (min-width: 280px) {
             background-image: url(../images/mobile/3d-scanning/image2@2x.png);
-            }
-
-       @media screen and (min-width: 768px) {
-           width: 108px;
-           height: 94px;
-           background-size: 108px 94px;
-            background-image: url(../images/tablet/3d-scanning/image3.png);  
-        }
-       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-        (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-        (min-resolution: 192dpi) and (min-width: 768px),
-        (min-resolution: 2dppx) and (min-width: 768px) {
-        background-image: url(../images/tablet/3d-scanning/image3@2x.png);
         }
 
-      @media screen and (min-width: 1440px) {
-        margin-bottom: 27px;
-        width: 177px;
-        height: 154px;
-        background-size: 177px 154px;
-        background-image: url(../images/desktope/3d-scanning/image3.png); 
+        @media screen and (min-width: 768px) {
+            width: 108px;
+            height: 94px;
+            background-size: 108px 94px;
+            background-image: url(../images/tablet/3d-scanning/image3.png);
         }
-     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (min-resolution: 192dpi) and (min-width: 1440px),
-        (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/3d-scanning/image3@2x.png);
-         }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+            (min-resolution: 192dpi) and (min-width: 768px),
+            (min-resolution: 2dppx) and (min-width: 768px) {
+            background-image: url(../images/tablet/3d-scanning/image3@2x.png);
+        }
+
+        @media screen and (min-width: 1440px) {
+            margin-bottom: 27px;
+            width: 177px;
+            height: 154px;
+            background-size: 177px 154px;
+            background-image: url(../images/desktope/3d-scanning/image3.png);
+        }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (min-resolution: 192dpi) and (min-width: 1440px),
+            (min-resolution: 2dppx) and (min-width: 1440px) {
+            background-image: url(../images/desktope/3d-scanning/image3@2x.png);
+        }
     }
 
     &-before4::before {
@@ -270,40 +269,40 @@ margin-bottom: 16px;
         background-size: 92px 82px;
         background-color: transparent;
         background-image: url(../images/mobile/3d-scanning/image4.png);
-        
-         @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
             (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
             (min-resolution: 192dpi) and (min-width: 280px),
             (min-resolution: 2dppx) and (min-width: 280px) {
             background-image: url(../images/mobile/3d-scanning/image4@2x.png);
-            }
-
-       @media screen and (min-width: 768px) {
-           width: 108px;
-           height: 94px;
-           background-size: 108px 94px;
-            background-image: url(../images/tablet/3d-scanning/image4.png);  
         }
-       @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+
+        @media screen and (min-width: 768px) {
+            width: 108px;
+            height: 94px;
+            background-size: 108px 94px;
+            background-image: url(../images/tablet/3d-scanning/image4.png);
+        }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
             (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
             (min-resolution: 192dpi) and (min-width: 768px),
             (min-resolution: 2dppx) and (min-width: 768px) {
             background-image: url(../images/tablet/3d-scanning/image4@2x.png);
-            }
-
-      @media screen and (min-width: 1440px) {
-        margin-bottom: 27px;
-        width: 177px;
-        height: 154px;
-        background-size: 177px 154px;
-        background-image: url(../images/desktope/3d-scanning/image4.png); 
         }
-     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-        (min-resolution: 192dpi) and (min-width: 1440px),
-        (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/3d-scanning/image4@2x.png);
-         }
+
+        @media screen and (min-width: 1440px) {
+            margin-bottom: 27px;
+            width: 177px;
+            height: 154px;
+            background-size: 177px 154px;
+            background-image: url(../images/desktope/3d-scanning/image4.png);
+        }
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
+            (min-resolution: 192dpi) and (min-width: 1440px),
+            (min-resolution: 2dppx) and (min-width: 1440px) {
+            background-image: url(../images/desktope/3d-scanning/image4@2x.png);
+        }
     }
 }
 
@@ -316,7 +315,6 @@ margin-bottom: 16px;
 // }
 
 .scan-process__descrip-span {
-    
     display: block;
     @media screen and (min-width: 1440px) {
         display: contents;
@@ -324,6 +322,7 @@ margin-bottom: 16px;
 }
 
 .scan-process__order-btn {
+
 text-align: center;
 }
 
@@ -426,5 +425,6 @@ text-align: center;
         border-radius: 72px 0px;
     }
 }
+
 
 
