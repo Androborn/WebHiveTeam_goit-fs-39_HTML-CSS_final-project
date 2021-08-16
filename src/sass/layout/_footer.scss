@@ -13,7 +13,6 @@
 @media screen and (min-width: 768px) {
   .footer-container {
     display: flex;
-    justify-content: space-between;
   }
 }
 
@@ -52,6 +51,11 @@
   letter-spacing: 0.01em;
   color: $text-descr;
 }
+.footer__nav-link:hover,
+.footer__nav-link:focus {
+  color: $accent-color;
+}
+
 .footer__social {
   margin-top: 30px;
   flex-direction: column;
@@ -70,6 +74,11 @@
   letter-spacing: 0.01em;
   color: $text-descr;
 }
+.footer__social-link:hover,
+.footer__social-link:focus {
+  color: $accent-color;
+}
+
 .footer__contact {
   margin-top: 24px;
   flex-direction: column;
@@ -114,8 +123,16 @@
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
-  letter-spacing: 0.01em;
   color: $accent-color;
+}
+.footer__contact-tel-link:hover,
+.footer__contact-tel-link:focus {
+  color: $text-descr;
+}
+
+.footer__contact-link:hover,
+.footer__contact-link:focus {
+  color: $text-descr;
 }
 @media screen and (min-width: 768px) {
   .footer__contact-link {
@@ -132,6 +149,12 @@
   .footer__social,
   .footer__contact {
     margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__social {
+    margin-right: 100px;
+    margin-left: 135px;
   }
 }
 @media screen and (min-width: 1440px) {
