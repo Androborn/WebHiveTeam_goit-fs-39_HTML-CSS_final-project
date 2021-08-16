@@ -380,6 +380,20 @@ text-align: center;
         box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
         border-radius: 0px 0px 0px 35px;
         } 
+
+        @media screen and (min-width: 1440px) and ( max-width: 3000px) {  
+            position: absolute;
+            width: 144px;
+            height: 144px;
+            left: 1340px;
+            top: 1247px;
+
+            background: #FFFFFF;
+            z-index: -1;
+
+            box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
+            border-radius: 72px;
+        }
 }
 
 .scan-process__bg-shape--4 {
