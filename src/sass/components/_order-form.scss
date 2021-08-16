@@ -119,9 +119,6 @@
   &::placeholder {
     color: $textarea-color;
   }
-  &:hover {
-    border: 1px solid $border-color;
-  }
 
   @media screen and (min-width: 1444px) {
     font-size: 18px;
