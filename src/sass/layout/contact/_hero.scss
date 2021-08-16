@@ -6,6 +6,10 @@
     line-height: 1.25; 
     color: $accent-color;
 }
+
+.video{
+    margin-bottom: 16px;
+}
 .contact__paragraph{
     font-family: Cera Pro;
     font-style: normal;
@@ -13,7 +17,9 @@
     font-size: 16px;
     line-height: 1.25;
     color: $text-descr;
-
+    &:not(:last-child){
+        margin-bottom: 16px;
+    }
 }
 .contact__main{
     font-family: Cera Pro;
@@ -71,21 +77,31 @@
     margin-bottom: 16px;
 }
 
-.contact__form-and-desk{
+.contact__desk{
     display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 76px;
+    @media screen and (min-width: 768px){
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+
+
 
 }
 
 .contact__form{
     margin-bottom: 52px;
     margin-top: 36px;
+     @media screen and (min-width: 768px){
+         display: flex;
+         justify-content: center;
+     }
 }
 
 .perenos{
     @media screen and (min-width: 1440px) {
         display: none;
+        
     }
 }
 
@@ -98,18 +114,7 @@
             &:not(:last-child){
                 margin-bottom: 16px;
             }
-        }
-        .contact__form{
-            display: flex;
-           justify-content: center;
-        }
-        .contact__contact-desk-item{
-            display: flex;
-            justify-content: space-around;
-        }
-        .contact__contact-part:not(:last-child){
-            margin-bottom: 0px;
-        }
+        }     
         .contact__section{
             margin-left: 60px;
             margin-right: 60px;
@@ -117,8 +122,22 @@
         .contact___paragraph-section{
             margin-left: 20px;
         }
+        .video{
+            width: 248px;
+            height: 192px;
+            .contact__video{
+            width: 248px;
+            height: 192px;
+            }
+        }
 }
  @media screen and (min-width: 1440px){
+        .contact__form-and-desk{
+            display: flex;
+            flex-direction:row-reverse;
+            justify-content: space-between;
+            margin-top: 100px;
+        }
         .contact__paragraph{
             margin-left: 0;
             &:not(:last-child){
@@ -127,17 +146,6 @@
         }
         .contact__form{
             margin-top: 0px;
-        }
-        .contact__form-and-desk{
-            flex-direction: row;
-            padding-top: 100px;
-        }
-        .contact__contact-desk-item{
-            display: inline;
-            
-        }
-        .contact__contact-part:not(:last-child){
-            margin-bottom: 64px;
         }
         .contact__section{
             margin-left: 190px;
@@ -164,14 +172,47 @@
         }
         .contact__video{
             display: block;
-            width: 516px;
-            height: 316px;
+            
         }
+        .contact__desk{
+            margin-left: 0px;
+        }
+        .video{
+            width: 515px;
+            height: 315px;
+            .contact__video{
+             width: 515px;
+            height: 315px;
+            }
+        }
+       
 
  }
  .contact__form {
-    
-    .order-form__select {
+    .order-form__select,
+    .order-form__select-wrapper {
      display: none;
+   }  
+ }
+
+ .contact__desk{
+    @media screen and (min-width: 768px){
+        .contact-info{
+            width: 100%;
+        }
+    }
+    
+     @media screen and (min-width: 1440px){
+    .contact-info,
+    .contact-info__time-list,
+    .contact-info__item-wrapper{
+            text-align: left;
+            justify-content: flex-start;
+        }
+    .contact-info__wrapper:not(:last-child){
+        margin-bottom: 68px;
+    }
    }
  }
+
+ 
