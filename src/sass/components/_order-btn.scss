@@ -2,25 +2,19 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  width: 280px;
-  height: 56px;
   background: $background-btn;
   box-shadow: $btn-shadow;
   border-radius: 30.5px;
-  padding: 16px 32.5px;
+  padding: 16px 32px;
   color: $accent-color;
   cursor: pointer;
   transition: box-shadow $main-duration $timing-function;
   &:hover,
   &:focus {
     box-shadow: $btn-shadow-dark;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 277px;
   }
 }
