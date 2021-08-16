@@ -1,33 +1,32 @@
-
 <header class="header link">
   <div class="page-header__conteiner link">
-    <a href="../index.html" class="logo link">
-      <img src="../images/logo/footer-logo.png" lang="ru" alt="логотип" width="" height="" />
-
-    </a>
+    <span class="span_logo">
+      <a href="index.html" class="logo link">
+        <img src="/images/logo/footer-logo.png" lang="ru" alt="логотип" width="" height="" />
+      </a>
     </span>
     <button class="header__btn">
-        <svg class="header__btn-burger">
-         <use href="../images/sprait.svg#icon-burger-menu_32x32"></use>
-        </svg>
-        
-       </button>
-       <button class="header__btn-tel">
-        <svg class="header__btn-tel-icon">
-            <use href="../images/sprite.svg#icon-phone"></use>
-        </svg>
-        
-       </button>
+      <svg class="header__btn-burger">
+        <use href="/images/sprite.svg#icon-burger-menu_32x32"></use>
+      </svg>
+    </button>
+    <button class="header__btn-tel">
+      <svg class="header__btn-tel-icon">
+        <use href="/images/sprite.svg#icon-phone"></use>
+      </svg>
+    </button>
     <ul class="header__language list">
-      <li class="header__language-item" lang="ua">UKR</li>
-      <li class="header__language-item" lang="en">ENG</li>
-      <li class="header__language-item" lang="ru">RUS</li>
+      <select id="size" name="size" lass="header__language list">
+        <option value="xs" class="header__language-item" lang="ua">UKR</option>
+        <option value="s" class="header__language-item" lang="ua">ENG</option>
+        <option value="m" selected class="header__language-item" lang="ua">RUS</option>
+      </select>
     </ul>
     <ul class="header__contacts">
       <li class="header__item list">
-        <a href="tel:+38(093)6432288">
+        <a class="header__tel" href="tel:+38(093)6432288">
           <svg class="header__icon" width="14" height="14">
-            <use href="../images/logo/header-icon.svg#icon-header-icon"></use>
+            <use href="/images/sprite.svg#icon-header-icon"></use>
           </svg>
           +38 (093) 643 22 88
         </a>
@@ -35,7 +34,7 @@
       <li class="header__item list">
         <a href="tel:+38(050)3454423">
           <svg class="header__icon" width="14" height="14">
-            <use href="../images/logo/header-icon.svg#icon-header-icon"></use>
+            <use href="/images/sprite.svg#icon-header-icon"></use>
           </svg>
           +38 (050) 345 44 23
         </a>

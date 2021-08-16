@@ -56,9 +56,8 @@ ul, ol {
 .header__btn-burger{
     width: 32px;
     height: 32px;
-    fill: #487996;}
-
-
+    fill: #487996;
+}
 @media screen and (max-width: 1444px){
     .page-header__conteiner {
         display: flex;
@@ -123,10 +122,9 @@ ul, ol {
   
  @media screen and (max-width: 1444px){
     .header__language  {
-      margin-left: auto;}
-       
+      margin-left: auto;
     }
-
+ }
 
     @media screen and (max-width: 1444px){
     .header__contacts{
@@ -173,12 +171,49 @@ ul, ol {
     }
  }
 
+.header__btn-burger{
+    width: 32px;
+    height: 32px;
+    left: 144px;
+    top: 29px;
+}
+.page-header__conteiner {
+    display: flex;
+    align-items: center;
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__contacts {
+    display: none;
+}
+
+.header__btn-tel {
+    width: 24px;
+    height: 24px;
+   left: 222px;
+    top: 33px;
+    margin-right: 21px;
+}
+.log {
+    width: 101px;
+    height: 25px;
+    left: 20px;
+    top: 32px;
+   
+}
+.span_logo{
+    width: 101px;
+     height: 25px;
+     margin-right: 23px;
+}
+
 .header__language-item{
-font-family: Caviar Dreams;
+ font-family: Caviar Dreams;
  font-weight: 700;
-font-size: 14px;
-line-height: 1.29;
-color: #BDBDBD;
+ font-size: 14px;
+ line-height: 1.29;
+ color: #BDBDBD;
 }
 
 select{
@@ -212,7 +247,7 @@ select{
     .header__btn-tel {
         width: 24px;
         height: 24px;
-       left: 222px;
+        left: 222px;
         top: 33px;
         margin-right: 21px;
   }
