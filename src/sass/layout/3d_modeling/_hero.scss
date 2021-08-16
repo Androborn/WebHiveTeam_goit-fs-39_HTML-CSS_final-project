@@ -2,37 +2,69 @@
   padding-top: 32px;
 }
 
-.modeling-hero__title {
-  font-size: 24px;
-  line-height: 1.25;
-  color: $accent-color;
-  margin-top: 32px;
-}
+.modeling-hero {
+  &__title {
+    font-family: Cera-Pro, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    color: $accent-color;
+  }
 
-.modeling-hero__description {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.25;
-  margin-top: 16px;
+  &__description {
+    font-family: Cera-Pro, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-top: 16px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .section-modeling {
     padding-top: 35px;
+    padding-bottom: 50px;
   }
 
-  .modeling-hero__title {
-    font-size: 36px;
+  .modeling-hero {
+    &__title {
+      font-size: 36px;
+    }
+
+    &__description {
+      max-width: 515px;
+    }
   }
 }
 
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1440px) {
   .section-modeling {
+    padding-bottom: 39px;
     padding-top: 24px;
   }
 
   .modeling-hero {
     padding-left: 189px;
     padding-right: 189px;
+
+    &__title {
+      font-size: 48px;
+      line-height: 1.25;
+    }
+
+    &__description {
+      min-width: 515px;
+      font-size: 18px;
+      line-height: 1.28;
+      margin-top: 24px;
+    }
+  }
+
+  .description-box {
+    display: flex;
+  }
+
+  .description-left {
+    margin-right: 32px;
   }
 }
