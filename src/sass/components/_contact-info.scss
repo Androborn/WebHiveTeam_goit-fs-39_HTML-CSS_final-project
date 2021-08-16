@@ -4,18 +4,93 @@
   line-height: 1.27;
   color: $accent-color;
   margin-bottom: 8px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 1.26;
+  }
+  @media screen and (min-width: 1444px) {
+    font-size: 36px;
+    margin-bottom: 18px;
+  }
 }
 
 .contact-info__list {
   margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1444px) {
+    margin-bottom: 30px;
+  }
 }
 
 .contact-info__item {
-  font-size: 16px;
-  line-height: 1.25;
-  color: $text-descr;
+  @media screen and (min-width: 768px) {
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  .contact-info__link {
+    color: $text-descr;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+  }
+
+  @media screen and (min-width: 1444px) {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  @media screen and (min-width: 1444px) {
+    &:not(:last-child) {
+      margin-bottom: 18px;
+    }
+  }
+}
+.contact-info__list-wrapper {
+  @media screen and (min-width: 768px) {
+    text-align: right;
+  }
+}
+.contact-info__item-wrapper {
+  @media screen and (min-width: 1444px) {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.contact-info__item-day {
+  font-weight: 400;
+  @media screen and (min-width: 144px) {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
+.contact-info__item-time {
+  font-weight: 400;
+  &:not(:first-child) {
+    margin-bottom: 8px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 18px;
+  }
+  @media screen and (min-width: 1444px) {
+    text-transform: capitalize;
+    margin-left: 3px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
 
-.contact-info__item-time:not(:last-child) {
-  margin-bottom: 8px;
+.contact-info {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1444px) {
+    display: block;
+    text-align: right;
+  }
 }
