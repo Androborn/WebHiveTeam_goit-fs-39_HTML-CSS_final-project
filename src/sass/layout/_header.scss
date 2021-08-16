@@ -1,0 +1,254 @@
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.list{
+    list-style: none;
+
+}
+
+.header__btn{
+    
+    border: none;
+    padding: 0;
+    line-height: 0;
+    cursor: pointer;
+    list-style: none;
+    width: 32px;
+    height: 32px;
+    margin-right: 46px;
+}
+
+
+@media screen and (max-width: 1444px){
+
+    .header {
+        padding-top: 40px;
+        padding-left: 80px;
+        padding-right: 80px;
+     }
+
+ }
+
+
+@media screen and (max-width: 768px){
+
+    .header {
+        padding-top: 30px;
+        padding-left: 69px;
+        padding-right: 60px;
+     }
+
+ }
+
+ @media screen and (max-width: 767px){
+    .header {
+        padding-top: 29px;
+        padding-left: 17px;
+        padding-right: 25px;
+     }
+
+ }
+
+
+.header__btn-burger{
+    width: 32px;
+    height: 32px;
+    fill: #487996;
+}
+@media screen and (max-width: 1444px){
+    .page-header__conteiner {
+        display: flex;
+        align-items: center;
+        width: 1280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1443px){
+    .page-header__conteiner {
+        display: flex;
+        align-items: center;
+        width: 639px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .page-header__conteiner {
+        display: flex;
+        align-items: center;
+        width: 278px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+.header__contacts {
+    display: none;}
+}
+
+.header__icon{
+    margin-right: 4px;
+}
+
+.header__tel {  
+    height: 20px;
+    left: 559px;
+    top: 50px;
+    font-family: Cera Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25px;
+    color: #2B2B2B;
+}
+  .header__item{
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1443px){
+   .header__language  {
+    display: none;}
+}
+ 
+  
+ @media screen and (max-width: 1444px){
+    .header__language  {
+      margin-left: auto;
+    }
+ }
+
+    @media screen and (max-width: 1444px){
+    .header__contacts{
+      margin-left: 94px;
+    }    
+}
+ 
+
+@media screen and (min-width: 1444px){ 
+.header__btn {
+   display: none;}
+}
+
+
+@media screen and (max-width: 1444px){
+    .log {
+        width: 192px;
+        height: 48px;
+        left: 80px;
+        top: 40px;
+       
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1443px){
+    .span_logo{
+        width: 140px;
+        height: 31px;
+        left: 69px;
+        top: 30px;
+       
+    }
+}
+
+@media screen and (max-width: 767px){
+    .span_logo {
+        width: 101px;
+        height: 25px;
+        left: 20px;
+        top: 32px;
+       
+    }
+ }
+
+.header__btn-burger{
+    width: 32px;
+    height: 32px;
+    left: 144px;
+    top: 29px;
+}
+.page-header__conteiner {
+    display: flex;
+    align-items: center;
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__contacts {
+    display: none;
+}
+
+.header__btn-tel {
+    width: 24px;
+    height: 24px;
+   left: 222px;
+    top: 33px;
+    margin-right: 21px;
+}
+.log {
+    width: 101px;
+    height: 25px;
+    left: 20px;
+    top: 32px;
+   
+}
+.span_logo{
+    width: 101px;
+     height: 25px;
+     margin-right: 23px;
+}
+
+.header__language-item{
+ font-family: Caviar Dreams;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.29;
+ color: #BDBDBD;
+}
+
+select{
+     font-family: Caviar Dreams;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.29;
+     color: #BDBDBD;
+
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     border: 0px;
+}
+
+.header__btn-tel {
+    width: 24px;
+    height: 24px;
+   left: 222px;
+    top: 33px;
+    margin-right: 21px;
+    
+}
+
+@media screen and (min-width: 768px){
+    .header__btn-tel{
+        display: none;}
+    }
+
+@media screen and (max-width: 767px){
+    .header__btn-tel {
+        width: 24px;
+        height: 24px;
+        left: 222px;
+        top: 33px;
+        margin-right: 21px;
+  }
+}
