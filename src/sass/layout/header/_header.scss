@@ -63,6 +63,8 @@
 
   @media screen and (min-width: 1440px) {
     display: flex;
+    width: 470px;
+    justify-content: space-between;
     padding-top: 44px;
     margin-right: 109px;
     margin-bottom: 98px;
@@ -79,6 +81,7 @@
 
   &--dropdown {
     position: relative;
+    cursor: pointer;
   }
 
   &--dropdown::after {
@@ -89,13 +92,21 @@
     border: 5px solid transparent;
     border-bottom: 4px solid #008cef;
   }
+}
 
-  &--desktop-hidden {
-    display: none;
-  }
+.drop-menu {
+  width: 144px;
+  text-align: center;
+  position: absolute;
+  transform: translate(-40px, 8px);
+}
+
+.drop-menu__item {
+  font-size: 16px;
+  line-height: 1.19;
 
   &:not(:last-child) {
-    margin-right: 54px;
+    margin-bottom: 6px;
   }
 }
 
