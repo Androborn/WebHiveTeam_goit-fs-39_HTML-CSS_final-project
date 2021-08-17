@@ -1,12 +1,9 @@
-<div class="conteiner">
-    <h1 class="contact__title contact__section">КОНТАКТИ</h1>
+<div class="conteiner contact__section">
+    <h1 class="contact__title">КОНТАКТИ</h1>
     <div class="contact__main">
-        <div class="contact__top-part contact__section">
-            <iframe class="contact__video " src="https://www.youtube.com/embed/FqQAjkZOBeY" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
+        <div class="contact__top-part">
+            <div class="video">
+                <iframe class="contact__video " src="https://www.youtube.com/embed/FqQAjkZOBeY"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
@@ -29,22 +26,18 @@
                 </p>
             </div>
         </div>
-    </div>
-                        class="contact__contact-part-discription link">3dfreedom.info@gmail.com</a>
-                </li>
-                <li class="contact__contact-part">
-                    <h2 class="contact__contact-title">РОБОЧИЙ ЧАС</h2>
-                    <ul class="contact__time-work list">
-                        <li class="contact__contact-part-discription">Пн-пт:<br class="perenos"> з 8:00 до 19:00</li>
-                        <li class="contact__contact-part-discription">Сб, Нд:<br class="perenos"> з 10:00 до 17:00</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="contact__form contact__section">
-            <include src="./partials/components/order-form.html"></include>
 
-        </div>
     </div>
+</div>
+<div class="contact__form-and-desk contact__section">
+    <div class="contact__form">
+        <include src="./partials/components/order-form.html"></include>
+    </div>
+    <div class="contact__desk ">
+        <include src="./partials/components/contact-info.html"></include>
+    </div>
+</div>
+
+</div>
 
 </div>
