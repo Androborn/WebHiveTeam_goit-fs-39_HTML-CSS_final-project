@@ -320,6 +320,11 @@
         display: contents;
     }
 }
+.scan-process__br-desktope {
+    @media screen and (max-width: 1439px) {
+        display: none;
+    }
+}
 
 .scan-process__order-btn {
 
