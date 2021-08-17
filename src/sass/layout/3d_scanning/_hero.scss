@@ -6,7 +6,6 @@
   }
 
   @media screen and (min-width: 768px) and (max-width: 1439px) {
-  position: relative;
   padding-top: 35px;
   }
 
@@ -46,10 +45,13 @@ margin-bottom: 16px;
 }
 
 .scan-hero__descrip-box {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+  position: relative;
+  }
     @media screen and (min-width: 1440px) {
       display: flex;
       &--left {
-        margin-right: 32px;  
+        margin-right: 32px;
       }
       &--right {
         position: relative; 
@@ -94,8 +96,9 @@ margin-bottom: 16px;
      height: 172px; 
 
     position: absolute;
-    right: 8px;
-    bottom: 103px;
+    
+    top: 118px;
+    left: 475px;
     z-index: -1;
     }
 
