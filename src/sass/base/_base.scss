@@ -54,6 +54,7 @@ body {
   font-weight: 500;
   color: $text-descr;
   background-color: $primary-white-color;
+  position: relative;
 }
 
 body.modal-open {
