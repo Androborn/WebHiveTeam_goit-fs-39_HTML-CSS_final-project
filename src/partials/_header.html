@@ -1,54 +1,121 @@
-<!-- <header class="header link">
-  <div class="page-header__conteiner link">
-    <span class="span_logo">
-      <a href="./index.html" class="logo link">
-       <picture>
-
-                    <sourse media="(min-width: 1440px)" type="image/webp" srcset="/images/logo/desktope-logo.webp. 1x, /images/desktope-logo@2x.webp 2x" />
-                    <sourse media="(min-width: 1440px)" srcset="/images/desktope-logo.png 1x, /images/desktope-logo@2x.png 2x" />
-                    <sourse media="(min-width: 768px)" type="image/webp" srcset="/images/logo/tablet-logo.webp 1x, /images/logo/tablet-logo@2x.webp 2x">
-                    <sourse media="(min-width: 768px)" srcset="/images/logo/tablet-logo.png 1x, /images/logo/tablet-logo@2x.png 2x" />
-                    <sourse media="(min-width: 320px)" type="image/webp" srcset="/images/logo/mobile-logo.webp 1x, /images/logo/mobile-logo/@2x.webp 2x">
-                    <sourse media="(min-width: 320px)" srcset="/images/logo/mobile-logo.jpg 1x, /images/logo/mobile-logo@2x.png 2x" />
-                    <img class="take-order__main-img" src="/images/logo/mobile-logo@2x.png" alt="Тривимірний куб">
-
-                </picture>
+<header class="header">
+  <div class="container header__conteiner">
+    <nav class="site-nav">
+      <a class="logo logo__link link" href="/index.html">
+        <picture class="logo__img">
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              /images/logo/desktope-logo.webp    1x,
+              /images/logo/desktope-logo@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              /images/logo/desktope-logo.png    1x,
+              /images/logo/desktope-logo@2x.png 2x
+            "
+            type="image/png"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /images/logo/tablet-logo.webp    1x,
+              /images/logo/tablet-logo@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /images/logo/tablet-logo.png    1x,
+              /images/logo/tablet-logo@2x.png 2x
+            "
+            type="image/png"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              /images/logo/mobile-logo.webp    1x,
+              /images/logo/mobile-logo@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="
+              /images/logo/mobile-logo.png    1x,
+              /images/logo/mobile-logo@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img src="/images/logo/mobile-logo.png" alt="Логотип компанії" />
+        </picture>
       </a>
-    </span>
-    <button class="hamburger " type="button">
-   <span class="hamburger__item"></span>
-   <span class="hamburger__item"></span>
-   <span class="hamburger__item"></span>
-    </button>
-    <button class="header__btn-tel">
-      <svg class="header__btn-tel-icon">
-        <use href="/images/sprite.svg#icon-phone"></use>
+      <button class="btn header__btn header__btn--mobile-menu" type="button">
+        <svg class="burger-icon" viewBox="0 0 32 32">
+          <use href="/images/sprite.svg#icon-burger-menu_32x32"></use>
+        </svg>
+      </button>
+      <ul class="site-nav__list list">
+        <li class="site-nav__item">
+          <a class="site-nav__link link" href="/index.html">Головна</a>
+        </li>
+        <li class="site-nav__item site-nav__item--dropdown">Послуги</li>
+        <li class="site-nav__item site-nav__item--desktop-hidden">
+          <a class="site-nav__link link" href="/3d_modeling.html"
+            ><span lang="en">3D</span> Моделювання</a
+          >
+        </li>
+        <li class="site-nav__item site-nav__item--desktop-hidden">
+          <a class="site-nav__link link" href="/3d_scanning.html"
+            ><span lang="en">3D</span> Сканування</a
+          >
+        </li>
+        <li class="site-nav__item site-nav__item--desktop-hidden">
+          <a class="site-nav__link link" href="/3d_printing.html"
+            ><span lang="en">3D</span> Друк</a
+          >
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link link" href="/take_order.html">Замовити</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link link" href="/contact.html">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn header__btn header__btn--call" type="button">
+      <svg class="tel-icon header__tel-icon" viewBox="0 0 32 32">
+        <use href="/images/sprite.svg#icon-ic_round-call"></use>
       </svg>
     </button>
-    <ul class="header__language list">
-      <select id="size" name="size" lass="header__language list">
-        <option value="xs" class="header__language-item" lang="ua">UKR</option>
-        <option value="s" class="header__language-item" lang="ua">ENG</option>
-        <option value="m" selected class="header__language-item" lang="ua">RUS</option>
-      </select>
-    </ul>
-    <ul class="header__contacts">
-      <li class="header__item list">
-        <a class="header__tel" href="tel:+38(093)6432288">
-          <svg class="header__icon" width="14" height="14">
-            <use href="/images/sprite.svg#icon-header-icon"></use>
+    <select class="language-list" name="language">
+      <option value="UKR" class="language-list__item" lang="en">UKR</option>
+      <option value="ENG" selected class="language-list__item" lang="en">
+        ENG
+      </option>
+      <option value="RUS" class="language-list__item" lang="en">RUS</option>
+    </select>
+    <ul class="contacts header__contacts list">
+      <li class="contacts__item">
+        <a class="contacts__link" href="tel:00380936432288">
+          <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
+            <use href="/images/sprite.svg#icon-ic_round-call"></use>
           </svg>
           +38 (093) 643 22 88
         </a>
       </li>
-      <li class="header__item list">
-        <a href="tel:+38(050)3454423">
-          <svg class="header__icon" width="14" height="14">
-            <use href="/images/sprite.svg#icon-header-icon"></use>
+      <li class="contacts__item">
+        <a class="contacts__link" href="tel:00380503454423">
+          <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
+            <use href="/images/sprite.svg#icon-ic_round-call"></use>
           </svg>
           +38 (050) 345 44 23
         </a>
       </li>
     </ul>
   </div>
-</header> -->
+</header>
