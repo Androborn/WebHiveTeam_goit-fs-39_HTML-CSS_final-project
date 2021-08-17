@@ -2,16 +2,11 @@
     padding-top: 32px;
     padding-bottom: 76px;
 
-    // @media screen and (max-width: 320px) {
-    //    padding-top: 32px;
-    //    padding-bottom: 76px;
-    // }
     @media screen and (max-width: 767px) {
         position: relative;
     }
     @media screen and (min-width: 768px) and (max-width: 1439px) {
         position: relative;
-
         padding-top: 35px;
     }
 
@@ -23,15 +18,14 @@
 }
 
 .scan-process__container {
-    @media screen and (min-width: 1440px) {
-        font-size: 18px;
-        line-height: 1.27;
-    }
+    @media screen and (max-width: 767px) {
+      padding-left: 20px;
+      padding-right: 20px;  
+    } 
 }
 
 .scan-process__title {
     font-family: "Cera-Pro";
-    font-weight: bold;
     font-size: 18px;
     line-height: 1.27;
 
@@ -47,7 +41,6 @@
 
     @media screen and (min-width: 1440px) {
         font-size: 48px;
-        line-height: 1.25;
         margin-bottom: 52px;
     }
 }
@@ -59,8 +52,11 @@
     margin-left: -15px;
 
     margin-bottom: 52px;
+    @media screen and (max-width: 319px) {
+        flex-direction: column;
+    }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (min-width:320px) and (max-width: 767px) {
         flex-wrap: wrap;
         margin-top: -12px;
         margin-left: -12px;
@@ -321,8 +317,13 @@
     }
 }
 
-.scan-process__order-btn {
+.scan-process__br-desktope {
+    @media screen and (max-width: 1439px) {
+        display: none;
+    }
+}
 
+.scan-process__order-btn {
 text-align: center;
 }
 
@@ -331,8 +332,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     left: 0;
     top: 8px;
 
@@ -360,8 +361,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     right: 0;
     top: 8px;
 
@@ -388,8 +389,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     left: -29px;
     top: 303px;
 
@@ -420,8 +421,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     right: -15px;
     top: 588px;
 
@@ -452,8 +453,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     left: -17px;
     top: 957px;
 
@@ -479,8 +480,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     right: -21px;
     top: 1033px;
 
@@ -505,8 +506,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     left: -18px;
     top: 1070px;
 
@@ -533,8 +534,8 @@ text-align: center;
     background: $primary-white-color;
     z-index: -1;
 
-    width: 73.65px;
-    height: 73.65px;
+    width: 74px;
+    height: 74px;
     right: -15px;
     top: 1360px;
 
