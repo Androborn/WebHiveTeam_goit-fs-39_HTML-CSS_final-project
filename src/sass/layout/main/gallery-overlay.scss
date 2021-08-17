@@ -1,0 +1,88 @@
+.gallery-overlay__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(43, 43, 43, 0.8);
+  transition: opacity $timing-function $main-duration;
+}
+
+.gallery-overlay__wrapper {
+  width: calc(100% - 84px);
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  @media screen and (min-width: 768px) {
+    width: calc(100% - 214px);
+  }
+  @media screen and (min-width: 1444px) {
+    width: calc(100% - 538px);
+  }
+}
+
+.gallery-overlay__pic {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-overlay__symbol-left {
+  width: 6px;
+  height: 10px;
+  @media screen and (min-width: 768px) {
+    width: 14px;
+    height: 25px;
+  }
+  @media screen and (min-width: 1444px) {
+    width: 23px;
+    height: 40px;
+  }
+}
+
+.gallery-overlay__symbol-right {
+  width: 6px;
+  height: 10px;
+
+  @media screen and (min-width: 768px) {
+    width: 14px;
+    height: 25px;
+  }
+  @media screen and (min-width: 1444px) {
+    width: 23px;
+    height: 40px;
+  }
+}
+
+.gallery-overlay__symbol-left-wrap {
+  position: absolute;
+  left: -38px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px;
+  @media screen and (min-width: 1444px) {
+    left: -57px;
+  }
+}
+
+.gallery-overlay__symbol-right-wrap {
+  position: absolute;
+  right: -38px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px;
+
+  @media screen and (min-width: 1444px) {
+    right: -57px;
+  }
+}
+
+.gallery-overlay__is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

@@ -21,6 +21,7 @@
 }
 
 .more-photo__item {
+  cursor: pointer;
   @media screen and (max-width: 767px) {
     &:not(:nth-child(-n + 3)) {
       display: none;
