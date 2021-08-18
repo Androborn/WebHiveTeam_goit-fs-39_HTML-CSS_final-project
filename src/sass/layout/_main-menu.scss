@@ -1,5 +1,6 @@
-.header.container {
-  position: relative;
+.header--mobile-menu-is-open {
+  position: fixed;
+  width: 100%;
   z-index: 101;
 }
 
@@ -20,10 +21,6 @@
     screen and (min-resolution: 2dppx) and (min-width: 1440px) {
     background-image: url(../images/desktope/main/page_bg@2x.jpg);
   }
-
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 
   &__container {
     /* position: absolute;
@@ -75,6 +72,12 @@
   }
 }
 
+.mobile-menu-is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .mobile-menu {
   position: fixed;
   z-index: 100;
@@ -83,10 +86,6 @@
   width: 100vw;
   height: 100vh;
   background-color: $primary-white-color;
-
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 
   &__container {
     /* position: absolute;

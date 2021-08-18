@@ -1,6 +1,6 @@
 <header class="header">
   <div class="container header__container">
-    <nav class="site-nav">
+    <div class="header-segment">
       <a class="logo logo__link link" href="/index.html">
         <picture class="logo__img">
           <source
@@ -54,18 +54,24 @@
           <img src="/images/logo/mobile-logo.png" alt="Логотип компанії" />
         </picture>
       </a>
-      <button class="btn header__btn header__btn--mobile-menu" type="button">
-        <svg class="burger-icon" viewBox="0 0 32 32">
-          <use href="/images/sprite.svg#icon-burger-menu_32x32"></use>
-        </svg>
+    </div>
+    <nav class="site-nav header-segment">
+      <button
+        class="hamburger is-active btn header__btn header__btn--mobile-menu"
+        type="button"
+        mobile-menu-open
+      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
       </button>
       <ul class="site-nav__list list">
         <li class="site-nav__item">
           <a class="site-nav__link link" href="/index.html">Головна</a>
         </li>
-        <li class="site-nav__item site-nav__item--dropdown">
+        <li class="site-nav__item site-nav__select" drop-menu-open>
           Послуги
-          <div class="drop-menu site-nav__drop-menu">
+          <div class="drop-menu site-nav__drop-menu" drop-menu>
             <ul class="drop-menu__list list">
               <li
                 class="
@@ -109,35 +115,61 @@
         </li>
       </ul>
     </nav>
-    <button class="btn header__btn header__btn--call" type="button">
-      <svg class="tel-icon header__tel-icon" viewBox="0 0 32 32">
-        <use href="/images/sprite.svg#icon-ic_round-call"></use>
-      </svg>
-    </button>
-    <select class="language-list" name="language">
-      <option value="UKR" class="language-list__item" lang="en">UKR</option>
-      <option value="ENG" selected class="language-list__item" lang="en">
-        ENG
-      </option>
-      <option value="RUS" class="language-list__item" lang="en">RUS</option>
-    </select>
-    <ul class="contacts header__contacts list">
-      <li class="contacts__item">
-        <a class="contacts__link link" href="tel:00380936432288">
-          <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
-            <use href="/images/sprite.svg#icon-ic_round-call"></use>
-          </svg>
-          +38 (093) 643 22 88
-        </a>
-      </li>
-      <li class="contacts__item">
-        <a class="contacts__link link" href="tel:00380503454423">
-          <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
-            <use href="/images/sprite.svg#icon-ic_round-call"></use>
-          </svg>
-          +38 (050) 345 44 23
-        </a>
-      </li>
-    </ul>
+    <div class="header-segment">
+      <button
+        class="btn header__btn header__btn--call"
+        type="button"
+        phone-list-open
+      >
+        <svg class="tel-icon header__tel-icon" viewBox="0 0 32 32">
+          <use href="/images/sprite.svg#icon-ic_round-call"></use>
+        </svg>
+        <ul class="contacts header__contacts-mobile list" phone-list>
+          <li class="contacts__item">
+            <a class="contacts__link link" href="tel:00380936432288">
+              <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
+                <use href="/images/sprite.svg#icon-ic_round-call"></use>
+              </svg>
+              +38 (093) 643 22 88
+            </a>
+          </li>
+          <li class="contacts__item">
+            <a class="contacts__link link" href="tel:00380503454423">
+              <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
+                <use href="/images/sprite.svg#icon-ic_round-call"></use>
+              </svg>
+              +38 (050) 345 44 23
+            </a>
+          </li>
+        </ul>
+      </button>
+      <select class="language-list" name="language">
+        <option value="UKR" class="language-list__item" lang="en">UKR</option>
+        <option value="ENG" selected class="language-list__item" lang="en">
+          ENG
+        </option>
+        <option value="RUS" class="language-list__item" lang="en">RUS</option>
+      </select>
+      <ul class="contacts header__contacts-desktop list">
+        <li class="contacts__item">
+          <a class="contacts__link link" href="tel:00380936432288">
+            <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
+              <use href="/images/sprite.svg#icon-ic_round-call"></use>
+            </svg>
+            +38 (093) 643 22 88
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link link" href="tel:00380503454423">
+            <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
+              <use href="/images/sprite.svg#icon-ic_round-call"></use>
+            </svg>
+            +38 (050) 345 44 23
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
+<script src="./phone-list.js"></script>
+<script src="./drop-menu.js"></script>
