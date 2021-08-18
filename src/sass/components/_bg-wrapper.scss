@@ -19,8 +19,8 @@ pointer-events: none;
     top: 8px;
 
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
-    border-radius: 35px 0px 0px 35px;
-    transform: rotate(180deg);
+    border-radius: 0px 35px 35px 0px;
+    // transform: rotate(180deg);
 
     @media screen and (min-width: 768px) {
         left: 233px;
@@ -33,7 +33,7 @@ pointer-events: none;
         left: 293px;
         top: 7px;
 
-        border-radius: 72px 0px 0px 72px;
+        border-radius:  0px 72px 72px 0px ;
     }
 }
 
@@ -81,9 +81,9 @@ pointer-events: none;
     @media screen and (min-width: 768px) {
         left: 8px;
         top: 229px;
-        border-radius: 0px 0px 0px 35px;
+        border-radius: 0px 0px 35px 0px;
 
-        transform: rotate(-90deg);
+        // transform: rotate(-90deg);
     }
 
     @media screen and (min-width: 1440px) {
@@ -93,7 +93,7 @@ pointer-events: none;
         top: 280px;
 
         border-radius: 0px 0px 72px 0px;
-        transform: revert;
+        // transform: revert;
     }
 }
 
@@ -113,9 +113,9 @@ pointer-events: none;
     @media screen and (min-width: 768px) {
         right: 8px;
         top: 90px;
-        border-radius: 0px 35px 0px 0px;
+        border-radius: 0px 0px 0px 35px;
 
-        transform: rotate(180deg);
+        // transform: rotate(180deg);
     }
 
     @media screen and (min-width: 1440px) {
@@ -125,8 +125,8 @@ pointer-events: none;
         top: 159px;
 
         box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
-        border-radius: 0px 0px 72px 0px;
-        transform: rotate(90deg);
+        border-radius: 0px 0px 0px 72px;
+        // transform: rotate(90deg);
     }
 }
 
