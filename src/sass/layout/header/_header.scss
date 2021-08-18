@@ -1,0 +1,200 @@
+.header__container {
+  @media screen and (max-width: 767px) {
+    width: 320px;
+  }
+
+  display: flex;
+  position: relative;
+
+  @media screen and (min-width: 1440px) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+.site-nav {
+  display: flex;
+}
+
+.logo__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 36px;
+  margin-right: 23px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 30px;
+    padding-bottom: 44px;
+    padding-left: 10px;
+    margin-right: 174px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 40px;
+    padding-bottom: 75px;
+    padding-left: 10px;
+    margin-right: 213px;
+  }
+}
+
+.header__btn--mobile-menu {
+  padding: 0;
+  padding-top: 29px;
+  padding-bottom: 32px;
+  width: 32px;
+  height: 32px;
+  margin-right: 46px;
+  fill: $accent-color;
+  background: none;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 29px;
+    padding-bottom: 44px;
+    margin-right: 82px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
+}
+
+.site-nav__list {
+  display: none;
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    width: 470px;
+    justify-content: space-between;
+    padding-top: 44px;
+    margin-right: 109px;
+    margin-bottom: 98px;
+  }
+}
+
+.site-nav__item {
+  font-family: 'CaviarDreams';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  &--dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+
+  &--dropdown::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    margin-left: 4px;
+    border: 5px solid transparent;
+    border-bottom: 4px solid #008cef;
+  }
+}
+
+.drop-menu {
+  width: 144px;
+  text-align: center;
+  position: absolute;
+  transform: translate(-40px, 8px);
+}
+
+.drop-menu__item {
+  font-size: 16px;
+  line-height: 1.19;
+
+  &:not(:last-child) {
+    margin-bottom: 6px;
+  }
+}
+
+.header__btn--call {
+  padding: 0;
+  padding-top: 33px;
+  padding-bottom: 36px;
+  width: 24px;
+  height: 24px;
+  margin-right: 21px;
+  fill: #008cef;
+  background: none;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.language-list {
+  margin-top: 36px;
+  margin-bottom: 39px;
+  font-family: 'CaviarDreams';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.125;
+  letter-spacing: 0.01em;
+  appearance: none;
+  color: #bdbdbd;
+  background: none;
+  border: none;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 51px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-top: 44px;
+    margin-bottom: 101px;
+  }
+}
+
+.header__contacts {
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    padding: 16px 6px 16px 8px;
+    transform: translate(135px, -110%);
+    background: $primary-white-color;
+
+    &::before {
+      content: '';
+      bottom: 99%;
+      left: 68px;
+      position: absolute;
+      border: 12px solid transparent;
+      border-bottom: 12px solid $primary-white-color;
+    }
+  }
+
+  margin: 20px 0 auto auto;
+
+  @media screen and (min-width: 1440px) {
+    margin: 40px 0 auto auto;
+  }
+}
+
+.contacts__link {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: inherit;
+  line-height: 1.25;
+}
+
+.contacts__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contacts__tel-icon {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  fill: #008cef;
+
+  @media screen and (min-width: 1440px) {
+    margin-left: 8px;
+  }
+}
