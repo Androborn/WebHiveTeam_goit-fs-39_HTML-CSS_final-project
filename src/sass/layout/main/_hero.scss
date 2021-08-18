@@ -60,13 +60,13 @@
 
 .wrapper__carousel {
   display: flex;
-  width: 100%;
   justify-content: center;
   position: relative;
 }
 
 .carousel {
   display: flex;
+  width: 100%;
   margin: calc(-1 * 7px);
   margin-bottom: 32px;
 
@@ -139,7 +139,7 @@
     display: inherit;
     height: 32px;
     width: 32px;
-    bottom: 33px;
+    bottom: 40px;
     left: 43px;
   }
 }

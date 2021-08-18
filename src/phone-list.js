@@ -10,10 +10,10 @@
 
   function openModal(e) {
     e.stopPropagation();
-    refs.modal.classList.add('header__contacts-mobile--is-open');
+    refs.modal.classList.add('header__contacts--mobile--is-open');
   }
   function closeModal(e) {
     e.stopPropagation();
-    refs.modal.classList.remove('header__contacts-mobile--is-open');
+    refs.modal.classList.remove('header__contacts--mobile--is-open');
   }
 })();
