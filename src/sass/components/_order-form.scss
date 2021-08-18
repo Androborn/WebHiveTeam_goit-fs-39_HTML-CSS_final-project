@@ -11,7 +11,7 @@
 }
 
 .order-form__input {
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $accent-color;
   padding-bottom: 4px;
   font-size: 16px;
   height: 20px;
@@ -20,7 +20,7 @@
   cursor: pointer;
   width: 100%;
   &:focus {
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $accent-color;
   }
 }
 
@@ -53,7 +53,7 @@
 
 .order-form__select {
   border: none;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $accent-color;
   width: 100%;
   height: 20px;
   font-size: 16px;
@@ -106,7 +106,7 @@
 }
 
 .order-form__textarea {
-  border: 1px solid $border-color;
+  border: 1px solid $accent-color;
   box-sizing: border-box;
   border-radius: 50px 0px;
   padding-left: 20px;
