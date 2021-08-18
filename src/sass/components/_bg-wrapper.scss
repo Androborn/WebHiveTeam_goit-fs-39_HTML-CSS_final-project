@@ -6,18 +6,6 @@ right: 0;
 bottom:0;
 overflow:hidden;
 pointer-events: none;
-margin: 0 auto;
-
-@media screen and (min-width: 320px) {
-    width: 320px;
-
-}
-@media screen and (min-width: 768px) {
-    width: 768px;
-}
-@media screen and (min-width: 1440px) {
-    width: 1440px;
-}
 }
 
 .scan__bg-shape--1 {
@@ -180,7 +168,7 @@ margin: 0 auto;
     top: 1033px;
 
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
-    border-radius: 25px 0px;
+    border-radius: 0px 25px;
 
     @media screen and (min-width: 768px) {
         display: none;
