@@ -51,26 +51,34 @@
     // background-size: contain;
     background-position: right 52px center;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .methods {
-    font-size: 36px;
+  @media screen and (min-width: 1440px) {
+    .methods {
+      font-size: 36px;
 
-    &__item {
-      font-size: 18px;
-      line-height: 1.28;
+      &__item {
+        font-size: 18px;
+        line-height: 1.28;
+      }
+    }
+
+    .background-modeling {
+      background-image: url(../images/desktope/3d-modeling/image.png);
+    }
+
+    .bgi {
+      display: block;
+      padding-top: 61px;
+      background-size: contain;
+      background-position: right 189px center;
     }
   }
 
-  .background-modeling {
-    background-image: url(../images/desktope/3d-modeling/image.png);
-  }
-
-  .bgi {
-    display: block;
-    padding-top: 61px;
-    background-size: contain;
-    background-position: right 189px center;
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+    screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    .background-modeling {
+      background-image: url(../images/desktope/3d-modeling/image@2x.png);
+    }
   }
 }
