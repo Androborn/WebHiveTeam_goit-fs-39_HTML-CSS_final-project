@@ -28,7 +28,8 @@
 
   background: $primary-white-color;
   opacity: 0.8;
-  box-shadow: inset 1px 1px 16px #cbcbcb, inset -1px -1px 16px $primary-white-color;
+  box-shadow: inset 1px 1px 16px #cbcbcb,
+    inset -1px -1px 16px $primary-white-color;
   border-radius: 50px 0px;
 }
 .model-examples__subtitle {
