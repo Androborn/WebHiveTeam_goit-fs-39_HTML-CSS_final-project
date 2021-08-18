@@ -1,9 +1,3 @@
-.more-photo {
-  @media screen and (max-width: 767px) {
-    padding-bottom: 76px;
-  }
-}
-
 .more-photo__list {
   margin-bottom: 32px;
 
@@ -11,12 +5,10 @@
     display: flex;
     flex-wrap: wrap;
     margin: calc(-1 * 9px);
-    margin-bottom: 32px;
   }
 
   @media screen and (min-width: 1440px) {
     margin: calc(-1 * 16px);
-    margin-bottom: 56px;
   }
 }
 

@@ -1,6 +1,4 @@
-.section-modeling {
-  padding-top: 32px;
-}
+
 
 .modeling-hero {
   &__title {
@@ -21,10 +19,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section-modeling {
-    padding-top: 35px;
-    padding-bottom: 50px;
-  }
+ 
 
   .modeling-hero {
     &__title {
@@ -38,10 +33,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .section-modeling {
-    padding-bottom: 39px;
-    padding-top: 24px;
-  }
+ 
 
   .modeling-hero {
     padding-left: 189px;

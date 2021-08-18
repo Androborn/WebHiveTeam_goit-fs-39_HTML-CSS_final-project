@@ -2,7 +2,6 @@
   position: relative;
 }
 .take-order__title {
-  margin-top: 32px;
   font-weight: bold;
   text-align: center;
   font-size: 22px;
@@ -11,13 +10,11 @@
   color: $accent-color;
 
   @media screen and (min-width: 768px) {
-    margin-top: 35px;
     text-align: left;
     font-size: 36px;
   }
 
   @media screen and (min-width: 1440px) {
-    margin-top: 85px;
     font-size: 48px;
   }
 }
