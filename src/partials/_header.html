@@ -1,5 +1,5 @@
 <header class="header">
-  <div class="container header__conteiner">
+  <div class="container header__container">
     <nav class="site-nav">
       <a class="logo logo__link link" href="/index.html">
         <picture class="logo__img">
@@ -63,22 +63,44 @@
         <li class="site-nav__item">
           <a class="site-nav__link link" href="/index.html">Головна</a>
         </li>
-        <li class="site-nav__item site-nav__item--dropdown">Послуги</li>
-        <li class="site-nav__item site-nav__item--desktop-hidden">
-          <a class="site-nav__link link" href="/3d_modeling.html"
-            ><span lang="en">3D</span> Моделювання</a
-          >
+        <li class="site-nav__item site-nav__item--dropdown">
+          Послуги
+          <div class="drop-menu site-nav__drop-menu">
+            <ul class="drop-menu__list list">
+              <li
+                class="
+                  drop-menu__item
+                  site-nav__item site-nav__item--desktop-hidden
+                "
+              >
+                <a class="site-nav__link link" href="/3d_modeling.html"
+                  ><span lang="en">3D</span> Моделювання</a
+                >
+              </li>
+              <li
+                class="
+                  drop-menu__item
+                  site-nav__item site-nav__item--desktop-hidden
+                "
+              >
+                <a class="site-nav__link link" href="/3d_scanning.html"
+                  ><span lang="en">3D</span> Сканування</a
+                >
+              </li>
+              <li
+                class="
+                  drop-menu__item
+                  site-nav__item site-nav__item--desktop-hidden
+                "
+              >
+                <a class="site-nav__link link" href="/3d_printing.html"
+                  ><span lang="en">3D</span> Друк</a
+                >
+              </li>
+            </ul>
+          </div>
         </li>
-        <li class="site-nav__item site-nav__item--desktop-hidden">
-          <a class="site-nav__link link" href="/3d_scanning.html"
-            ><span lang="en">3D</span> Сканування</a
-          >
-        </li>
-        <li class="site-nav__item site-nav__item--desktop-hidden">
-          <a class="site-nav__link link" href="/3d_printing.html"
-            ><span lang="en">3D</span> Друк</a
-          >
-        </li>
+
         <li class="site-nav__item">
           <a class="site-nav__link link" href="/take_order.html">Замовити</a>
         </li>
@@ -101,7 +123,7 @@
     </select>
     <ul class="contacts header__contacts list">
       <li class="contacts__item">
-        <a class="contacts__link" href="tel:00380936432288">
+        <a class="contacts__link link" href="tel:00380936432288">
           <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
             <use href="/images/sprite.svg#icon-ic_round-call"></use>
           </svg>
@@ -109,7 +131,7 @@
         </a>
       </li>
       <li class="contacts__item">
-        <a class="contacts__link" href="tel:00380503454423">
+        <a class="contacts__link link" href="tel:00380503454423">
           <svg class="tel-icon contacts__tel-icon" viewBox="0 0 32 32">
             <use href="/images/sprite.svg#icon-ic_round-call"></use>
           </svg>
