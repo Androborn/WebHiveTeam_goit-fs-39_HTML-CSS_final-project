@@ -46,10 +46,6 @@
 .site-nav {
   display: flex;
   align-items: center;
-
-  @media screen and (min-width: 1440px) {
-    padding-top: 4px;
-  }
 }
 
 .logo__link {
@@ -182,7 +178,6 @@
   @media screen and (min-width: 1440px) {
     margin-right: 94px;
     align-items: center;
-    padding-top: 4px;
   }
 }
 
