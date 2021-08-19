@@ -3,12 +3,12 @@
   padding-top: 29px;
   padding-bottom: 35px;
   min-width: 320px;
+  align-items: center;
 
   @media screen and (min-width: 768px) {
     width: 768px;
     padding-top: 20px;
     padding-bottom: 35px;
-    align-items: center;
   }
 
   @media screen and (min-width: 1440px) {
@@ -17,7 +17,6 @@
     padding-bottom: 73px;
     padding-left: 80px;
     padding-right: 80px;
-    align-items: center;
   }
 }
 
