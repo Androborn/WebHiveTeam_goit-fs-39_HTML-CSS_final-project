@@ -18,6 +18,7 @@
     padding-bottom: 73px;
     padding-left: 80px;
     padding-right: 80px;
+    align-items: flex-start;
   }
 }
 
@@ -47,6 +48,10 @@
 .site-nav {
   display: flex;
   align-items: center;
+
+  @media screen and (min-width: 1440px) {
+    padding-top: 4px;
+  }
 }
 
 .logo__link {
@@ -178,6 +183,8 @@
 
   @media screen and (min-width: 1440px) {
     margin-right: 94px;
+    align-items: normal;
+    padding-top: 4px;
   }
 }
 
