@@ -1,0 +1,803 @@
+.main-bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  margin: 0 auto;
+
+  @media screen and (min-width: 320px) {
+    min-width: 320px;
+  }
+  @media screen and (min-width: 768px) {
+    min-width: 768px;
+  }
+  @media screen and (min-width: 1440px) {
+    min-width: 1440px;
+  }
+}
+
+.main__bg-shape--1 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  left: 0;
+  top: 8px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 35px 35px 0px;
+
+  @media screen and (min-width: 768px) {
+    left: 233px;
+    top: 8px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 293px;
+    top: 7px;
+
+    border-radius: 72px 0px 0px 72px;
+  }
+}
+
+.main__bg-shape--2 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  right: 0;
+  top: 8px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 35px 0px 0px 35px;
+
+  @media screen and (min-width: 768px) {
+    right: 233px;
+    top: 8px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 293px;
+    top: 7px;
+
+    border-radius: 72px 0px 0px 72px;
+  }
+}
+
+.main__bg-shape--3 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  left: -29px;
+  top: 318px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 35px 0px;
+
+  @media screen and (min-width: 768px) {
+    left: 105px;
+    top: 302px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 176px;
+    top: 583px;
+    border-radius: 0px 0px 72px 0px;
+  }
+}
+
+.main__bg-shape--4 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  right: -15px;
+  top: 608px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 72px;
+
+  @media screen and (min-width: 768px) {
+    right: 105px;
+    top: 81px;
+    z-index: -2;
+    border-radius: 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 176px;
+    top: 151px;
+  
+  }
+}
+
+.main__bg-shape--5 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  left: -17px;
+  top: 678px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 25px 0px;
+
+  @media screen and (min-width: 768px) {
+    left: 32px;
+    top: 655px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: unset;
+    right: 32px;
+    top: 727px;
+    border-radius: 0px 0px 72px 0px;
+  }
+
+
+}
+
+.main__bg-shape--6 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  right: -21px;
+  top: 1060px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 0 25px;
+
+  @media screen and (min-width: 768px) {
+    right: 32px;
+    top: 1043px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 32px;
+    top: 1267px;
+    border-radius: 72px 0;
+  }
+}
+
+.main__bg-shape--7 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  left: -18px;
+  top: 1100px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0px 0px 35px;
+
+  @media screen and (min-width: 768px) {
+    left: 32px;
+    top: 1075px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: -64px;
+    top: 2592px;
+
+    border-radius: 72px;
+  }
+}
+
+.main__bg-shape--8 {
+  position: absolute;
+  background: $primary-white-color;
+  z-index: -1;
+
+  width: 74px;
+  height: 74px;
+  right: -15px;
+  top: 1388px;
+
+  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+  border-radius: 35px 0px;
+
+  @media screen and (min-width: 768px) {
+    right: 110px;
+    top: 1443px;
+    
+    border-radius: 0px 0px 72px 0px;
+    transform: rotate(90deg);
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 32px;
+    top: 2016px;
+
+    border-radius: 72px 0;
+  }
+}
+
+.main__bg-shape--9 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 32px;
+    top: 8px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 35px 0px 0px 0px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    top: 151px;
+
+    border-radius: 0px 0px 72px 0px;
+   
+  }
+}
+
+.main__bg-shape--10 {
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 32px;
+    top: 81px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 35px 0px;
+  }
+}
+
+.main__bg-shape--11 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background-image: url(../images/tablet/main/decor-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 105px;
+    top: 81px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px;
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+      screen and (min-resolution: 192dpi) and (min-width: 768px),
+      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/tablet/main/decor-image-1@2x.jpg);
+    }
+
+      @media screen and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-1.jpg);
+      }
+
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-1@2x.jpg);
+      }
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 176px;
+    top: 151px;
+
+  }
+}
+
+.main__bg-shape--12 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background-image: url(../images/tablet/main/decor-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    right: 32px;
+    top: 81px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 35px 0px;
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+      screen and (min-resolution: 192dpi) and (min-width: 768px),
+      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/tablet/main/decor-image-2@2x.jpg);
+    }
+
+      @media screen and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-2.jpg);
+      }
+
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-2@2x.jpg);
+      }
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    top: 151px;
+    border-radius: 0px 0px 72px 0px;
+  }
+}
+
+.main__bg-shape--13 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 105px;
+    top: 155px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 35px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 176px;
+    top: 297px;
+    border-radius: 0px 72px 0px 0px;
+   
+  }
+}
+
+.main__bg-shape--14 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 32px;
+    top: 228px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 0px 35px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 32px;
+    top: 441px;
+    border-radius: 0px 0px 0px 72px;
+   
+  }
+}
+
+.main__bg-shape--15 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -3;
+
+    width: 74px;
+    height: 74px;
+    right: 105px;
+    top: 155px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 176px;
+    top: 295px;
+
+  }
+}
+
+.main__bg-shape--16 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -4;
+
+    width: 74px;
+    height: 74px;
+    right: 32px;
+    top: 228px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 25px 0;
+}
+
+@media screen and (min-width: 1440px) {
+  width: 144px;
+  height: 144px;
+  right: 32px;
+  top: 439px;
+  border-radius: 72px 0;
+}
+}
+
+.main__bg-shape--17 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    right: 105px;
+    top: 300px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 0px 35px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 176px;
+    top: 583px;
+    border-radius: 0px 0px 0px 72px;
+  }
+}
+
+.main__bg-shape--18 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background-image: url(../images/tablet/main/decor-image-4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    right: 32px;
+    top: 300px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px 72px 0px 0px;
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+      screen and (min-resolution: 192dpi) and (min-width: 768px),
+      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/tablet/main/decor-image-4@2x.jpg);
+    }
+
+      @media screen and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-4.jpg);
+      }
+
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-4@2x.jpg);
+    
+  }
+}
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 32px;
+    top: 583px;
+  }
+}
+
+.main__bg-shape--19 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background-image: url(../images/tablet/main/decor-image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 32px;
+    top: 365px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px;
+
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+      screen and (min-resolution: 192dpi) and (min-width: 768px),
+      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/tablet/main/decor-image-3@2x.jpg);
+    }
+
+      @media screen and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-3.jpg);
+      }
+
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-3@2x.jpg);
+    
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 32px;
+    top: 704px;
+  }
+}
+}
+
+.main__bg-shape--20 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -2;
+
+    width: 74px;
+    height: 74px;
+    left: 32px;
+    top: 439px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 35px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 32px;
+    top: 848px;
+    border-radius: 0px 0px 72px 0px;
+   
+  }
+}
+
+.main__bg-shape--21 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    right: 32px;
+    top: 375px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 0px 0px 35px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 32px;
+    top: 2658px;
+
+    border-radius: 72px 0;
+  }
+}
+
+.main__bg-shape--22 {
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 105px;
+    top: 1006px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 35px 0px 0px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: unset;
+    right: 32px;
+    top: 998px;
+    border-radius: 0px 72px 0px 0px;
+  }
+}
+
+.main__bg-shape--23 {
+  
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -2;
+
+    width: 74px;
+    height: 74px;
+    right: 32px;
+    top: 1365px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 25px 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: -64px;
+    top: 1142px;
+    border-radius: 72px;
+    
+  }
+}
+
+.main__bg-shape--24 {
+  
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    right: 32px;
+    top: 520px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 35px 0 0 0;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 176px;
+    top: 2802px;
+
+    border-radius: 0 0 0 72px;
+  }
+}
+
+.main__bg-shape--25 {
+  
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    right: -17px;
+    top: 595px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px;
+  }
+}
+
+.main__bg-shape--25 {
+  
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: -17px;
+    top: 1337px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    left: 32px;
+    top: 2083px;
+    border-radius: 0px 0px 0px 72px;
+  }
+}
+
+.main__bg-shape--26 {
+  @media screen and (min-width: 1440px) {
+    position: absolute;
+    background-image: url(../images/desktope/main/decor-image-5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    z-index: -1;
+
+    width: 144px;
+    height: 144px;
+    right: 32px;
+    top: 1508px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px;
+
+      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+        screen and (min-resolution: 192dpi) and (min-width: 1440px),
+        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+        background-image: url(../images/desktope/main/decor-image-5@2x.jpg);
+      }
+  }
+}
+
+.main__bg-shape--27 {
+  
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -2;
+
+    width: 74px;
+    height: 74px;
+    right: -17px;
+    top: 588px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 72px;
+  }
+}
+
+.main__bg-shape--28 {
+  
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    position: absolute;
+    background: $primary-white-color;
+    z-index: -1;
+
+    width: 74px;
+    height: 74px;
+    left: 32px;
+    top: 8px;
+
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 35px 0px 0px 0px;
+  }
+}

@@ -1,3 +1,12 @@
+.scan-hero {
+  @media screen and (max-width: 767px) {
+    padding-bottom: 24px;
+  }
+  @media screen and (max-width: 1439px) {
+    padding-bottom: 37px;
+  }
+}
+
 .scan-hero__container {
   font-family: 'Cera-Pro';
   font-weight: 300;
@@ -56,6 +65,7 @@
 
 .scan-hero__descrip:last-child {
   margin-bottom: 24px;
+
 }
 
 .scan-hero__bgd-pic {

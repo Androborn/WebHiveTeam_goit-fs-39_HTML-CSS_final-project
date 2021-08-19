@@ -18,9 +18,9 @@ pointer-events: none;
     left: 0;
     top: 8px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
-    border-radius: 35px 0px 0px 35px;
-    transform: rotate(180deg);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 35px 35px 0px;
+    // transform: rotate(180deg);
 
     @media screen and (min-width: 768px) {
         left: 233px;
@@ -33,7 +33,7 @@ pointer-events: none;
         left: 293px;
         top: 7px;
 
-        border-radius: 72px 0px 0px 72px;
+        border-radius:  0px 72px 72px 0px ;
     }
 }
 
@@ -47,7 +47,7 @@ pointer-events: none;
     right: 0;
     top: 8px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 35px 0px 0px 35px;
 
     @media screen and (min-width: 768px) {
@@ -75,15 +75,15 @@ pointer-events: none;
     left: -29px;
     top: 303px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 0px 0px 35px 0px;
 
     @media screen and (min-width: 768px) {
         left: 8px;
         top: 229px;
-        border-radius: 0px 0px 0px 35px;
+        border-radius: 0px 0px 35px 0px;
 
-        transform: rotate(-90deg);
+        // transform: rotate(-90deg);
     }
 
     @media screen and (min-width: 1440px) {
@@ -93,7 +93,7 @@ pointer-events: none;
         top: 280px;
 
         border-radius: 0px 0px 72px 0px;
-        transform: revert;
+        // transform: revert;
     }
 }
 
@@ -107,15 +107,15 @@ pointer-events: none;
     right: -15px;
     top: 588px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 72px;
 
     @media screen and (min-width: 768px) {
         right: 8px;
         top: 90px;
-        border-radius: 0px 35px 0px 0px;
+        border-radius: 0px 0px 0px 35px;
 
-        transform: rotate(180deg);
+        // transform: rotate(180deg);
     }
 
     @media screen and (min-width: 1440px) {
@@ -125,8 +125,8 @@ pointer-events: none;
         top: 159px;
 
         box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
-        border-radius: 0px 0px 72px 0px;
-        transform: rotate(90deg);
+        border-radius: 0px 0px 0px 72px;
+        // transform: rotate(90deg);
     }
 }
 
@@ -140,7 +140,7 @@ pointer-events: none;
     left: -17px;
     top: 957px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 25px 0px;
 
     @media screen and (min-width: 768px) and (max-width: 1439px){
@@ -167,7 +167,7 @@ pointer-events: none;
     right: -21px;
     top: 1033px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 0px 25px;
 
     @media screen and (min-width: 768px) {
@@ -184,7 +184,7 @@ pointer-events: none;
     left: -18px;
     top: 1070px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 0px 0px 0px 35px;
 
     @media screen and (min-width: 768px) and (max-width: 1439px){
@@ -211,7 +211,7 @@ pointer-events: none;
     right: -15px;
     top: 1360px;
 
-    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 25px 0px;
 
     @media screen and (min-width: 768px) and (max-width: 1439px) {

@@ -27,16 +27,27 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .bgi-mobile {
-    display: block;
-    height: 462px;
-  }
+// @media screen and (min-width: 320px) and (max-width: 767px) {
+//   .bgi-mobile {
+//     display: block;
+//     height: 462px;
+//   }
 
+.background-modeling {
+  background-image: url(../images/mobile/3d-modeling/image.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 280px;
+  height: 164px;
+  background-size: contain;
+  margin-top: 32px;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
+  screen and (min-resolution: 192dpi) and (min-width: 280px),
+  screen and (min-resolution: 2dppx) and (min-width: 280px) {
   .background-modeling {
-    background-image: url(../images/mobile/3d-modeling/image.png);
-    background-repeat: no-repeat;
-    background-position: bottom center;
+    background-image: url(../images/mobile/3d-modeling/image@2x.png);
   }
 }
 
@@ -45,40 +56,62 @@
     font-size: 24px;
     line-height: 1.25;
   }
+
+  .bgi {
+    position: relative;
+  }
   .background-modeling {
     background-image: url(../images/tablet/3d-modeling/image.png);
     background-repeat: no-repeat;
-    // background-size: contain;
-    background-position: right 52px center;
+    // background-position: right 52px center;
+    position: absolute;
+    top: 0px;
+    left: 466px;
+    width: 246px;
+    height: 144px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .background-modeling {
+    background-image: url(/images/tablet/3d-modeling/image@2x.png);
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .methods {
+    font-size: 36px;
+
+    &__item {
+      font-size: 18px;
+      line-height: 1.28;
+    }
   }
 
-  @media screen and (min-width: 1440px) {
-    .methods {
-      font-size: 36px;
-
-      &__item {
-        font-size: 18px;
-        line-height: 1.28;
-      }
-    }
-
-    .background-modeling {
-      background-image: url(../images/desktope/3d-modeling/image.png);
-    }
-
-    .bgi {
-      display: block;
-      padding-top: 61px;
-      background-size: contain;
-      background-position: right 189px center;
-    }
+  .background-modeling {
+    background-image: url(../images/desktope/3d-modeling/image.png);
+    width: 515px;
+    height: 300px;
+    background-size: 515px 300px;
+    left: 733px;
+    top: -92px;
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-    screen and (min-resolution: 192dpi) and (min-width: 1440px),
-    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-    .background-modeling {
-      background-image: url(../images/desktope/3d-modeling/image@2x.png);
-    }
+  // .bgi {
+  //   display: block;
+  //   padding-top: 61px;
+  //   background-size: contain;
+  //   background-position: right 189px center;
+  // }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+  screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+  .background-modeling {
+    background-image: url(../images/desktope/3d-modeling/image@2x.png);
   }
 }

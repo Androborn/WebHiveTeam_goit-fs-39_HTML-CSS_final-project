@@ -1,37 +1,37 @@
-.main__overlay {
-  margin-left: auto;
-  margin-right: auto;
+// .main__overlay {
+//   margin-left: auto;
+//   margin-right: auto;
 
-  background-image: url(../images/mobile/main/page_bg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+//   background-image: url(../images/mobile/main/page_bg.jpg);
+//   background-repeat: no-repeat;
+//   background-size: 100% auto;
 
-  @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-    screen and (min-resolution: 192dpi) and (max-width: 767px),
-    screen and (min-resolution: 2dppx) and (max-width: 767px) {
-    background-image: url(../images/mobile/main/page_bg@2x.jpg);
-  }
+//   @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+//     screen and (min-resolution: 192dpi) and (max-width: 767px),
+//     screen and (min-resolution: 2dppx) and (max-width: 767px) {
+//     background-image: url(../images/mobile/main/page_bg@2x.jpg);
+//   }
 
-  @media screen and (min-width: 768px) {
-    background-image: url(../images/tablet/main/page_bg.jpg);
-  }
+//   @media screen and (min-width: 768px) {
+//     background-image: url(../images/tablet/main/page_bg.jpg);
+//   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-    screen and (min-resolution: 192dpi) and (min-width: 768px),
-    screen and (min-resolution: 2dppx) and (min-width: 768px) {
-    background-image: url(../images/tablet/main/page_bg@2x.jpg);
-  }
+//   @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+//     screen and (min-resolution: 192dpi) and (min-width: 768px),
+//     screen and (min-resolution: 2dppx) and (min-width: 768px) {
+//     background-image: url(../images/tablet/main/page_bg@2x.jpg);
+//   }
 
-  @media screen and (min-width: 1440px) {
-    background-image: url(../images/desktope/main/page_bg.jpg);
-  }
+//   @media screen and (min-width: 1440px) {
+//     background-image: url(../images/desktope/main/page_bg.jpg);
+//   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-    screen and (min-resolution: 192dpi) and (min-width: 1440px),
-    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-    background-image: url(../images/desktope/main/page_bg@2x.jpg);
-  }
-}
+//   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+//     screen and (min-resolution: 192dpi) and (min-width: 1440px),
+//     screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+//     background-image: url(../images/desktope/main/page_bg@2x.jpg);
+//   }
+// }
 
 .main__page-title {
   width: 280px;
@@ -60,13 +60,13 @@
 
 .wrapper__carousel {
   display: flex;
-  width: 100%;
   justify-content: center;
   position: relative;
 }
 
 .carousel {
   display: flex;
+  width: 100%;
   margin: calc(-1 * 7px);
   margin-bottom: 32px;
 
@@ -139,7 +139,7 @@
     display: inherit;
     height: 32px;
     width: 32px;
-    bottom: 33px;
+    bottom: 40px;
     left: 43px;
   }
 }
