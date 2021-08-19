@@ -43,7 +43,7 @@
     left: 293px;
     top: 7px;
 
-    border-radius: 72px 0px 0px 72px;
+    border-radius: 0px 72px 72px 0px;
   }
 }
 
@@ -127,7 +127,6 @@
     height: 144px;
     right: 176px;
     top: 151px;
-  
   }
 }
 
@@ -157,8 +156,6 @@
     top: 727px;
     border-radius: 0px 0px 72px 0px;
   }
-
-
 }
 
 .main__bg-shape--6 {
@@ -232,7 +229,7 @@
   @media screen and (min-width: 768px) {
     right: 110px;
     top: 1443px;
-    
+
     border-radius: 0px 0px 72px 0px;
     transform: rotate(90deg);
   }
@@ -267,7 +264,6 @@
     top: 151px;
 
     border-radius: 0px 0px 72px 0px;
-   
   }
 }
 
@@ -309,15 +305,15 @@
       background-image: url(../images/tablet/main/decor-image-1@2x.jpg);
     }
 
-      @media screen and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-1.jpg);
-      }
+    @media screen and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-1.jpg);
+    }
 
-      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        screen and (min-resolution: 192dpi) and (min-width: 1440px),
-        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-1@2x.jpg);
-      }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+      screen and (min-resolution: 192dpi) and (min-width: 1440px),
+      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-1@2x.jpg);
+    }
   }
 
   @media screen and (min-width: 1440px) {
@@ -325,7 +321,6 @@
     height: 144px;
     left: 176px;
     top: 151px;
-
   }
 }
 
@@ -351,15 +346,15 @@
       background-image: url(../images/tablet/main/decor-image-2@2x.jpg);
     }
 
-      @media screen and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-2.jpg);
-      }
+    @media screen and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-2.jpg);
+    }
 
-      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        screen and (min-resolution: 192dpi) and (min-width: 1440px),
-        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-2@2x.jpg);
-      }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+      screen and (min-resolution: 192dpi) and (min-width: 1440px),
+      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-2@2x.jpg);
+    }
   }
 
   @media screen and (min-width: 1440px) {
@@ -391,7 +386,6 @@
     left: 176px;
     top: 297px;
     border-radius: 0px 72px 0px 0px;
-   
   }
 }
 
@@ -416,7 +410,6 @@
     left: 32px;
     top: 441px;
     border-radius: 0px 0px 0px 72px;
-   
   }
 }
 
@@ -439,7 +432,6 @@
     height: 144px;
     right: 176px;
     top: 295px;
-
   }
 }
 
@@ -456,15 +448,15 @@
 
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 25px 0;
-}
+  }
 
-@media screen and (min-width: 1440px) {
-  width: 144px;
-  height: 144px;
-  right: 32px;
-  top: 439px;
-  border-radius: 72px 0;
-}
+  @media screen and (min-width: 1440px) {
+    width: 144px;
+    height: 144px;
+    right: 32px;
+    top: 439px;
+    border-radius: 72px 0;
+  }
 }
 
 .main__bg-shape--17 {
@@ -513,17 +505,16 @@
       background-image: url(../images/tablet/main/decor-image-4@2x.jpg);
     }
 
-      @media screen and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-4.jpg);
-      }
+    @media screen and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-4.jpg);
+    }
 
-      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        screen and (min-resolution: 192dpi) and (min-width: 1440px),
-        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-4@2x.jpg);
-    
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+      screen and (min-resolution: 192dpi) and (min-width: 1440px),
+      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-4@2x.jpg);
+    }
   }
-}
 
   @media screen and (min-width: 1440px) {
     width: 144px;
@@ -555,24 +546,23 @@
       background-image: url(../images/tablet/main/decor-image-3@2x.jpg);
     }
 
-      @media screen and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-3.jpg);
-      }
+    @media screen and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-3.jpg);
+    }
 
-      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        screen and (min-resolution: 192dpi) and (min-width: 1440px),
-        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-3@2x.jpg);
-    
-  }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+      screen and (min-resolution: 192dpi) and (min-width: 1440px),
+      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-3@2x.jpg);
+    }
 
-  @media screen and (min-width: 1440px) {
-    width: 144px;
-    height: 144px;
-    left: 32px;
-    top: 704px;
+    @media screen and (min-width: 1440px) {
+      width: 144px;
+      height: 144px;
+      left: 32px;
+      top: 704px;
+    }
   }
-}
 }
 
 .main__bg-shape--20 {
@@ -596,7 +586,6 @@
     left: 32px;
     top: 848px;
     border-radius: 0px 0px 72px 0px;
-   
   }
 }
 
@@ -651,7 +640,6 @@
 }
 
 .main__bg-shape--23 {
-  
   @media screen and (min-width: 768px) {
     position: absolute;
     background: $primary-white-color;
@@ -672,12 +660,10 @@
     right: -64px;
     top: 1142px;
     border-radius: 72px;
-    
   }
 }
 
 .main__bg-shape--24 {
-  
   @media screen and (min-width: 768px) {
     position: absolute;
     background: $primary-white-color;
@@ -703,7 +689,6 @@
 }
 
 .main__bg-shape--25 {
-  
   @media screen and (min-width: 768px) {
     position: absolute;
     background: $primary-white-color;
@@ -720,7 +705,6 @@
 }
 
 .main__bg-shape--25 {
-  
   @media screen and (min-width: 768px) {
     position: absolute;
     background: $primary-white-color;
@@ -760,16 +744,15 @@
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 72px;
 
-      @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-        screen and (min-resolution: 192dpi) and (min-width: 1440px),
-        screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-        background-image: url(../images/desktope/main/decor-image-5@2x.jpg);
-      }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+      screen and (min-resolution: 192dpi) and (min-width: 1440px),
+      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+      background-image: url(../images/desktope/main/decor-image-5@2x.jpg);
+    }
   }
 }
 
 .main__bg-shape--27 {
-  
   @media screen and (min-width: 768px) and (max-width: 1439px) {
     position: absolute;
     background: $primary-white-color;
@@ -786,7 +769,6 @@
 }
 
 .main__bg-shape--28 {
-  
   @media screen and (min-width: 768px) and (max-width: 1439px) {
     position: absolute;
     background: $primary-white-color;
