@@ -18,7 +18,7 @@
     padding-bottom: 73px;
     padding-left: 80px;
     padding-right: 80px;
-    align-items: flex-start;
+    align-items: center;
   }
 }
 
@@ -183,7 +183,7 @@
 
   @media screen and (min-width: 1440px) {
     margin-right: 94px;
-    align-items: normal;
+    align-items: center;
     padding-top: 4px;
   }
 }
@@ -259,6 +259,7 @@
   fill: #008cef;
 
   @media screen and (min-width: 768px) {
+    margin-top: 4px;
     margin-right: 4px;
   }
 

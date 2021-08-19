@@ -56,10 +56,19 @@
     font-size: 24px;
     line-height: 1.25;
   }
+
+  .bgi {
+    position: relative;
+  }
   .background-modeling {
     background-image: url(../images/tablet/3d-modeling/image.png);
     background-repeat: no-repeat;
     // background-position: right 52px center;
+    position: absolute;
+    top: 0px;
+    left: 466px;
+    width: 246px;
+    height: 144px;
   }
 }
 
@@ -67,17 +76,8 @@
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .background-modeling {
-    width: 246px;
-    height: 144px;
     background-image: url(/images/tablet/3d-modeling/image@2x.png);
     background-size: contain;
-    position: absolute;
-    top: 0px;
-    left: 466px;
-  }
-
-  .bgi {
-    position: relative;
   }
 }
 
@@ -93,6 +93,11 @@
 
   .background-modeling {
     background-image: url(../images/desktope/3d-modeling/image.png);
+    width: 515px;
+    height: 300px;
+    background-size: 515px 300px;
+    left: 733px;
+    top: -92px;
   }
 
   // .bgi {
@@ -107,11 +112,6 @@
   screen and (min-resolution: 192dpi) and (min-width: 1440px),
   screen and (min-resolution: 2dppx) and (min-width: 1440px) {
   .background-modeling {
-    width: 515px;
-    height: 300px;
-    background-size: 515px 300px;
     background-image: url(../images/desktope/3d-modeling/image@2x.png);
-    left: 733px;
-    top: -92px;
   }
 }
