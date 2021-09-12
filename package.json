@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://codajoker.github.io/team-3-project",
+  "homepage": "https://Androborn.github.io/web-hive-team_goit-fs-39",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/*.html --public-url /team-3-project/"
+    "build": "parcel build src/*.html --public-url /web-hive-team_goit-fs-39/"
   },
   "repository": {
     "type": "git",
