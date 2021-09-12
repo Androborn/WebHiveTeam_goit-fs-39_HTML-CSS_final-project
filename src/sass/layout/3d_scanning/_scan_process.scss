@@ -153,13 +153,13 @@
       width: 177px;
       height: 154px;
       background-size: 177px 154px;
-      background-image: url(../images/desktope/3d-scanning/image1.png);
+      background-image: url(../images/desktop/3d-scanning/image1.png);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
       (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
       (min-resolution: 192dpi) and (min-width: 1440px),
       (min-resolution: 2dppx) and (min-width: 1440px) {
-      background-image: url(../images/desktope/3d-scanning/image1@2x.png);
+      background-image: url(../images/desktop/3d-scanning/image1@2x.png);
     }
   }
 
@@ -197,13 +197,13 @@
       width: 177px;
       height: 154px;
       background-size: 177px 154px;
-      background-image: url(../images/desktope/3d-scanning/image2.png);
+      background-image: url(../images/desktop/3d-scanning/image2.png);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
       (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
       (min-resolution: 192dpi) and (min-width: 1440px),
       (min-resolution: 2dppx) and (min-width: 1440px) {
-      background-image: url(../images/desktope/3d-scanning/image2@2x.png);
+      background-image: url(../images/desktop/3d-scanning/image2@2x.png);
     }
   }
 
@@ -241,13 +241,13 @@
       width: 177px;
       height: 154px;
       background-size: 177px 154px;
-      background-image: url(../images/desktope/3d-scanning/image3.png);
+      background-image: url(../images/desktop/3d-scanning/image3.png);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
       (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
       (min-resolution: 192dpi) and (min-width: 1440px),
       (min-resolution: 2dppx) and (min-width: 1440px) {
-      background-image: url(../images/desktope/3d-scanning/image3@2x.png);
+      background-image: url(../images/desktop/3d-scanning/image3@2x.png);
     }
   }
 
@@ -285,13 +285,13 @@
       width: 177px;
       height: 154px;
       background-size: 177px 154px;
-      background-image: url(../images/desktope/3d-scanning/image4.png);
+      background-image: url(../images/desktop/3d-scanning/image4.png);
     }
     @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
       (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
       (min-resolution: 192dpi) and (min-width: 1440px),
       (min-resolution: 2dppx) and (min-width: 1440px) {
-      background-image: url(../images/desktope/3d-scanning/image4@2x.png);
+      background-image: url(../images/desktop/3d-scanning/image4@2x.png);
     }
   }
 }
@@ -311,7 +311,7 @@
   }
 }
 
-.scan-process__br-desktope {
+.scan-process__br-desktop {
   @media screen and (max-width: 1439px) {
     display: none;
   }
