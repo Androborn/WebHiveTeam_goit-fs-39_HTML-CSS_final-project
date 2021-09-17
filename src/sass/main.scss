@@ -1,47 +1,31 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+/* UTILS */
+@import './utils/variables';
+@import './utils/mixins';
+@import './utils/placeholders';
 
-// Стили для файла с примером HTML-фрагмента
-@import './utils/_variables.scss';
-@import './utils/_fonts.scss';
-@import './base/base.scss';
-//burger
-@import './components/hamburgers/hamburgers.scss';
+/* BASE */
+@import './base/fonts';
+@import './base/base';
+@import './base/reset';
 
-@import './layout/footer.scss';
-@import './layout/main-menu';
-
-//header
-@import './layout/header/header';
-
-//main
-@import './layout/main/hero.scss';
-@import './layout/main/gallery.scss';
-@import './layout/main/more_photo.scss';
-@import './layout/main/gallery-overlay.scss';
-//modeling
-@import './layout/3d_modeling/hero';
-@import './layout/3d_modeling/methods_of_creations';
-@import './layout/3d_modeling/order_form_button';
-@import './layout/3d_modeling/we_create_model';
-//printing
-@import './layout/3d_printing/model_examples';
-@import './layout/3d_printing/process_description';
-//scaning
-@import './layout/3d_scanning/hero';
-@import './layout/3d_scanning/scan_process';
-//contact
-@import './layout/contact/hero';
-//take-order
-@import './layout/order/hero';
-//mobile-main-menu
-@import './layout/main-menu';
-
-//components
+/* COMPONENTS */
+@import './components/hamburgers/hamburgers';
 @import './components/order-btn';
 @import './components/order-form';
 @import './components/contact-info';
 @import './components/main-bg-wrapper';
 @import './components/bg-wrapper';
+@import './components/gallery-overlay';
+
+/* LAYOUT */
+@import './layout/header';
+@import './layout/footer';
+@import './layout/mobile-menu';
+
+/* PAGES */
+@import './pages/main-page';
+@import './pages/3d-modeling';
+@import './pages/3d-scanning';
+@import './pages/3d-printing';
+@import './pages/order-page';
+@import './pages/contact-page';

@@ -1,0 +1,205 @@
+.header--mobile-menu-is-open {
+  position: fixed;
+  width: 100%;
+  z-index: 101;
+}
+
+.main-menu {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $primary-white-color;
+
+  @media screen and (min-width: 1440px) {
+    background-image: url(../images/desktope/main/page_bg.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+    screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    background-image: url(../images/desktope/main/page_bg@2x.jpg);
+  }
+
+  &__container {
+    /* position: absolute;
+    top: -62px; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    background-color: $primary-white-color;
+    background-image: url(../images/mobile/main/page_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+      screen and (min-resolution: 192dpi) and (max-width: 767px),
+      screen and (min-resolution: 2dppx) and (max-width: 767px) {
+      background-image: url(../images/mobile/main/page_bg@2x.jpg);
+    }
+    @media screen and (min-width: 768px) {
+      background-image: url(../images/tablet/main/page_bg.jpg);
+    }
+    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+      screen and (min-resolution: 192dpi) and (min-width: 768px),
+      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+      background-image: url(../images/tablet/main/page_bg@2x.jpg);
+    }
+  }
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  &__btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+  }
+
+  &__close {
+    width: 45px;
+    height: 45px;
+    fill: $accent-color;
+    transition: fill 250ms linear;
+  }
+}
+
+.mobile-menu-is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $primary-white-color;
+
+  &__container {
+    /* position: absolute;
+    top: -62px; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+  }
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  &__btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+  }
+
+  &__close {
+    width: 45px;
+    height: 45px;
+    fill: $accent-color;
+    transition: fill 250ms linear;
+  }
+}
+
+/* mobile-menu */
+.menu__list {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 115px;
+
+  & > li:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.menu__item {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* mobile-menu end */
+
+/* tablet-menu */
+
+.menu__link,
+.services-menu__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $accent-color;
+  font-family: sans-serif;
+  transform: text-shhadow;
+
+  /* &__item::before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: $accent-color;
+    border-radius: 3px 0px;
+    margin-right: 10px;
+    align-items: center;
+    transform: translateY(-2px);
+  } */
+}
+
+.services-menu__link::before {
+  display: block;
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: $accent-color;
+  border-radius: 3px 0px;
+  margin-right: 10px;
+  align-items: center;
+  /* transform: translateY(-2px); */
+  /* width: 7px;
+  height: 7px;
+  margin-right: 10px;
+  background-image: url(./images/menu/bullet.jpg); */
+}
+
+@media screen and (max-width: 1399px) {
+  .menu {
+    display: none;
+  }
+}
+
+/* desktop menu */
+@media screen and (min-width: 1444px) {
+  .mobile-menu {
+    display: none;
+  }
+}
+
+.current {
+  color: $primary-white-color;
+  text-shadow: $accent-color 1px 1px 0, $accent-color -1px -1px 0,
+    $accent-color -1px 1px 0, $accent-color 1px -1px 0;
+}
