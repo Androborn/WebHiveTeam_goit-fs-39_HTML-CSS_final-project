@@ -15,7 +15,7 @@
   padding-bottom: 4px;
   font-size: 16px;
   height: 20px;
-  color: $text-descr;
+  color: $main-text-color;
   font-family: inherit;
   cursor: pointer;
   width: 100%;
@@ -35,7 +35,7 @@
   font-size: 16px;
   line-height: 1.25;
   text-transform: capitalize;
-  color: $text-descr;
+  color: $main-text-color;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -117,7 +117,7 @@
   line-height: 1.25;
   resize: none;
   &::placeholder {
-    color: $textarea-color;
+    color: $secondary-text-color;
   }
 
   @media screen and (min-width: 1440px) {
@@ -140,7 +140,7 @@
 .order-form__message {
   width: 100%;
   font-weight: 400;
-  color: $textarea-color;
+  color: $secondary-text-color;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 24px;
@@ -162,7 +162,7 @@
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $primary-white-color;
+  color: $main-background-color;
   width: 280px;
   height: 56px;
   background: $accent-color;
@@ -170,12 +170,12 @@
   border-radius: 30.5px;
   padding: 16px 32px;
   cursor: pointer;
-  transition: box-shadow, $main-duration $timing-function;
-  transition: background, $main-duration $timing-function;
+  transition: box-shadow, $main-duration $main-timing-function;
+  transition: background, $main-duration $main-timing-function;
 
   &:hover,
   &:focus {
-    box-shadow: $btn-shadow-dark;
+    box-shadow: $btn-shadow-hover;
     background: $accent-color-hover;
   }
   @media screen and (min-width: 768px) {

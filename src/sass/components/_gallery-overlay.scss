@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(43, 43, 43, 0.8);
-  transition: opacity $timing-function $main-duration;
+  transition: opacity $main-timing-function $main-duration;
 }
 
 .gallery-overlay__wrapper {

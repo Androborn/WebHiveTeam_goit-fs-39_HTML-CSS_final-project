@@ -1,16 +1,19 @@
 $accent-color: #008cef;
 $accent-color-hover: #0d73bd;
-$text-descr: #2b2b2b;
-$primary-white-color: #ffffff;
-$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+$main-text-color: #2b2b2b;
+$secondary-text-color: #cdcdcd;
+
+$main-background-color: #ffffff;
+
+$main-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 $main-duration: 250ms;
+
 $btn-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.2),
   5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
-$btn-shadow-dark: -10px -10px 20px #ffffff,
+$btn-shadow-hover: -10px -10px 20px #ffffff,
   10px 10px 20px rgba(72, 121, 150, 0.5), 5px 5px 10px rgba(72, 121, 150, 0.25),
   -5px -5px 10px #ffffff;
-$textarea-color: #cdcdcd;
-$background-btn: #f5f5fa;
 
 $hamburger-padding-x: 0;
 $hamburger-padding-y: 0;

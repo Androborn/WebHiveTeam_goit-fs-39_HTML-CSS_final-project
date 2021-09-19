@@ -50,7 +50,7 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.01em;
-  color: $text-descr;
+  color: $main-text-color;
 }
 .footer__nav-link:hover,
 .footer__nav-link:focus {
@@ -73,7 +73,7 @@
   line-height: 1.25;
   text-align: center;
   letter-spacing: 0.01em;
-  color: $text-descr;
+  color: $main-text-color;
 }
 .footer__social-link:hover,
 .footer__social-link:focus {
@@ -99,7 +99,7 @@
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
-  color: $text-descr;
+  color: $main-text-color;
 }
 @media screen and (max-width: 767px) {
   .footer__tel-heading {
@@ -128,12 +128,12 @@
 }
 .footer__contact-tel-link:hover,
 .footer__contact-tel-link:focus {
-  color: $text-descr;
+  color: $main-text-color;
 }
 
 .footer__contact-link:hover,
 .footer__contact-link:focus {
-  color: $text-descr;
+  color: $main-text-color;
 }
 @media screen and (min-width: 768px) {
   .footer__contact-link {
