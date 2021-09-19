@@ -33,6 +33,7 @@
 //   }
 // }
 
+// HERO
 .main__page-title {
   width: 280px;
   margin-right: auto;
@@ -181,6 +182,7 @@
   }
 }
 
+// GALLERY
 .gallery__list {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -238,6 +240,7 @@
   }
 }
 
+// MORE PHOTO
 .more-photo__list {
   margin-bottom: 32px;
 
