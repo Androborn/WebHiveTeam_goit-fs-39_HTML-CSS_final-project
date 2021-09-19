@@ -11,7 +11,7 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: $primary-white-color;
+  background-color: $main-background-color;
 
   @media screen and (min-width: 1440px) {
     background-image: url(../images/desktop/main/page_bg.jpg);
@@ -29,7 +29,7 @@
     flex-direction: column;
     position: relative;
     height: 100%;
-    background-color: $primary-white-color;
+    background-color: $main-background-color;
     background-image: url(../images/mobile/main/page_bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -85,7 +85,7 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color: $primary-white-color;
+  background-color: $main-background-color;
 
   &__container {
     /* position: absolute;
@@ -199,7 +199,7 @@
 }
 
 .current {
-  color: $primary-white-color;
+  color: $main-background-color;
   text-shadow: $accent-color 1px 1px 0, $accent-color -1px -1px 0,
     $accent-color -1px 1px 0, $accent-color 1px -1px 0;
 }
