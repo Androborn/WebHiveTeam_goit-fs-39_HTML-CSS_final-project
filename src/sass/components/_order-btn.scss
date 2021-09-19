@@ -6,15 +6,19 @@
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  background: $background-btn;
+  background: $accent-color;
   box-shadow: $btn-shadow;
   border-radius: 30.5px;
   padding: 16px 32px;
-  color: $accent-color;
+  color: $primary-white-color;
   cursor: pointer;
   transition: box-shadow $main-duration $timing-function;
+  transition: background, $main-duration $timing-function;
+
   &:hover,
   &:focus {
     box-shadow: $btn-shadow-dark;
+    background: $accent-color-hover;
+
   }
 }
