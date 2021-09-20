@@ -44,15 +44,15 @@
       font-size: 18px;
       line-height: 1.28;
       margin-top: 24px;
+
+      &--left {
+        margin-right: 32px;
+      }
     }
   }
 
   .description-box {
     display: flex;
-  }
-
-  .description-left {
-    margin-right: 32px;
   }
 }
 
