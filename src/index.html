@@ -111,21 +111,22 @@
 
   <body>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+
+    <include
+      src="./partials/components/_main-bg-wrapper.html"
+    ></include>
+
     <include src="./partials/layout/_header.html"></include>
 
-    <include src="./partials/pages/_main-page.html"></include>
+    <include src="./partials/layout/_mobile-menu.html"></include>
 
-    <include src="./partials/layout/_footer.html"></include>
+    <include src="./partials/pages/_main-page.html"></include>
 
     <include
       src="./partials/components/_gallery-overlay.html"
     ></include>
 
-    <include src="./partials/layout/_mobile-menu.html"></include>
-
-    <include
-      src="./partials/components/_main-bg-wrapper.html"
-    ></include>
+    <include src="./partials/layout/_footer.html"></include>
 
     <script src="././js/mobile-menu.js"></script>
   </body>
