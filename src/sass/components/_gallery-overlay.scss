@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(43, 43, 43, 0.8);
-  transition: opacity $timing-function $main-duration;
+  transition: opacity $main-timing-function $main-duration;
 }
 
 .gallery-overlay__wrapper {
@@ -19,7 +19,7 @@
   @media screen and (min-width: 768px) {
     width: calc(100% - 214px);
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     width: calc(100% - 538px);
   }
 }
@@ -36,7 +36,7 @@
     width: 14px;
     height: 25px;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     width: 23px;
     height: 40px;
   }
@@ -50,7 +50,7 @@
     width: 14px;
     height: 25px;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     width: 23px;
     height: 40px;
   }
@@ -63,7 +63,7 @@
   transform: translateY(-50%);
   cursor: pointer;
   padding: 10px;
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     left: -57px;
   }
 }
@@ -76,7 +76,7 @@
   cursor: pointer;
   padding: 10px;
 
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     right: -57px;
   }
 }

@@ -5,7 +5,7 @@
   @media screen and (min-width: 768px) {
     width: 420px;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     width: 515px;
   }
 }
@@ -15,7 +15,7 @@
   padding-bottom: 4px;
   font-size: 16px;
   height: 20px;
-  color: $text-descr;
+  color: $main-text-color;
   font-family: inherit;
   cursor: pointer;
   width: 100%;
@@ -35,13 +35,13 @@
   font-size: 16px;
   line-height: 1.25;
   text-transform: capitalize;
-  color: $text-descr;
+  color: $main-text-color;
   position: absolute;
   bottom: 0;
   left: 0;
   transition: transform 250ms ease;
 
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
   }
@@ -98,7 +98,7 @@
     line-height: 1.26;
     text-align: center;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 36px;
     line-height: 1.26;
     text-align: left;
@@ -117,10 +117,10 @@
   line-height: 1.25;
   resize: none;
   &::placeholder {
-    color: $textarea-color;
+    color: $secondary-text-color;
   }
 
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
   }
@@ -140,7 +140,7 @@
 .order-form__message {
   width: 100%;
   font-weight: 400;
-  color: $textarea-color;
+  color: $secondary-text-color;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 24px;
@@ -148,7 +148,7 @@
     margin-bottom: 44px;
   }
 
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
     margin-bottom: 24px;
@@ -162,25 +162,28 @@
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $accent-color;
+  color: $main-background-color;
   width: 280px;
   height: 56px;
-  background: $background-btn;
+  background: $accent-color;
   box-shadow: $btn-shadow;
   border-radius: 30.5px;
   padding: 16px 32px;
   cursor: pointer;
-  transition: box-shadow $main-duration $timing-function;
+  transition: box-shadow, $main-duration $main-timing-function;
+  transition: background, $main-duration $main-timing-function;
+
   &:hover,
   &:focus {
-    box-shadow: $btn-shadow-dark;
+    box-shadow: $btn-shadow-hover;
+    background: $accent-color-hover;
   }
   @media screen and (min-width: 768px) {
     width: 177px;
     height: 56px;
     margin-left: auto;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     width: 175px;
     height: 55px;
     font-size: 18px;

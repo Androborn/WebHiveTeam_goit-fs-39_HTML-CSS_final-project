@@ -1,3 +1,4 @@
+// 3D PRINTING EXAMPLES
 .model-examples__title {
   margin-bottom: 16px;
 
@@ -26,10 +27,10 @@
   margin-left: 15px;
   margin-bottom: 15px;
 
-  background: $primary-white-color;
+  background: $main-background-color;
   opacity: 0.8;
   box-shadow: inset 1px 1px 16px #cbcbcb,
-    inset -1px -1px 16px $primary-white-color;
+    inset -1px -1px 16px $main-background-color;
   border-radius: 50px 0px;
 }
 .model-examples__subtitle {
@@ -82,6 +83,7 @@
   }
 }
 
+// 3D PRINTING DESCRIPTION
 .process-description__item:not(:last-child) {
   margin-bottom: 52px;
 }
@@ -127,7 +129,7 @@
 .process-description__text {
   margin-top: 16px;
 
-  color: $text-descr;
+  color: $main-text-color;
 }
 .process-description__button {
   margin-top: 24px;
