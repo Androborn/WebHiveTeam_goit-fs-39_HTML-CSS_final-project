@@ -20,7 +20,7 @@
   }
 }
 
-.footer__logo {
+.footer__logo-link {
   display: block;
   width: 192px;
   height: 48px;
@@ -36,7 +36,7 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .footer__logo--wrapper {
+  .footer__logo {
     margin-right: 136px;
   }
 }
@@ -107,12 +107,12 @@
   text-align: center;
 }
 
-.footer-contact__tel--item:not(:last-child) {
+.footer-contact__tel-item:not(:last-child) {
   margin-bottom: 8px;
 }
 
-.footer-contact__mail--heading,
-.footer-contact__tel--heading {
+.footer-contact__mail-heading,
+.footer-contact__tel-heading {
   margin-bottom: 8px;
   font-style: normal;
   font-weight: 400;
@@ -122,22 +122,22 @@
   color: $main-text-color;
 }
 @media screen and (max-width: 767px) {
-  .footer-contact__tel--heading {
+  .footer-contact__tel-heading {
     margin-top: 24px;
   }
 }
 @media screen and (min-width: 768px) {
-  .footer-contact__tel--heading {
+  .footer-contact__tel-heading {
     margin-top: 16px;
   }
 }
 @media screen and (min-width: 768px) {
-  .footer-contact__mail--heading,
-  .footer-contact__tel--heading {
+  .footer-contact__mail-heading,
+  .footer-contact__tel-heading {
     text-align: right;
   }
 }
-.footer-contact__tel--link,
+.footer-contact__tel-link,
 .footer-contact__link {
   font-style: normal;
   font-weight: 400;
@@ -146,8 +146,8 @@
   text-align: center;
   color: $accent-color;
 }
-.footer-contact__tel--link:hover,
-.footer-contact__tel--link:focus {
+.footer-contact__tel-link:hover,
+.footer-contact__tel-link:focus {
   color: $main-text-color;
 }
 
@@ -161,7 +161,7 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .footer-contact__tel--item {
+  .footer-contact__tel-item {
     text-align: right;
   }
 }
@@ -195,13 +195,13 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .footer-contact__tel--item {
+  .footer-contact__tel-item {
     text-align: left;
   }
 }
 @media screen and (min-width: 1440px) {
-  .footer-contact__mail--heading,
-  .footer-contact__tel--heading {
+  .footer-contact__mail-heading,
+  .footer-contact__tel-heading {
     text-align: left;
   }
 }
