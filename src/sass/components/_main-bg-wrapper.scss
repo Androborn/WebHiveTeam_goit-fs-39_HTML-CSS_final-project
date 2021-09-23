@@ -299,9 +299,7 @@
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 72px;
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      screen and (min-resolution: 192dpi) and (min-width: 768px),
-      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/main/decor-image-1@2x.jpg);
     }
 
@@ -309,9 +307,7 @@
       background-image: url(../images/desktop/main/decor-image-1.jpg);
     }
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      screen and (min-resolution: 192dpi) and (min-width: 1440px),
-      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/main/decor-image-1@2x.jpg);
     }
   }
@@ -340,9 +336,7 @@
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 0px 0px 35px 0px;
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      screen and (min-resolution: 192dpi) and (min-width: 768px),
-      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/main/decor-image-2@2x.jpg);
     }
 
@@ -350,9 +344,7 @@
       background-image: url(../images/desktop/main/decor-image-2.jpg);
     }
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      screen and (min-resolution: 192dpi) and (min-width: 1440px),
-      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/main/decor-image-2@2x.jpg);
     }
   }
@@ -499,9 +491,7 @@
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 72px 72px 0px 0px;
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      screen and (min-resolution: 192dpi) and (min-width: 768px),
-      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/main/decor-image-4@2x.jpg);
     }
 
@@ -509,9 +499,7 @@
       background-image: url(../images/desktop/main/decor-image-4.jpg);
     }
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      screen and (min-resolution: 192dpi) and (min-width: 1440px),
-      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/main/decor-image-4@2x.jpg);
     }
   }
@@ -540,9 +528,7 @@
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 72px;
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      screen and (min-resolution: 192dpi) and (min-width: 768px),
-      screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/main/decor-image-3@2x.jpg);
     }
 
@@ -550,9 +536,7 @@
       background-image: url(../images/desktop/main/decor-image-3.jpg);
     }
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      screen and (min-resolution: 192dpi) and (min-width: 1440px),
-      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/main/decor-image-3@2x.jpg);
     }
 
@@ -744,9 +728,7 @@
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 72px;
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      screen and (min-resolution: 192dpi) and (min-width: 1440px),
-      screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/main/decor-image-5@2x.jpg);
     }
   }
