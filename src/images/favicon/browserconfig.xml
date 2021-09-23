@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<browserconfig><msapplication><tile><square70x70logo src="/favi.png"/><square150x150logo src="/favi.png"/><square310x310logo src="/favi.png"/><TileColor>#ffffff</TileColor></tile></msapplication></browserconfig>
+<browserconfig><msapplication><tile><square32x32logo src="/favicon-32x32.png"/><square70x70logo src="/favicon-76x76.png"/><square150x150logo src="/favicon-150x150.png"/><TileColor>#ffffff</TileColor></tile></msapplication></browserconfig>
