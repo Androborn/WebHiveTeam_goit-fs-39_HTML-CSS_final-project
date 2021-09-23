@@ -63,10 +63,8 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .model-examples__list {
-    justify-content: flex-start;
-  }
   .model-examples__item {
+    flex-basis: auto;
     width: 250px;
     height: 298px;
     &:not(:first-child) {
