@@ -3,7 +3,7 @@
   margin-bottom: 16px;
 
   font-weight: 700;
-  font-size: 24px;
+  font-size: $title-font-size-for-mobile;
   line-height: 1.25;
   text-transform: uppercase;
   color: $accent-color;
@@ -59,7 +59,7 @@
   }
   .model-examples__title {
     margin-bottom: 24px;
-    font-size: 36px;
+    font-size: $title-font-size-for-tablet;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -72,7 +72,7 @@
     }
   }
   .model-examples__title {
-    font-size: 48px;
+    font-size: $title-font-size-for-desk;
   }
   .model-examples__subtitle {
     width: 200px;
@@ -107,7 +107,7 @@
   object-position: 0 -96px;
 }
 .process-description__info-box {
-  font-size: 16px;
+  font-size: $description-font-size-for-mobile-tablet;
   line-height: 1.25;
   font-weight: 300;
 }
@@ -171,7 +171,7 @@
     width: 734px;
     margin-left: 78px;
 
-    font-size: 18px;
+    font-size: $description-font-size-for-desk;
     line-height: 1.28;
   }
   .process-description__item:not(:last-child) {

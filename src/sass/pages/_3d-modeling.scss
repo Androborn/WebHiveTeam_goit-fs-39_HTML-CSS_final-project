@@ -3,7 +3,7 @@
   &__title {
     font-family: Cera-Pro, sans-serif;
     font-weight: 700;
-    font-size: 24px;
+    font-size: $title-font-size-for-mobile;
     line-height: 1.25;
     color: $accent-color;
   }
@@ -11,7 +11,7 @@
   &__description {
     font-family: Cera-Pro, sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: $description-font-size-for-mobile-tablet;
     line-height: 1.25;
     margin-top: 16px;
   }
@@ -20,7 +20,7 @@
 @media screen and (min-width: 768px) {
   .modeling-hero {
     &__title {
-      font-size: 36px;
+      font-size: $title-font-size-for-tablet;
     }
 
     &__description {
@@ -35,13 +35,13 @@
     padding-right: 189px;
 
     &__title {
-      font-size: 48px;
+      font-size: $title-font-size-for-desk;
       line-height: 1.25;
     }
 
     &__description {
       min-width: 515px;
-      font-size: 18px;
+      font-size: $description-font-size-for-desk;
       line-height: 1.28;
       margin-top: 24px;
 
@@ -68,7 +68,7 @@
   &__item {
     font-family: Cera-Pro, sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: $description-font-size-for-mobile-tablet;
     line-height: 1.25;
     margin-top: 16px;
   }
@@ -140,7 +140,7 @@
     font-size: 36px;
 
     &__item {
-      font-size: 18px;
+      font-size: $description-font-size-for-desk;
       line-height: 1.28;
     }
   }
