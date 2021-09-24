@@ -10,7 +10,6 @@
     padding-bottom: 30px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .footer-container {
     display: flex;
@@ -56,41 +55,56 @@
 .footer__nav-link:focus {
   color: $accent-color;
 }
-
-.footer__social {
-  margin-top: 30px;
+.footer__social-list {
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
+.footer__social {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.footer__social-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
 
+  margin-right: 5px;
+}
+.footer__social-item {
+  display: flex;
+}
 .footer__social-item:not(:last-child) {
   margin-bottom: 8px;
 }
 .footer__social-link {
+  display: flex;
+  align-items: center;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
   letter-spacing: 0.01em;
   color: $main-text-color;
+
+  transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
 }
 .footer__social-link:hover,
 .footer__social-link:focus {
   color: $accent-color;
+  fill: $accent-color;
 }
-
 .footer__contact {
   margin-top: 24px;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
 .footer__contact-tel-item:not(:last-child) {
   margin-bottom: 8px;
 }
-
 .footer__mail-heading,
 .footer__tel-heading {
   margin-bottom: 8px;
@@ -130,7 +144,6 @@
 .footer__contact-tel-link:focus {
   color: $main-text-color;
 }
-
 .footer__contact-link:hover,
 .footer__contact-link:focus {
   color: $main-text-color;
