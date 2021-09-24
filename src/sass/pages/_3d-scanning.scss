@@ -44,10 +44,10 @@
   }
   @media screen and (min-width: 1440px) {
     display: flex;
-    &--left {
+    &-position--left {
       margin-right: 32px;
     }
-    &--right {
+    &-position--right {
       position: relative;
     }
   }
