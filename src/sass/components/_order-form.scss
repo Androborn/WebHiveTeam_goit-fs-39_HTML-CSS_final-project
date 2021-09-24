@@ -19,8 +19,15 @@
   font-family: inherit;
   cursor: pointer;
   width: 100%;
+  transition: border-bottom $main-duration $main-timing-function;
   &:focus {
     border-bottom: 1px solid $accent-color;
+  }
+  &:not(:placeholder-shown):required:invalid {
+    border-bottom: 2px solid red;
+  }
+  &:valid {
+    border-bottom: 2px solid $accent-color-hover;
   }
 }
 
@@ -39,7 +46,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: transform 250ms ease;
+  transition: transform $main-duration ease;
 
   @media screen and (min-width: 1440px) {
     font-size: 18px;
