@@ -31,9 +31,8 @@
     background-image: url(../images/mobile/main/page_bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-      screen and (min-resolution: 192dpi) and (max-width: 767px),
-      screen and (min-resolution: 2dppx) and (max-width: 767px) {
+
+    @include retina-size(mobile) {
       background-image: url(../images/mobile/main/page_bg@2x.jpg);
     }
     @media screen and (min-width: 768px) {
