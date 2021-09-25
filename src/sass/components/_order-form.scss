@@ -23,6 +23,9 @@
     border-bottom: 1px solid $accent-color;
   }
 }
+.order-form__input:hover + .order-form__label {
+  color: $accent-color;
+}
 
 .order-form__input:focus + .order-form__label,
 .order-form__input:not(:placeholder-shown) + .order-form__label {
@@ -39,7 +42,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: transform 250ms ease;
+  transition: transform 250ms ease,
+    color $main-duration $main-timing-function;
 
   @media screen and (min-width: 1440px) {
     font-size: 18px;
@@ -81,7 +85,6 @@
   font-weight: 400;
   resize: none;
 }
-
 .order-form__pin {
   display: none;
 }
@@ -119,7 +122,6 @@
   &::placeholder {
     color: $secondary-text-color;
   }
-
   @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
