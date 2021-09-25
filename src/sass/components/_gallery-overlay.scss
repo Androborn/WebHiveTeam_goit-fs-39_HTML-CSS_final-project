@@ -32,6 +32,7 @@
 .gallery-overlay__symbol-left {
   width: 6px;
   height: 10px;
+  fill: var(--color1, #fff);
   @media screen and (min-width: 768px) {
     width: 14px;
     height: 25px;
@@ -45,6 +46,7 @@
 .gallery-overlay__symbol-right {
   width: 6px;
   height: 10px;
+  fill: var(--color1, #fff);
 
   @media screen and (min-width: 768px) {
     width: 14px;
