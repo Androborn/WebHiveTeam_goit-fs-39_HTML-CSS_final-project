@@ -1,7 +1,7 @@
 // 3D MODELING HERO
 
 .modeling {
-  &__hero {
+  &__container {
     @media screen and (min-width: 1440px) {
       padding-left: 189px;
       padding-right: 189px;
@@ -95,7 +95,7 @@
   }
 }
 
-.bgi {
+.methods__images {
   @media screen and (min-width: 768px) {
     position: relative;
   }
