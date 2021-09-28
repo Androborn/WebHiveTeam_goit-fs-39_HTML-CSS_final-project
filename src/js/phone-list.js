@@ -5,12 +5,12 @@
     modal: document.querySelector('[phone-list]'),
   };
 
-  refs.openModalBtn.addEventListener('click', openModal);
+  refs.openModalBtn.addEventListener('click', toggleModal);
   refs.closeModalBtn.addEventListener('click', closeModal);
 
-  function openModal(e) {
+  function toggleModal(e) {
     e.stopPropagation();
-    refs.modal.classList.add('header__contacts--mobile--is-open');
+    refs.modal.classList.toggle('header__contacts--mobile--is-open');
   }
   function closeModal(e) {
     e.stopPropagation();
