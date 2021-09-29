@@ -1,7 +1,7 @@
 <footer class="footer">
-  <div class="footer__box container">
-    <div class="footer__logo">
-      <a class="footer__logo-link" href="./index.html">
+  <div class="container footer__box">
+    <div class="footer__logo-wrapper">
+      <a class="footer__logo" href="./index.html">
         <picture>
           <source
             srcset="
@@ -22,7 +22,7 @@
     </div>
     <div class="footer__container">
       <nav class="footer-nav">
-        <ul class="list">
+        <ul class="footer-nav__list list">
           <li class="footer-nav__item">
             <a class="footer-nav__link link" href="./index.html"
               >Головна</a
@@ -56,43 +56,60 @@
         </ul>
       </nav>
       <div class="footer-social">
-        <ul class="list">
+        <ul class="footer-social__list list">
           <li class="footer-social__item">
-            <a class="footer-social__link link" href="#">Instagram</a>
+            <a class="footer-social__link link" href="#"
+              ><svg class="footer-social__icon" viewBox="0 0 24 28">
+                <use href="/images/sprite.svg#icon-instagram"></use>
+              </svg>
+              Instagram
+            </a>
           </li>
           <li class="footer-social__item">
-            <a class="footer-social__link link" href="#">YouTube</a>
+            <a class="footer-social__link link" href="#">
+              <svg class="footer-social__icon" viewBox="0 0 24 28">
+                <use href="/images/sprite.svg#icon-youtube"></use>
+              </svg>
+              YouTube</a
+            >
           </li>
           <li class="footer-social__item">
-            <a class="footer-social__link link" href="#">Facebook</a>
+            <a class="footer-social__link link" href="#">
+              <svg class="footer-social__icon" viewBox="0 0 24 28">
+                <use href="/images/sprite.svg#icon-facebook"></use>
+              </svg>
+              Facebook</a
+            >
           </li>
         </ul>
       </div>
-      <address class="footer-contact">
-        <p class="footer-contact__mail-heading">Email</p>
-        <a
-          class="footer-contact__link link"
-          href="mailto:3dfreedom.info@gmail.com"
-          >3dfreedom.info@gmail.com</a
-        >
-        <p class="footer-contact__tel-heading">Телефони</p>
-        <ul class="list">
-          <li class="footer-contact__tel-item">
-            <a
-              class="footer-contact__tel-link link"
-              href="tel:+380936432288"
-              >+38 (093) 643 22 88</a
-            >
-          </li>
-          <li class="footer-contact__tel-item">
-            <a
-              class="footer-contact__tel-link link"
-              href="tel:+380503454423"
-              >+38 (050) 345 44 23</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="footer-contact">
+        <address class="footer-contact__wrapper">
+          <p class="footer-contact__mail-heading">Email</p>
+          <a
+            class="footer-contact__link link"
+            href="mailto:3dfreedom.info@gmail.com"
+            >3dfreedom.info@gmail.com</a
+          >
+          <p class="footer-contact__tel-heading">Телефони</p>
+          <ul class="footer-contact__list list">
+            <li class="footer-contact__item">
+              <a
+                class="footer-contact__link link"
+                href="tel:+380936432288"
+                >+38 (093) 643 22 88</a
+              >
+            </li>
+            <li class="footer-contact__item">
+              <a
+                class="footer-contact__link link"
+                href="tel:+380503454423"
+                >+38 (050) 345 44 23</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </div>
   </div>
 </footer>
