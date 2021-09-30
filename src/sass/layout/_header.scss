@@ -85,7 +85,7 @@
 
     margin-left: 4px;
     border: 5px solid transparent;
-    border-bottom: 4px solid #008cef;
+    border-bottom: 4px solid $accent-color;
     transform: rotate(180deg) translateY(-20%);
   }
   &--dropdown::after {
@@ -252,7 +252,7 @@
 
   width: 14px;
   height: 14px;
-  fill: #008cef;
+  fill: $accent-color;
 
   @media screen and (min-width: 768px) {
     margin-top: 4px;
