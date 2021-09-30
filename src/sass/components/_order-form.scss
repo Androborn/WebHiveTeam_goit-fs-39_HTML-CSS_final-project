@@ -5,7 +5,7 @@
   @media screen and (min-width: 768px) {
     width: 420px;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     width: 515px;
   }
 }
@@ -41,7 +41,7 @@
   left: 0;
   transition: transform 250ms ease;
 
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
   }
@@ -51,7 +51,7 @@
   margin-bottom: 44px;
 }
 
-.order-form__select {
+.order-form__wrapper-select {
   border: none;
   border-bottom: 1px solid $accent-color;
   width: 100%;
@@ -62,27 +62,23 @@
   appearance: none;
 }
 
-.order-form__select-wrapper {
-  position: relative;
-  margin-bottom: 44px;
-  &::after {
-    content: '◢';
-    display: inline-block;
-    transform: rotate(45deg);
-    position: absolute;
-    right: 0;
-    bottom: 2px;
-    pointer-events: none;
-  }
+.order-form__wrapper--pseudo::after {
+  content: '◢';
+  display: inline-block;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  pointer-events: none;
 }
 
-.order-form__label-textarea {
+.order-form__textarea-label {
   margin-bottom: 4px;
   font-weight: 400;
   resize: none;
 }
 
-.order-form__pin {
+.order-form__textarea-pin {
   display: none;
 }
 .order-form__title {
@@ -98,7 +94,7 @@
     line-height: 1.26;
     text-align: center;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 36px;
     line-height: 1.26;
     text-align: left;
@@ -120,7 +116,7 @@
     color: $textarea-color;
   }
 
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
   }
@@ -130,7 +126,7 @@
   position: relative;
 }
 
-.order-form__file-add {
+.order-form__textarea-file-add {
   position: absolute;
   bottom: 18px;
   right: 21px;
@@ -148,7 +144,7 @@
     margin-bottom: 44px;
   }
 
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
     margin-bottom: 24px;
@@ -180,7 +176,7 @@
     height: 56px;
     margin-left: auto;
   }
-  @media screen and (min-width: 1444px) {
+  @media screen and (min-width: 1440px) {
     width: 175px;
     height: 55px;
     font-size: 18px;

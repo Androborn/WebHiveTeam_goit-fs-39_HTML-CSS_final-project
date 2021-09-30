@@ -72,12 +72,6 @@
   }
 }
 
-.mobile-menu-is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 .mobile-menu {
   position: fixed;
   z-index: 100;
@@ -192,7 +186,7 @@
 }
 
 /* desktop menu */
-@media screen and (min-width: 1444px) {
+@media screen and (min-width: 1440px) {
   .mobile-menu {
     display: none;
   }
