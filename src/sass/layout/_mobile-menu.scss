@@ -59,11 +59,6 @@
   align-items: center;
   justify-content: center;
   color: $accent-color;
-  &:hover {
-    color: $main-background-color;
-    text-shadow: $accent-color 1px 1px 0, $accent-color -1px -1px 0,
-      $accent-color -1px 1px 0, $accent-color 1px -1px 0;
-  }
 }
 
 .services-menu__link::before {
@@ -85,8 +80,10 @@
   }
 }
 
-// .current {
-//   color: $main-background-color;
-//   text-shadow: $accent-color 1px 1px 0, $accent-color -1px -1px 0,
-//     $accent-color -1px 1px 0, $accent-color 1px -1px 0;
-// }
+.mobile-menu {
+  .link--active {
+    color: $main-background-color;
+    text-shadow: $accent-color 1px 1px 0, $accent-color -1px -1px 0,
+      $accent-color -1px 1px 0, $accent-color 1px -1px 0;
+  }
+}
