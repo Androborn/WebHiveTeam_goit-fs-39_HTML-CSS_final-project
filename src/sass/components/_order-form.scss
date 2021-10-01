@@ -62,7 +62,7 @@
   margin-bottom: 44px;
 }
 
-.order-form__select {
+.order-form__wrapper-select {
   border: none;
   border-bottom: 1px solid $accent-color;
   width: 100%;
@@ -73,26 +73,23 @@
   appearance: none;
 }
 
-.order-form__select-wrapper {
-  position: relative;
-  margin-bottom: 44px;
-  &::after {
-    content: '◢';
-    display: inline-block;
-    transform: rotate(45deg);
-    position: absolute;
-    right: 0;
-    bottom: 2px;
-    pointer-events: none;
-  }
+.order-form__wrapper--pseudo::after {
+  content: '◢';
+  display: inline-block;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0;
+  bottom: 2px;
+  pointer-events: none;
 }
 
-.order-form__label-textarea {
+.order-form__textarea-label {
   margin-bottom: 4px;
   font-weight: 400;
   resize: none;
 }
-.order-form__pin {
+
+.order-form__textarea-pin {
   display: none;
 }
 .order-form__title {
@@ -129,6 +126,7 @@
   &::placeholder {
     color: $secondary-text-color;
   }
+
   @media screen and (min-width: 1440px) {
     font-size: 18px;
     line-height: 1.1;
@@ -139,7 +137,7 @@
   position: relative;
 }
 
-.order-form__file-add {
+.order-form__textarea-file-add {
   position: absolute;
   bottom: 18px;
   right: 21px;

@@ -25,9 +25,9 @@
     />
     <label class="order-form__label"> Email </label>
   </span>
-  <div class="order-form__select-wrapper">
+  <div class="order-form__wrapper order-form__wrapper--pseudo">
     <select
-      class="order-form__select"
+      class="order-form__wrapper-select"
       id="plastic"
       name="plastic"
       required
@@ -41,9 +41,9 @@
     </select>
   </div>
 
-  <div class="order-form__select-wrapper">
+  <div class="order-form__wrapper order-form__wrapper--pseudo">
     <select
-      class="order-form__select"
+      class="order-form__wrapper-select"
       id="quality"
       name="quality"
       required
@@ -56,9 +56,9 @@
     </select>
   </div>
 
-  <div class="order-form__select-wrapper">
+  <div class="order-form__wrapper order-form__wrapper--pseudo">
     <select
-      class="order-form__select"
+      class="order-form__wrapper-select"
       id="color"
       name="color"
       required
@@ -73,7 +73,7 @@
     </select>
   </div>
 
-  <label class="order-form__label-textarea"> Повідомлення </label>
+  <label class="order-form__textarea-label"> Повідомлення </label>
   <div class="order-form__textarea-wrapper">
     <textarea
       class="order-form__textarea"
@@ -81,11 +81,15 @@
       rows="5"
       placeholder="Залишіть своє повідомлення"
     ></textarea>
-    <label class="order-form__file-add">
+    <label class="order-form__textarea-file-add">
       <svg width="21" height="20">
         <use href="./images/sprite.svg#icon-paper-clip_22x20"></use>
       </svg>
-      <input class="order-form__pin" type="file" name="file" />
+      <input
+        class="order-form__textarea-pin"
+        type="file"
+        name="file"
+      />
     </label>
   </div>
 
