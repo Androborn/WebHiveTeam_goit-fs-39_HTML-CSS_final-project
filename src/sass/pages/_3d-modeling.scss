@@ -9,10 +9,7 @@
   }
 
   &__title {
-    font-weight: 700;
     font-size: 24px;
-    line-height: 1.25;
-    color: $accent-color;
 
     @media screen and (min-width: 768px) {
       font-size: 36px;
@@ -20,7 +17,6 @@
 
     @media screen and (min-width: 1440px) {
       font-size: 48px;
-      line-height: 1.25;
     }
   }
 
@@ -55,11 +51,9 @@
 
 // 3D MODELING CREATIONS
 .methods {
-  font-weight: 700;
   font-size: 18px;
   line-height: 1.28;
   text-transform: uppercase;
-  color: $accent-color;
 
   &__item {
     font-weight: 300;
@@ -82,7 +76,6 @@
 
   @media screen and (min-width: 768px) {
     font-size: 24px;
-    line-height: 1.25;
   }
 
   @media screen and (min-width: 1440px) {
@@ -148,9 +141,7 @@
 .models {
   &__title {
     font-size: 16px;
-    line-height: 1.25;
     text-transform: uppercase;
-    color: $accent-color;
 
     @media screen and (min-width: 768px) {
       max-width: 593px;

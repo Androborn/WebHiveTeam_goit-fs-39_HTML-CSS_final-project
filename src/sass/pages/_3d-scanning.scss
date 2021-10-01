@@ -26,7 +26,6 @@
 }
 
 .scan-hero__title {
-  color: $accent-color;
   margin-bottom: 16px;
 
   @media screen and (min-width: 768px) {
@@ -136,12 +135,8 @@
 }
 
 .scan-process__title {
-  font-family: 'Cera-Pro';
   font-size: 18px;
   line-height: 1.27;
-
-  color: $accent-color;
-
   margin-bottom: 16px;
 
   @media screen and (min-width: 768px) {

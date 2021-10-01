@@ -3,12 +3,8 @@
   position: relative;
 }
 .take-order__title {
-  font-weight: bold;
   text-align: center;
   font-size: 22px;
-  line-height: 1.25;
-
-  color: $accent-color;
 
   @media screen and (min-width: 768px) {
     text-align: left;

@@ -1,11 +1,6 @@
 // CONTACT
 .contact__title {
-  font-family: Cera-Pro;
-  font-style: normal;
-  font-weight: 700;
   font-size: 24px;
-  line-height: 1.25;
-  color: $accent-color;
   margin-bottom: 16px;
 }
 
@@ -95,7 +90,12 @@
 @media screen and (min-width: 768px) {
   .contact__title {
     font-size: 36px;
-    line-height: 1.25;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .contact__title {
+      font-size: 48px;
+    }
   }
   .contact__top-part {
     display: flex;
@@ -107,7 +107,7 @@
     }
   }
 
-  .contact___paragraph-section {
+  .contact__paragraph-section {
     margin-left: 20px;
   }
   .video {
@@ -137,7 +137,7 @@
     margin-top: 0px;
   }
 
-  .contact___paragraph-section {
+  .contact__paragraph-section {
     margin-left: 32px;
   }
   .smile::after {
@@ -147,10 +147,6 @@
     height: 49px;
     font-size: 36px;
     padding: 0px;
-  }
-  .contact__title {
-    font-size: 48px;
-    line-height: 1.25;
   }
   .contact__paragraph {
     font-size: 18px;
