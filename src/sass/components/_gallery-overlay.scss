@@ -5,7 +5,7 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(43, 43, 43, 0.8);
-  transition: opacity $timing-function $main-duration;
+  transition: opacity $main-timing-function $main-duration;
 }
 
 .gallery-overlay__wrapper {
@@ -32,6 +32,7 @@
 .gallery-overlay__wrapper--symbol-left {
   width: 6px;
   height: 10px;
+  fill: var(--color1, #fff);
   @media screen and (min-width: 768px) {
     width: 14px;
     height: 25px;
@@ -45,6 +46,7 @@
 .gallery-overlay__wrapper--symbol-right {
   width: 6px;
   height: 10px;
+  fill: var(--color1, #fff);
 
   @media screen and (min-width: 768px) {
     width: 14px;

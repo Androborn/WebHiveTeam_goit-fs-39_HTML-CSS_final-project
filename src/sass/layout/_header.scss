@@ -4,6 +4,7 @@
   padding-bottom: 35px;
   min-width: 320px;
   align-items: center;
+  overflow: visible;
 
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -85,7 +86,7 @@
 
     margin-left: 4px;
     border: 5px solid transparent;
-    border-bottom: 4px solid #008cef;
+    border-bottom: 4px solid $accent-color;
     transform: rotate(180deg) translateY(-20%);
   }
   &--dropdown::after {
@@ -121,10 +122,10 @@
   pointer-events: none;
   transform: translate(-40px, 8px);
   height: 78px;
-  background: $primary-white-color;
+  background: $main-background-color;
   box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
   border-radius: 0px 0px 72px 72px;
-  transition: opacity $main-duration $timing-function;
+  transition: opacity $main-duration $main-timing-function;
 
   &--is-open {
     opacity: 1;
@@ -166,9 +167,12 @@
   background: none;
   border: none;
 
-  &:hover,
+  &:hover {
+    color: $accent-color;
+  }
   &:focus {
     color: $accent-color;
+    outline: 1px solid $accent-color;
   }
 
   @media screen and (min-width: 768px) {
@@ -194,10 +198,10 @@
 
     pointer-events: none;
     opacity: 0;
-    background: $primary-white-color;
+    background: $main-background-color;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 500ms $timing-function,
-      opacity $main-duration $timing-function;
+    transition: transform 500ms $main-timing-function,
+      opacity $main-duration $main-timing-function;
 
     &--is-open {
       transform: translate(-50%, calc(100% + 12px));
@@ -211,7 +215,7 @@
       left: 68px;
       position: absolute;
       border: 12px solid transparent;
-      border-bottom: 12px solid $primary-white-color;
+      border-bottom: 12px solid $main-background-color;
     }
   }
 }
@@ -249,7 +253,7 @@
 
   width: 14px;
   height: 14px;
-  fill: #008cef;
+  fill: $accent-color;
 
   @media screen and (min-width: 768px) {
     margin-top: 4px;

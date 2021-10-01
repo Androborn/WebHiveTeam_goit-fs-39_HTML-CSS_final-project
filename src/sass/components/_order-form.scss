@@ -15,13 +15,23 @@
   padding-bottom: 4px;
   font-size: 16px;
   height: 20px;
-  color: $text-descr;
+  color: $main-text-color;
   font-family: inherit;
   cursor: pointer;
   width: 100%;
+  transition: border-bottom $main-duration $main-timing-function;
   &:focus {
     border-bottom: 1px solid $accent-color;
   }
+  &:not(:placeholder-shown):required:invalid {
+    border-bottom: 2px solid red;
+  }
+  &:valid {
+    border-bottom: 2px solid $accent-color-hover;
+  }
+}
+.order-form__input:hover + .order-form__label {
+  color: $accent-color;
 }
 
 .order-form__input:focus + .order-form__label,
@@ -35,11 +45,12 @@
   font-size: 16px;
   line-height: 1.25;
   text-transform: capitalize;
-  color: $text-descr;
+  color: $main-text-color;
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: transform 250ms ease;
+  transition: transform 250ms ease,
+  color $main-duration $main-timing-function;
 
   @media screen and (min-width: 1440px) {
     font-size: 18px;
@@ -113,7 +124,7 @@
   line-height: 1.25;
   resize: none;
   &::placeholder {
-    color: $textarea-color;
+    color: $secondary-text-color;
   }
 
   @media screen and (min-width: 1440px) {
@@ -131,12 +142,13 @@
   bottom: 18px;
   right: 21px;
   cursor: pointer;
+  fill: var(--color2, #cdcdcd);
 }
 
 .order-form__message {
   width: 100%;
   font-weight: 400;
-  color: $textarea-color;
+  color: $secondary-text-color;
   font-size: 16px;
   line-height: 1.25;
   margin-bottom: 24px;
@@ -158,18 +170,21 @@
   text-align: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: $accent-color;
+  color: $main-background-color;
   width: 280px;
   height: 56px;
-  background: $background-btn;
+  background: $accent-color;
   box-shadow: $btn-shadow;
   border-radius: 30.5px;
   padding: 16px 32px;
   cursor: pointer;
-  transition: box-shadow $main-duration $timing-function;
+  transition: box-shadow, $main-duration $main-timing-function;
+  transition: background, $main-duration $main-timing-function;
+
   &:hover,
   &:focus {
-    box-shadow: $btn-shadow-dark;
+    box-shadow: $btn-shadow-hover;
+    background: $accent-color-hover;
   }
   @media screen and (min-width: 768px) {
     width: 177px;

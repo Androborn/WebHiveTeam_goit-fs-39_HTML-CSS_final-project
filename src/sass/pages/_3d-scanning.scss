@@ -1,3 +1,4 @@
+// 3D SCANNING HERO
 .scan-hero {
   @media screen and (max-width: 767px) {
     padding-bottom: 24px;
@@ -43,10 +44,10 @@
   }
   @media screen and (min-width: 1440px) {
     display: flex;
-    &--left {
+    &-position--left {
       margin-right: 32px;
     }
-    &--right {
+    &-position--right {
       position: relative;
     }
   }
@@ -75,10 +76,7 @@
   width: 280px;
   height: 199px;
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
-    (min-resolution: 192dpi) and (min-width: 280px),
-    (min-resolution: 2dppx) and (min-width: 280px) {
+  @include retina-size(mobile) {
     background-image: url(../images/mobile/3d-scanning/image@2x.jpg);
   }
 
@@ -95,10 +93,7 @@
     z-index: -1;
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-    (min-resolution: 192dpi) and (min-width: 768px),
-    (min-resolution: 2dppx) and (min-width: 768px) {
+  @include retina-size(tablet) {
     background-image: url(../images/tablet/3d-scanning/image@2x.jpg);
   }
 
@@ -114,14 +109,12 @@
     z-index: -1;
   }
 
-  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-    (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-    (min-resolution: 192dpi) and (min-width: 1440px),
-    (min-resolution: 2dppx) and (min-width: 1440px) {
+  @include retina-size(desktop) {
     background-image: url(../images/desktop/3d-scanning/image@2x.jpg);
   }
 }
 
+// 3D SCANNING PROCESS
 .scan-process {
   @media screen and (max-width: 767px) {
     position: relative;
@@ -191,10 +184,10 @@
   justify-content: center;
   align-items: center;
 
-  background: $primary-white-color;
+  background: $main-background-color;
   opacity: 0.8;
   box-shadow: inset 1px 1px 16px rgba(203, 203, 203, 0.8),
-    inset -1px -1px 16px $primary-white-color;
+    inset -1px -1px 16px $main-background-color;
 
   border-radius: 50px 0px;
 
@@ -252,10 +245,7 @@
     background-color: transparent;
     background-image: url(../images/mobile/3d-scanning/image1.png);
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
-      (min-resolution: 192dpi) and (min-width: 280px),
-      (min-resolution: 2dppx) and (min-width: 280px) {
+    @include retina-size(mobile) {
       background-image: url(../images/mobile/3d-scanning/image1@2x.png);
     }
 
@@ -265,10 +255,7 @@
       background-size: 108px 94px;
       background-image: url(../images/tablet/3d-scanning/image1.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-      (min-resolution: 192dpi) and (min-width: 768px),
-      (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/3d-scanning/image1@2x.png);
     }
 
@@ -279,10 +266,7 @@
       background-size: 177px 154px;
       background-image: url(../images/desktop/3d-scanning/image1.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (min-resolution: 192dpi) and (min-width: 1440px),
-      (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/3d-scanning/image1@2x.png);
     }
   }
@@ -296,10 +280,7 @@
     background-color: transparent;
     background-image: url(../images/mobile/3d-scanning/image2.png);
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
-      (min-resolution: 192dpi) and (min-width: 280px),
-      (min-resolution: 2dppx) and (min-width: 280px) {
+    @include retina-size(mobile) {
       background-image: url(../images/mobile/3d-scanning/image2@2x.png);
     }
 
@@ -309,10 +290,7 @@
       background-size: 108px 94px;
       background-image: url(../images/tablet/3d-scanning/image1.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-      (min-resolution: 192dpi) and (min-width: 768px),
-      (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/3d-scanning/image2@2x.png);
     }
 
@@ -323,10 +301,7 @@
       background-size: 177px 154px;
       background-image: url(../images/desktop/3d-scanning/image2.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (min-resolution: 192dpi) and (min-width: 1440px),
-      (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/3d-scanning/image2@2x.png);
     }
   }
@@ -340,10 +315,7 @@
     background-color: transparent;
     background-image: url(../images/mobile/3d-scanning/image3.png);
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
-      (min-resolution: 192dpi) and (min-width: 280px),
-      (min-resolution: 2dppx) and (min-width: 280px) {
+    @include retina-size(mobile) {
       background-image: url(../images/mobile/3d-scanning/image2@2x.png);
     }
 
@@ -353,10 +325,7 @@
       background-size: 108px 94px;
       background-image: url(../images/tablet/3d-scanning/image3.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-      (min-resolution: 192dpi) and (min-width: 768px),
-      (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/3d-scanning/image3@2x.png);
     }
 
@@ -367,10 +336,7 @@
       background-size: 177px 154px;
       background-image: url(../images/desktop/3d-scanning/image3.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (min-resolution: 192dpi) and (min-width: 1440px),
-      (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/3d-scanning/image3@2x.png);
     }
   }
@@ -384,10 +350,7 @@
     background-color: transparent;
     background-image: url(../images/mobile/3d-scanning/image4.png);
 
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
-      (min-resolution: 192dpi) and (min-width: 280px),
-      (min-resolution: 2dppx) and (min-width: 280px) {
+    @include retina-size(mobile) {
       background-image: url(../images/mobile/3d-scanning/image4@2x.png);
     }
 
@@ -397,10 +360,7 @@
       background-size: 108px 94px;
       background-image: url(../images/tablet/3d-scanning/image4.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-      (min-resolution: 192dpi) and (min-width: 768px),
-      (min-resolution: 2dppx) and (min-width: 768px) {
+    @include retina-size(tablet) {
       background-image: url(../images/tablet/3d-scanning/image4@2x.png);
     }
 
@@ -411,22 +371,13 @@
       background-size: 177px 154px;
       background-image: url(../images/desktop/3d-scanning/image4.png);
     }
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (-webkit-min-device-pixel-ratio: 2) and (min-width: 1440px),
-      (min-resolution: 192dpi) and (min-width: 1440px),
-      (min-resolution: 2dppx) and (min-width: 1440px) {
+    @include retina-size(desktop) {
       background-image: url(../images/desktop/3d-scanning/image4@2x.png);
     }
   }
 }
 
-//  $beforeList: "image1" "image2" "image3" "image4";
 
-//   @each $beforeName in $beforeList {
-//   .scan-process__descrip-#{$beforeName}::before {
-//   background-image: url(../images/mobile/3d-scanning/#{$beforeName}.png);
-//   }
-// }
 
 .scan-process__descrip-span {
   display: block;

@@ -1,15 +1,16 @@
-$accent-color: #487996;
-$text-descr: #2b2b2b;
-$primary-white-color: #ffffff;
-$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+$accent-color: #5c98d2;
+$accent-color-hover: #4382c3;
+$main-text-color: #2b2b2b;
+$secondary-text-color: #cdcdcd;
+$main-background-color: #ffffff;
+$main-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 $main-duration: 250ms;
-$btn-shadow: -10px -10px 20px #ffffff, 10px 10px 20px rgba(72, 121, 150, 0.1),
+$btn-shadow: -10px -10px 20px #ffffff,
+  10px 10px 20px rgba(72, 121, 150, 0.2),
   5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
-$btn-shadow-dark: -10px -10px 20px #ffffff,
-  10px 10px 20px rgba(72, 121, 150, 0.5), 5px 5px 10px rgba(72, 121, 150, 0.25),
-  -5px -5px 10px #ffffff;
-$textarea-color: #cdcdcd;
-$background-btn: #f5f5fa;
+$btn-shadow-hover: -10px -10px 20px #ffffff,
+  10px 10px 20px rgba(72, 121, 150, 0.5),
+  5px 5px 10px rgba(72, 121, 150, 0.25), -5px -5px 10px #ffffff;
 
 $hamburger-padding-x: 0;
 $hamburger-padding-y: 0;

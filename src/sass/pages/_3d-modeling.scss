@@ -1,62 +1,60 @@
-.modeling-hero {
+// 3D MODELING HERO
+
+.modeling {
+  &__container {
+    @media screen and (min-width: 1440px) {
+      padding-left: 189px;
+      padding-right: 189px;
+    }
+  }
+
   &__title {
-    font-family: Cera-Pro, sans-serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.25;
     color: $accent-color;
+
+    @media screen and (min-width: 768px) {
+      font-size: 36px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      font-size: 48px;
+      line-height: 1.25;
+    }
   }
 
   &__description {
-    font-family: Cera-Pro, sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.25;
     margin-top: 16px;
-  }
-}
 
-@media screen and (min-width: 768px) {
-  .modeling-hero {
-    &__title {
-      font-size: 36px;
-    }
-
-    &__description {
+    @media screen and (min-width: 768px) {
       max-width: 515px;
     }
-  }
-}
 
-@media screen and (min-width: 1440px) {
-  .modeling-hero {
-    padding-left: 189px;
-    padding-right: 189px;
-
-    &__title {
-      font-size: 48px;
-      line-height: 1.25;
-    }
-
-    &__description {
+    @media screen and (min-width: 1440px) {
       min-width: 515px;
       font-size: 18px;
       line-height: 1.28;
       margin-top: 24px;
+
+      &--left {
+        margin-right: 32px;
+      }
     }
-  }
-
-  .description-box {
-    display: flex;
-  }
-
-  .description-left {
-    margin-right: 32px;
   }
 }
 
+.modeling__box {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
+}
+
+// 3D MODELING CREATIONS
 .methods {
-  font-family: Cera-Pro, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.28;
@@ -64,7 +62,6 @@
   color: $accent-color;
 
   &__item {
-    font-family: Cera-Pro, sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.25;
@@ -82,64 +79,13 @@
     align-items: center;
     transform: translateY(-2px);
   }
-}
 
-// @media screen and (min-width: 320px) and (max-width: 767px) {
-//   .bgi-mobile {
-//     display: block;
-//     height: 462px;
-//   }
-
-.background-modeling {
-  background-image: url(../images/mobile/3d-modeling/image.png);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  width: 280px;
-  height: 164px;
-  background-size: contain;
-  margin-top: 32px;
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-  screen and (min-resolution: 192dpi) and (min-width: 280px),
-  screen and (min-resolution: 2dppx) and (min-width: 280px) {
-  .background-modeling {
-    background-image: url(../images/mobile/3d-modeling/image@2x.png);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .methods {
+  @media screen and (min-width: 768px) {
     font-size: 24px;
     line-height: 1.25;
   }
 
-  .bgi {
-    position: relative;
-  }
-  .background-modeling {
-    background-image: url(../images/tablet/3d-modeling/image.png);
-    background-repeat: no-repeat;
-    // background-position: right 52px center;
-    position: absolute;
-    top: 0px;
-    left: 466px;
-    width: 246px;
-    height: 144px;
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  .background-modeling {
-    background-image: url(/images/tablet/3d-modeling/image@2x.png);
-    background-size: contain;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .methods {
+  @media screen and (min-width: 1440px) {
     font-size: 36px;
 
     &__item {
@@ -147,8 +93,34 @@
       line-height: 1.28;
     }
   }
+}
 
-  .background-modeling {
+.methods__images {
+  @media screen and (min-width: 768px) {
+    position: relative;
+  }
+}
+
+.methods__background-model {
+  background-image: url(../images/mobile/3d-modeling/image.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  width: 280px;
+  height: 164px;
+  background-size: contain;
+  margin-top: 32px;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/tablet/3d-modeling/image.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 466px;
+    width: 246px;
+    height: 144px;
+  }
+
+  @media screen and (min-width: 1440px) {
     background-image: url(../images/desktop/3d-modeling/image.png);
     width: 515px;
     height: 300px;
@@ -157,75 +129,72 @@
     top: -92px;
   }
 
-  // .bgi {
-  //   display: block;
-  //   padding-top: 61px;
-  //   background-size: contain;
-  //   background-position: right 189px center;
-  // }
-}
+  @include retina-size(mobile) {
+    background-image: url(../images/mobile/3d-modeling/image@2x.png);
+  }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-  screen and (min-resolution: 192dpi) and (min-width: 1440px),
-  screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-  .background-modeling {
+  @include retina-size(tablet) {
+    background-image: url(/images/tablet/3d-modeling/image@2x.png);
+    background-size: contain;
+  }
+
+  @include retina-size(desktop) {
     background-image: url(../images/desktop/3d-modeling/image@2x.png);
   }
 }
 
-.models-image {
-  font-size: 16px;
-  line-height: 1.25;
-  text-transform: uppercase;
-  color: $accent-color;
+// 3D MODELS
+
+.models {
+  &__title {
+    font-size: 16px;
+    line-height: 1.25;
+    text-transform: uppercase;
+    color: $accent-color;
+
+    @media screen and (min-width: 768px) {
+      max-width: 593px;
+      font-size: 24px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      max-width: 842px;
+      font-size: 36px;
+    }
+  }
 
   &__list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -10.77px;
     margin-bottom: 52px;
+
+    @media screen and (min-width: 768px) {
+      flex-wrap: unset;
+      margin-left: -12.23px;
+    }
+
+    @media screen and (min-width: 1440px) {
+      margin-bottom: 100px;
+    }
   }
 
   &__item {
     margin-top: 16px;
     margin-left: 10.77px;
     flex-basis: calc((100% - 21.54px) / 2);
-  }
-}
 
-.modeling-btn {
-  text-align: center;
-  // margin-top: 52px;
-  // margin-bottom: 24px;
-}
-
-@media screen and (min-width: 768px) {
-  .models-image {
-    font-family: Cera-Pro, sans-serif;
-    font-size: 24px;
-
-    &__list {
-      flex-wrap: unset;
-      margin-left: -12.23px;
-    }
-    &__item {
+    @media screen and (min-width: 768px) {
       margin-top: 24px;
       margin-left: 12.23px;
     }
+
+    @media screen and (min-width: 1440px) {
+      margin-top: 52px;
+    }
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .models-image {
-    max-width: 842px;
-    font-size: 36px;
-
-    &__item {
-      margin-top: 52px;
-    }
-
-    &__list {
-      margin-bottom: 100px;
-    }
-  }
+.modeling__btn {
+  text-align: center;
 }
