@@ -91,7 +91,7 @@
 
 .hero__ancor-gide--arrow {
   display: none;
-  fill: #008cef;
+  fill: $accent-color;
 
   @media screen and (min-width: 768px) {
     display: flex;
