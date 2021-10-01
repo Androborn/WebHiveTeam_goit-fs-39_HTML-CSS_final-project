@@ -377,13 +377,7 @@
   }
 }
 
-//  $beforeList: "image1" "image2" "image3" "image4";
 
-//   @each $beforeName in $beforeList {
-//   .scan-process__descrip-#{$beforeName}::before {
-//   background-image: url(../images/mobile/3d-scanning/#{$beforeName}.png);
-//   }
-// }
 
 .scan-process__descrip-span {
   display: block;
