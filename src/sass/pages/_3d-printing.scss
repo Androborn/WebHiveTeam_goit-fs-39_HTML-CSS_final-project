@@ -3,7 +3,7 @@
   margin-bottom: 16px;
 
   font-weight: 700;
-  font-size: 24px;
+  font-size: $title-size-in-mobile;
   line-height: 1.25;
   text-transform: uppercase;
 
@@ -11,10 +11,10 @@
 
   @media screen and (min-width: 768px) {
     margin-bottom: 24px;
-    font-size: 36px;
+    font-size: $title-size-in-tablet;
   }
   @media screen and (min-width: 1440px) {
-    font-size: 48px;
+    font-size: $title-size-in-desktop;
   }
 }
 .model-examples__list {
@@ -119,7 +119,7 @@
   }
 }
 .process-description__info-box {
-  font-size: 16px;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
   font-weight: 300;
   @media screen and (min-width: 768px) {
@@ -129,7 +129,7 @@
     width: 734px;
     margin-left: 78px;
 
-    font-size: 18px;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.28;
   }
 }

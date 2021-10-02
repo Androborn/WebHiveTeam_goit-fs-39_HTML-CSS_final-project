@@ -3,7 +3,7 @@
   font-family: Cera-Pro;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: $title-size-in-mobile;
   line-height: 1.25;
   color: $accent-color;
   margin-bottom: 16px;
@@ -13,7 +13,7 @@
   font-family: Cera-Pro;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
   color: $main-text-color;
   &:not(:last-child) {
@@ -92,7 +92,7 @@
 
 @media screen and (min-width: 768px) {
   .contact__title {
-    font-size: 36px;
+    font-size: $title-size-in-tablet;
     line-height: 1.25;
   }
   .contact__top-part {
@@ -147,11 +147,11 @@
     padding: 0px;
   }
   .contact__title {
-    font-size: 48px;
+    font-size: $title-size-in-desktop;
     line-height: 1.25;
   }
   .contact__paragraph {
-    font-size: 18px;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.278;
   }
   .contact__video {

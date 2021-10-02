@@ -5,18 +5,18 @@
 .take-order__title {
   font-weight: bold;
   text-align: center;
-  font-size: 22px;
+  font-size: $title-size-in-mobile;
   line-height: 1.25;
 
   color: $accent-color;
 
   @media screen and (min-width: 768px) {
     text-align: left;
-    font-size: 36px;
+    font-size: $title-size-in-tablet;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 48px;
+    font-size: $title-size-in-desktop;
   }
 }
 
@@ -76,12 +76,12 @@
 
 .take-order__text {
   font-weight: 300;
-  font-size: 16px;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
   color: $main-text-color;
 
   @media screen and (min-width: 1440px) {
-    font-size: 18px;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.28;
   }
 

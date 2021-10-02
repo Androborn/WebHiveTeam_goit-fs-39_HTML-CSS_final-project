@@ -134,19 +134,19 @@
 
 .main__section-title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: $title-size-in-mobile;
   line-height: 1.25;
   color: $accent-color;
   margin-bottom: 16px;
   text-transform: uppercase;
 
   @media screen and (min-width: 768px) {
-    font-size: 36px;
+    font-size: $title-size-in-tablet;
     margin-bottom: 32px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 48px;
+    font-size: $title-size-in-desktop;
     margin-bottom: 52px;
   }
 }
@@ -199,12 +199,12 @@
 
 .gallery__sub-title {
   font-weight: 300;
-  font-size: 16px;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
   color: $accent-color;
 
   @media screen and (min-width: 1440px) {
-    font-size: 18px;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.28;
   }
 }
