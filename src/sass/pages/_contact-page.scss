@@ -31,7 +31,6 @@
 
 .smile::after {
   content: '\1F609';
-
 }
 
 .contact__contact-title {
@@ -171,8 +170,7 @@
   }
 }
 .contact__form {
-  .order-form__select,
-  .order-form__select-wrapper {
+  .order-form__wrapper--pseudo {
     display: none;
   }
 }
@@ -187,18 +185,12 @@
   @media screen and (min-width: 1440px) {
     .contact-info,
     .contact-info__time-list,
-    .contact-info__item-wrapper {
+    .contact-info__wrapper-item-div {
       text-align: left;
       justify-content: flex-start;
     }
     .contact-info__wrapper:not(:last-child) {
       margin-bottom: 68px;
     }
-  }
-}
-
-.contact__botoom-part {
-  .order-form__select-wrapper {
-    display: none;
   }
 }

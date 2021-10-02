@@ -38,21 +38,17 @@
   align-items: center;
   justify-content: center;
   margin-top: 115px;
-
   & > li:not(:last-child) {
     margin-bottom: 24px;
   }
 }
-
 .menu__item {
   text-transform: uppercase;
   font-weight: 700;
 }
-
 /* mobile-menu end */
 
 /* tablet-menu */
-
 .menu__link,
 .services-menu__link {
   display: flex;

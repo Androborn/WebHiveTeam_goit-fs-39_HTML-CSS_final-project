@@ -1,4 +1,4 @@
-.contact-info__title {
+.contact-info-wrapper__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.27;
@@ -15,7 +15,7 @@
   }
 }
 
-.contact-info__list {
+.contact-info-wrapper__list {
   margin-bottom: 24px;
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
@@ -25,18 +25,22 @@
   }
 }
 
-.contact-info__item {
+.contact-info-wrapper__item {
   @media screen and (min-width: 768px) {
     &:not(:last-child) {
       margin-bottom: 8px;
     }
   }
 
-  .contact-info__link {
+  .contact-info-wrapper__link {
     color: $main-text-color;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 400;
+    &:hover,
+    &:focus {
+      color: $accent-color-hover;
+    }
   }
 
   @media screen and (min-width: 1440px) {
@@ -50,25 +54,25 @@
     }
   }
 }
-.contact-info__list-wrapper {
+.contact-info-wrapper__list-div {
   @media screen and (min-width: 768px) {
     text-align: right;
   }
 }
-.contact-info__item-wrapper {
+.contact-info__wrapper-item-div {
   @media screen and (min-width: 1440px) {
     display: flex;
     justify-content: flex-end;
   }
 }
-.contact-info__item-day {
+.contact-info__wrapper-item-div__day {
   font-weight: 400;
   @media screen and (min-width: 144px) {
     font-size: 18px;
     line-height: 1.1;
   }
 }
-.contact-info__item-time {
+.contact-info__wrapper-item-div__time {
   font-weight: 400;
   &:not(:first-child) {
     margin-bottom: 8px;

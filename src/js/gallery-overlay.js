@@ -1,6 +1,8 @@
 (() => {
   const refs = {
-    openModalBtns: document.querySelectorAll('[gallery-overlay-open]'),
+    openModalBtns: document.querySelectorAll(
+      '[gallery-overlay-open]',
+    ),
     closeModalBtn: document.querySelector('[gallery-overlay-close]'),
     modal: document.querySelector('[gallery-overlay]'),
   };
@@ -10,6 +12,6 @@
   refs.closeModalBtn.addEventListener('click', toggleModal);
 
   function toggleModal() {
-    refs.modal.classList.toggle('gallery-overlay__is-hidden');
+    refs.modal.classList.toggle('is-hidden');
   }
 })();

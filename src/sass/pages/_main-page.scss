@@ -1,38 +1,3 @@
-// .main__overlay {
-//   margin-left: auto;
-//   margin-right: auto;
-
-//   background-image: url(../images/mobile/main/page_bg.jpg);
-//   background-repeat: no-repeat;
-//   background-size: 100% auto;
-
-//   @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-//     screen and (min-resolution: 192dpi) and (max-width: 767px),
-//     screen and (min-resolution: 2dppx) and (max-width: 767px) {
-//     background-image: url(../images/mobile/main/page_bg@2x.jpg);
-//   }
-
-//   @media screen and (min-width: 768px) {
-//     background-image: url(../images/tablet/main/page_bg.jpg);
-//   }
-
-//   @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-//     screen and (min-resolution: 192dpi) and (min-width: 768px),
-//     screen and (min-resolution: 2dppx) and (min-width: 768px) {
-//     background-image: url(../images/tablet/main/page_bg@2x.jpg);
-//   }
-
-//   @media screen and (min-width: 1440px) {
-//     background-image: url(../images/desktop/main/page_bg.jpg);
-//   }
-
-//   @media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
-//     screen and (min-resolution: 192dpi) and (min-width: 1440px),
-//     screen and (min-resolution: 2dppx) and (min-width: 1440px) {
-//     background-image: url(../images/desktop/main/page_bg@2x.jpg);
-//   }
-// }
-
 // HERO
 .hero__container {
   overflow: visible;
@@ -126,7 +91,7 @@
 
 .hero__ancor-gide--arrow {
   display: none;
-  fill: #008cef;
+  fill: $accent-color;
 
   @media screen and (min-width: 768px) {
     display: flex;

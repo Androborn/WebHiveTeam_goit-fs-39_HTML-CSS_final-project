@@ -20,7 +20,6 @@ pointer-events: none;
 
     box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.15);
     border-radius: 0px 35px 35px 0px;
-    // transform: rotate(180deg);
 
     @media screen and (min-width: 768px) {
         left: 233px;
@@ -83,7 +82,6 @@ pointer-events: none;
         top: 229px;
         border-radius: 0px 0px 35px 0px;
 
-        // transform: rotate(-90deg);
     }
 
     @media screen and (min-width: 1440px) {
@@ -93,7 +91,6 @@ pointer-events: none;
         top: 280px;
 
         border-radius: 0px 0px 72px 0px;
-        // transform: revert;
     }
 }
 
@@ -115,7 +112,6 @@ pointer-events: none;
         top: 90px;
         border-radius: 0px 0px 0px 35px;
 
-        // transform: rotate(180deg);
     }
 
     @media screen and (min-width: 1440px) {
@@ -126,7 +122,6 @@ pointer-events: none;
 
         box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.1);
         border-radius: 0px 0px 0px 72px;
-        // transform: rotate(90deg);
     }
 }
 
