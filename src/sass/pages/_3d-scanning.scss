@@ -11,7 +11,7 @@
 .scan-hero__container {
   font-family: 'Cera-Pro';
   font-weight: 300;
-  font-size: $paragra-paragraph-mobile-and-tablet;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
 
   @media screen and (max-width: 319px) {
@@ -20,7 +20,7 @@
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: $paragra-paragraph-desktop;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.27;
   }
 }
@@ -54,7 +54,7 @@
 }
 
 .scan-hero__descrip {
-  margin-bottom: $paragra-paragraph-mobile-and-tablet;
+  margin-bottom: $paragraph-font-size-mobile-and-tablet;
 
   @media screen and (min-width: 768px) {
     max-width: 515px;

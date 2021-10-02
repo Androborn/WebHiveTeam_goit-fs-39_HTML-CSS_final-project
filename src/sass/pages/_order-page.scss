@@ -76,12 +76,12 @@
 
 .take-order__text {
   font-weight: 300;
-  font-size: $paragra-paragraph-mobile-and-tablet;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
   color: $main-text-color;
 
   @media screen and (min-width: 1440px) {
-    font-size: $paragra-paragraph-desktop;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.28;
   }
 

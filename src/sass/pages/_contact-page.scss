@@ -13,7 +13,7 @@
   font-family: Cera-Pro;
   font-style: normal;
   font-weight: 300;
-  font-size: $paragra-paragraph-mobile-and-tablet;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
   color: $main-text-color;
   &:not(:last-child) {
@@ -152,7 +152,7 @@
     line-height: 1.25;
   }
   .contact__paragraph {
-    font-size: $paragra-paragraph-desktop;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.278;
   }
   .contact__video {

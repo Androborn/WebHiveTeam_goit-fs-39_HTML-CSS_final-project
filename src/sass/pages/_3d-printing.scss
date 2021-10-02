@@ -119,7 +119,7 @@
   }
 }
 .process-description__info-box {
-  font-size: $paragra-paragraph-mobile-and-tablet;
+  font-size: $paragraph-font-size-mobile-and-tablet;
   line-height: 1.25;
   font-weight: 300;
   @media screen and (min-width: 768px) {
@@ -129,7 +129,7 @@
     width: 734px;
     margin-left: 78px;
 
-    font-size: $paragra-paragraph-desktop;
+    font-size: $paragraph-font-size-desktop;
     line-height: 1.28;
   }
 }
