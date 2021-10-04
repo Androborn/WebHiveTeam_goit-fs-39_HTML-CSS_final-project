@@ -235,14 +235,8 @@
   }
 
   &-before1::before {
-    margin-bottom: 18px;
-    content: '';
-    width: 94px;
-    height: 82px;
+    @extend %scan-process-before;
 
-    background-size: 94px 82px;
-
-    background-color: transparent;
     background-image: url(../images/mobile/3d-scanning/image1.png);
 
     @include retina-size(mobile) {
@@ -272,12 +266,8 @@
   }
 
   &-before2::before {
-    margin-bottom: 18px;
-    content: '';
-    width: 94px;
-    height: 82px;
-    background-size: 94px 82px;
-    background-color: transparent;
+    @extend %scan-process-before;
+
     background-image: url(../images/mobile/3d-scanning/image2.png);
 
     @include retina-size(mobile) {
@@ -307,12 +297,8 @@
   }
 
   &-before3::before {
-    margin-bottom: 18px;
-    content: '';
-    width: 94px;
-    height: 82px;
-    background-size: 94px 82px;
-    background-color: transparent;
+    @extend %scan-process-before;
+
     background-image: url(../images/mobile/3d-scanning/image3.png);
 
     @include retina-size(mobile) {
@@ -342,12 +328,8 @@
   }
 
   &-before4::before {
-    margin-bottom: 18px;
-    content: '';
-    width: 92px;
-    height: 82px;
-    background-size: 92px 82px;
-    background-color: transparent;
+    @extend %scan-process-before;
+
     background-image: url(../images/mobile/3d-scanning/image4.png);
 
     @include retina-size(mobile) {
@@ -376,8 +358,6 @@
     }
   }
 }
-
-
 
 .scan-process__descrip-span {
   display: block;
