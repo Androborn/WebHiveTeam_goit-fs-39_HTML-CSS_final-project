@@ -1,9 +1,9 @@
 <!-- TAKE ORDER  -->
 <section class="take-order padding-bottom">
-  <div class="container position-box">
+  <div class="container take-order__container">
     <h1 class="take-order__title">ЗРОБИТИ ЗАМОВЛЕННЯ</h1>
-    <div class="take-order-box">
-      <div class="take-order-main-image">
+    <div class="take-order__box">
+      <div class="take-order__main-image">
         <picture>
           <source
             media="(min-width: 1440px)"
@@ -57,8 +57,8 @@
           />
         </picture>
       </div>
-      <div class="take-order-info">
-        <div class="take-order-description">
+      <div class="take-order__info">
+        <div class="take-order__description">
           <p class="take-order__text">
             На цій сторінці ви можете зробити замовлення заповнивши
             форму і ми зв'яжемося з вами.
@@ -70,57 +70,53 @@
         </div>
 
         <ul class="take-order__list list">
-          <li class="take-order__item desc-box-1">
-            <div class="desc-box-1">
-              <picture>
-                <source
-                  media="(min-width: 1440px)"
-                  type="image/webp"
-                  srcset="
-                    /images/desktop/take-order/image-1.webp    1x,
-                    /images/desktop/take-order/image-1@2x.webp 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1440px)"
-                  srcset="
-                    /images/desktop/take-order/image-1.jpg    1x,
-                    /images/desktop/take-order/image-1@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="/images/desktop/take-order/image-1.jpg"
-                  alt="Модель автомобіля"
-                />
-              </picture>
-            </div>
+          <li class="take-order__item take-order__pic-1">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                type="image/webp"
+                srcset="
+                  /images/desktop/take-order/image-1.webp    1x,
+                  /images/desktop/take-order/image-1@2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  /images/desktop/take-order/image-1.jpg    1x,
+                  /images/desktop/take-order/image-1@2x.jpg 2x
+                "
+              />
+              <img
+                src="/images/desktop/take-order/image-1.jpg"
+                alt="Модель автомобіля"
+              />
+            </picture>
           </li>
-          <li class="take-order__item desc-box-2">
-            <div class="desc-box-2">
-              <picture>
-                <source
-                  media="(min-width: 1440px)"
-                  type="image/webp"
-                  srcset="
-                    /images/desktop/take-order/image-2.webp    1x,
-                    /images/desktop/take-order/image-2@2x.webp 2x
-                  "
-                />
-                <source
-                  media="(min-width: 1440px)"
-                  srcset="
-                    /images/desktop/take-order/image-2.jpg    1x,
-                    /images/desktop/take-order/image-2@2x.jpg 2x
-                  "
-                />
-                <img
-                  src="/images/desktop/take-order/image-2.jpg"
-                  alt="RGB LED-лампа"
-                />
-              </picture>
-            </div>
+          <li class="take-order__item take-order__pic-2">
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                type="image/webp"
+                srcset="
+                  /images/desktop/take-order/image-2.webp    1x,
+                  /images/desktop/take-order/image-2@2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  /images/desktop/take-order/image-2.jpg    1x,
+                  /images/desktop/take-order/image-2@2x.jpg 2x
+                "
+              />
+              <img
+                src="/images/desktop/take-order/image-2.jpg"
+                alt="RGB LED-лампа"
+              />
+            </picture>
           </li>
-          <li class="take-order__item desc-box-3">
+          <li class="take-order__item take-order__pic-3">
             <picture>
               <source
                 media="(min-width: 1440px)"
@@ -146,13 +142,13 @@
         </ul>
       </div>
     </div>
-    <div class="take-order-info-box">
-      <div class="take-order-form">
+    <div class="take-order__form-container">
+      <div class="take-order__order-form">
         <include
           src="./partials/components/_order-form.html"
         ></include>
       </div>
-      <div class="take-order-contacts">
+      <div class="take-order__contacts">
         <include
           src="./partials/components/_contact-info.html"
         ></include>
