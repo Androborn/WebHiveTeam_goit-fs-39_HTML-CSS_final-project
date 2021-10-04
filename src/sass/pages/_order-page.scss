@@ -1,5 +1,5 @@
 // TAKE ORDER
-.position-box {
+.take-order__container {
   position: relative;
 }
 .take-order__title {
@@ -20,14 +20,14 @@
   }
 }
 
-.take-order-box {
+.take-order__box {
   @media screen and (min-width: 768px) {
     display: flex;
     margin-top: 24px;
   }
 }
 
-.take-order-main-image {
+.take-order__main-image {
   width: 280px;
   margin-top: 16px;
   margin-left: auto;
@@ -50,7 +50,7 @@
   }
 }
 
-.take-order-info {
+.take-order__info {
   @media screen and (min-width: 768px) {
     max-width: 381px;
   }
@@ -59,7 +59,7 @@
   }
 }
 
-.take-order-description {
+.take-order__description {
   margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
@@ -114,17 +114,17 @@
   }
 }
 
-.desc-box-1 {
+.take-order__pic-1 {
   border-radius: 0 72px 72px 0;
 }
-.desc-box-2 {
+.take-order__pic-2 {
   border-radius: 72px 0 72px 0;
 }
-.desc-box-3 {
+.take-order__pic-3 {
   border-radius: 0 0 72px 0;
 }
 
-.take-order-info-box {
+.take-order__form-container {
   display: flex;
   flex-direction: column;
   margin-top: 52px;
@@ -137,7 +137,7 @@
   }
 }
 
-.take-order-form {
+.take-order__order-form {
   margin-left: auto;
   margin-right: auto;
 
@@ -147,7 +147,7 @@
   }
 }
 
-.take-order-contacts {
+.take-order__contacts {
   margin-top: 52px;
 
   @media screen and (min-width: 768px) {
