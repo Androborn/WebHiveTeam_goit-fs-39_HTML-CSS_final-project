@@ -19,3 +19,9 @@
     }
   }
 }
+
+@mixin font-header-footer($fw: 400, $fs: 16px, $lh: 1.25) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+}
