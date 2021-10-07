@@ -100,7 +100,6 @@
   @include font-header-footer($fs: 18px, $lh: 1.17);
   font-family: 'CaviarDreams';
   text-align: center;
-  letter-spacing: 0.01em;
 }
 
 .site-nav__link {
@@ -229,7 +228,6 @@
 .contacts__link {
   @include font-header-footer();
   display: flex;
-  letter-spacing: 0.01em;
   color: inherit;
 
   &:hover,
