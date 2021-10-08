@@ -4,7 +4,6 @@
   padding-bottom: 35px;
   min-width: 320px;
   align-items: center;
-  overflow: visible;
 
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -97,12 +96,9 @@
 }
 
 .site-nav__item {
+  @include font-header-footer($fs: 18px, $lh: 1.17);
   font-family: 'CaviarDreams';
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.01em;
 }
 
 .site-nav__link {
@@ -160,7 +156,7 @@
   font-family: 'CaviarDreams';
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.125;
+  line-height: 1.13;
   letter-spacing: 0.01em;
   appearance: none;
   color: #bdbdbd;
@@ -229,12 +225,9 @@
 }
 
 .contacts__link {
+  @include font-header-footer();
   display: flex;
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.01em;
   color: inherit;
-  line-height: 1.25;
 
   &:hover,
   &:focus {

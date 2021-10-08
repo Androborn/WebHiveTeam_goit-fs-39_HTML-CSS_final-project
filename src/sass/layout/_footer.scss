@@ -70,10 +70,7 @@
   margin-bottom: 8px;
 }
 .footer-nav__link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.01em;
+  @include font-header-footer();
   color: $main-text-color;
   &:hover,
   &:focus {
@@ -129,11 +126,10 @@
   -ms-flex-align: center;
   align-items: center;
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  @include font-header-footer();
+
   text-align: center;
-  letter-spacing: 0.01em;
+
   color: $main-text-color;
   -webkit-transition: color $main-duration $main-timing-function,
     fill $main-duration $main-timing-function;
@@ -178,10 +174,8 @@
 }
 
 .footer-contact__link {
+  @include font-header-footer($ls: 0);
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
   text-align: center;
   color: $accent-color;
   &:hover,
@@ -196,11 +190,9 @@
 
 .footer-contact__mail-heading,
 .footer-contact__tel-heading {
+  @include font-header-footer($ls: 0);
   margin-bottom: 8px;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
   text-align: center;
   color: $main-text-color;
 
