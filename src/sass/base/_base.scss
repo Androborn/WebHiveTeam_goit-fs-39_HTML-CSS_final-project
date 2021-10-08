@@ -15,10 +15,15 @@ body {
   color: $main-text-color;
   background-color: $main-background-color;
   position: relative;
-}
 
-body.modal-open {
-  overflow: hidden;
+  &.mobile-menu-is-open {
+    overflow: hidden;
+    padding-top: 93px;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 105px;
+    }
+  }
 }
 
 select,
