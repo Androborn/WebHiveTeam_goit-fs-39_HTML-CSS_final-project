@@ -3927,7 +3927,7 @@ body {
   .contact__paragraph:not(:last-child) {
     margin-bottom: 16px;
   }
-  .contact___paragraph-section {
+  .contact__paragraph-section {
     margin-left: 20px;
   }
   .video {
@@ -3956,7 +3956,7 @@ body {
   .contact__form {
     margin-top: 0px;
   }
-  .contact___paragraph-section {
+  .contact__paragraph-section {
     margin-left: 32px;
   }
   .smile::after {
