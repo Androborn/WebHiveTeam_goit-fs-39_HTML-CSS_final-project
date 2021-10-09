@@ -2,12 +2,9 @@
 .model-examples__title {
   margin-bottom: 16px;
 
-  font-weight: 700;
+  @include title-styles();
   font-size: $title-size-in-mobile;
-  line-height: 1.25;
   text-transform: uppercase;
-
-  color: $accent-color;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 24px;
