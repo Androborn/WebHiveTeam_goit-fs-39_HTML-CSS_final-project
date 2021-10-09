@@ -3,12 +3,9 @@
   position: relative;
 }
 .take-order__title {
-  font-weight: bold;
+  @include title-styles();
   text-align: center;
   font-size: $title-size-in-mobile;
-  line-height: 1.25;
-
-  color: $accent-color;
 
   @media screen and (min-width: 768px) {
     text-align: left;

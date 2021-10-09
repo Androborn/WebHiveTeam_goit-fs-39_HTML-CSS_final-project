@@ -50,7 +50,7 @@
   bottom: 0;
   left: 0;
   transition: transform 250ms ease,
-  color $main-duration $main-timing-function;
+    color $main-duration $main-timing-function;
 
   @media screen and (min-width: 1440px) {
     font-size: 18px;
@@ -93,11 +93,10 @@
   display: none;
 }
 .order-form__title {
-  font-weight: bold;
+  @include title-styles($l-h: 1.27);
+
   font-size: 18px;
-  line-height: 1.27;
   text-align: left;
-  color: $accent-color;
   margin-bottom: 28px;
 
   @media screen and (min-width: 768px) {
