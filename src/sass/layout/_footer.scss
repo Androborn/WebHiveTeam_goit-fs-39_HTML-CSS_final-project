@@ -72,9 +72,16 @@
 .footer-nav__link {
   @include font-header-footer();
   color: $main-text-color;
+  -webkit-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  -o-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
   &:hover,
   &:focus {
     color: $accent-color;
+    fill: $accent-color;
   }
 }
 
@@ -178,9 +185,16 @@
   font-style: normal;
   text-align: center;
   color: $accent-color;
+  -webkit-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  -o-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
   &:hover,
   &:focus {
     color: $main-text-color;
+    fill: $main-text-color;
   }
 
   @media screen and (min-width: 768px) {
