@@ -17,6 +17,10 @@
     padding-bottom: 73px;
     padding-left: 80px;
     padding-right: 80px;
+
+    .link--active {
+      color: $accent-color-hover;
+    }
   }
 }
 
