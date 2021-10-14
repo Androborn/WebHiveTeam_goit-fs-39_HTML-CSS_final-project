@@ -75,6 +75,9 @@
   &:hover,
   &:focus {
     color: $accent-color;
+    -webkit-transition: color $main-duration $main-timing-function;
+    -o-transition: color $main-duration $main-timing-function;
+    transition: color $main-duration $main-timing-function;
   }
 }
 
