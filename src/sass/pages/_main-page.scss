@@ -129,10 +129,9 @@
 }
 
 .main__section-title {
-  font-weight: 700;
+  @include title-styles();
+
   font-size: $title-size-in-mobile;
-  line-height: 1.25;
-  color: $accent-color;
   margin-bottom: 16px;
   text-transform: uppercase;
 

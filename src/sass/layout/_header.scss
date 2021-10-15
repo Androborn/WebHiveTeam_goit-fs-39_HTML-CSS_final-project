@@ -108,6 +108,12 @@
 .site-nav__link {
   color: inherit;
 
+  -webkit-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  -o-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
   &:hover,
   &:focus {
     color: $accent-color;
@@ -170,8 +176,15 @@
   background: none;
   border: none;
 
+  -webkit-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  -o-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
   &:hover {
     color: $accent-color;
+    fill: $accent-color;
   }
   &:focus {
     color: $accent-color;
@@ -236,9 +249,16 @@
   display: flex;
   color: inherit;
 
+  -webkit-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  -o-transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
+  transition: color $main-duration $main-timing-function,
+    fill $main-duration $main-timing-function;
   &:hover,
   &:focus {
     color: $accent-color;
+    fill: $accent-color;
   }
 }
 

@@ -1,11 +1,10 @@
 // CONTACT
 .contact__title {
   font-family: Cera-Pro;
-  font-style: normal;
-  font-weight: 700;
   font-size: $title-size-in-mobile;
-  line-height: 1.25;
-  color: $accent-color;
+
+  @include title-styles();
+
   margin-bottom: 16px;
 }
 
@@ -93,7 +92,6 @@
 @media screen and (min-width: 768px) {
   .contact__title {
     font-size: $title-size-in-tablet;
-    line-height: 1.25;
   }
   .contact__top-part {
     display: flex;
@@ -148,7 +146,6 @@
   }
   .contact__title {
     font-size: $title-size-in-desktop;
-    line-height: 1.25;
   }
   .contact__paragraph {
     font-size: $paragraph-font-size-desktop;
