@@ -31,3 +31,8 @@
   line-height: $lh;
   letter-spacing: $ls;
 }
+@mixin title-styles($f-w: 700, $l-h: 1.25, $col: $accent-color) {
+  font-weight: $f-w;
+  line-height: $l-h;
+  color: $accent-color;
+}
