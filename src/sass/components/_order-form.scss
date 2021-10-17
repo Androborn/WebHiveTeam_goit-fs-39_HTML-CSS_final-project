@@ -134,6 +134,16 @@
 
 .order-form__textarea-wrapper {
   position: relative;
+
+  .order-form__textarea-file-add {
+    &:hover,
+    &:focus {
+      fill: $accent-color;
+      -webkit-transition: fill $main-duration $main-timing-function;
+      -o-transition: fill $main-duration $main-timing-function;
+      transition: fill $main-duration $main-timing-function;
+    }
+  }
 }
 
 .order-form__textarea-file-add {

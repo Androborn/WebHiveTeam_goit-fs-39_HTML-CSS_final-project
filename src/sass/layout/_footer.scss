@@ -59,6 +59,10 @@
   align-items: center;
   text-align: center;
 
+  .link--active {
+    color: $accent-color-hover;
+  }
+
   @media screen and (min-width: 768px) {
     text-align: start;
     margin-top: 0;
