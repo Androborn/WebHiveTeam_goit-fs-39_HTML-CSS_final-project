@@ -229,7 +229,7 @@ section {
 }
 
 @media screen and (max-width: 1439px) {
-  .padding-bottom {
+  .section__gap-bottom {
     padding-bottom: 76px;
   }
 }
