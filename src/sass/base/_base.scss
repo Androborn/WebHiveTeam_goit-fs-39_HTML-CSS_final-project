@@ -69,8 +69,10 @@ img {
   }
   
   &-last {
-    @media screen and (max-width: 1439px) {
-    padding-bottom: 76px;
+  padding-bottom: 76px;
+
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 100px;
   }
 }
 
