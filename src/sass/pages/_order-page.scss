@@ -104,13 +104,12 @@
   width: 144px;
   height: 144px;
   overflow: hidden;
-  box-shadow: 20px 20px 80px rgba(0, 0, 0, 0.25);
+  box-shadow: 20px 15px 20px rgba(0, 0, 0, 0.25);
 
   &:not(:last-child) {
     margin-right: 42px;
   }
 }
-
 .take-order__pic-1 {
   border-radius: 0 72px 72px 0;
 }
@@ -119,6 +118,20 @@
 }
 .take-order__pic-3 {
   border-radius: 0 0 72px 0;
+}
+.take-order__pic-4 {
+  border-radius: 0 72px 0 72px;
+}
+.take-order__pic-5 {
+  border-radius: 72px 0 0 72px;
+}
+.take-order__pic-6 {
+  border-radius: 72px 0 0 0;
+}
+
+.take-order__img {
+  width: 144px;
+  height: 144px;
 }
 
 .take-order__form-container {
@@ -217,4 +230,12 @@
   right: 0;
 
   border-radius: 0 0 72px 0;
+}
+
+.slick-list {
+  overflow: hidden;
+  padding-bottom: 35px;
+}
+.slick-track {
+  display: flex;
 }
