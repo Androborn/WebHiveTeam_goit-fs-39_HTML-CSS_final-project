@@ -10,10 +10,8 @@
   background-color: $main-background-color;
   opacity: 1;
 
-  &.--is-hidden {
+  &.is-hidden {
     transform: translate(0, -100%);
-    visibility: visible;
-    opacity: 0;
   }
 }
 
