@@ -10,7 +10,7 @@
 
   function toggleModal() {
     refs.body.classList.toggle('mobile-menu-is-open');
-    refs.modal.classList.toggle('--is-hidden');
+    refs.modal.classList.toggle('is-hidden');
     refs.header.classList.toggle('header--mobile-menu-is-open');
     refs.openModalBtn.classList.toggle('hamburger--collapse');
   }
