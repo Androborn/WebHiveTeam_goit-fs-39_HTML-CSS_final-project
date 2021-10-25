@@ -1,5 +1,6 @@
 (() => {
   const refs = {
+    body: document.querySelector('body'),
     openModalBtns: document.querySelectorAll(
       '[gallery-overlay-open]',
     ),
@@ -13,5 +14,6 @@
 
   function toggleModal() {
     refs.modal.classList.toggle('is-hidden');
+    refs.body.classList.toggle('gallery-overlay-is-open');
   }
 })();

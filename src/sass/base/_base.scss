@@ -24,6 +24,13 @@ body {
       padding-top: 105px;
     }
   }
+
+  &.gallery-overlay-is-open {
+    overflow: hidden;
+    @media screen and (min-width: 1440px) {
+      margin-right: 17px;
+    }
+  }
 }
 
 select,
