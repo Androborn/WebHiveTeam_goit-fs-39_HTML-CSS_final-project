@@ -2,6 +2,7 @@
 .take-order__container {
   position: relative;
 }
+
 .take-order__title {
   @include title-styles();
   text-align: center;
