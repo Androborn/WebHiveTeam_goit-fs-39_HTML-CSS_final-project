@@ -21,8 +21,7 @@
   &:hover {
     @if $hamburger-hover-use-filter == true {
       filter: $hamburger-hover-filter;
-    }
-    @else {
+    } @else {
       opacity: $hamburger-hover-opacity;
     }
   }
@@ -31,8 +30,7 @@
     &:hover {
       @if $hamburger-hover-use-filter == true {
         filter: $hamburger-active-hover-filter;
-      }
-      @else {
+      } @else {
         opacity: $hamburger-active-hover-opacity;
       }
     }
@@ -55,7 +53,7 @@
 .hamburger-inner {
   display: block;
   top: 50%;
-  margin-top: $hamburger-layer-height / -2;
+  margin-top: calc($hamburger-layer-height / -2);
 
   &,
   &::before,
@@ -72,7 +70,7 @@
 
   &::before,
   &::after {
-    content: "";
+    content: '';
     display: block;
   }
 
