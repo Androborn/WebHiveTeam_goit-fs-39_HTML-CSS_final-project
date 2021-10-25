@@ -12,8 +12,6 @@
 
   &.is-hidden {
     transform: translate(0, -100%);
-    visibility: visible;
-    opacity: 0;
   }
 }
 
