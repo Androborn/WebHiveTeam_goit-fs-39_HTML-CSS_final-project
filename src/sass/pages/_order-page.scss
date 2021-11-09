@@ -111,21 +111,27 @@
     margin-right: 42px;
   }
 }
+
 .take-order__pic-1 {
   border-radius: 0 72px 72px 0;
 }
+
 .take-order__pic-2 {
   border-radius: 72px 0 72px 0;
 }
+
 .take-order__pic-3 {
   border-radius: 0 0 72px 0;
 }
+
 .take-order__pic-4 {
   border-radius: 0 72px 0 72px;
 }
+
 .take-order__pic-5 {
   border-radius: 72px 0 0 72px;
 }
+
 .take-order__pic-6 {
   border-radius: 72px 0 0 0;
 }
@@ -200,6 +206,7 @@
 
   border-radius: 0 0 0 72px;
 }
+
 .futuristic-flowerpot__item-3 {
   @extend %futuristic-flowerpot;
 
@@ -208,6 +215,7 @@
 
   border-radius: 72px 0px;
 }
+
 .futuristic-flowerpot__item-4 {
   @extend %futuristic-flowerpot;
 
@@ -216,6 +224,7 @@
 
   border-radius: 0 72px;
 }
+
 .futuristic-flowerpot__item-5 {
   @extend %futuristic-flowerpot;
 
@@ -224,6 +233,7 @@
 
   border-radius: 72px;
 }
+
 .futuristic-flowerpot__item-6 {
   @extend %futuristic-flowerpot;
 
@@ -237,6 +247,7 @@
   overflow: hidden;
   padding-bottom: 35px;
 }
+
 .slick-track {
   display: flex;
 }

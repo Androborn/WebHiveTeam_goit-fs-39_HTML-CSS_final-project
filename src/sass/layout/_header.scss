@@ -85,6 +85,7 @@
   &::after {
     content: '';
     position: absolute;
+    left: 100%;
     top: 50%;
 
     margin-left: 4px;
@@ -196,6 +197,7 @@
   @media screen and (max-width: 767px) {
     display: block;
     position: absolute;
+    z-index: 101;
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0);
