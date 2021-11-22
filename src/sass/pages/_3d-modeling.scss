@@ -9,6 +9,7 @@
   }
 
   &__title {
+    margin-bottom: 16px;
     @include title-styles();
 
     font-size: $title-size-in-mobile;
@@ -19,6 +20,7 @@
 
     @media screen and (min-width: 1440px) {
       font-size: $title-size-in-desktop;
+      margin-bottom: 24px;
     }
   }
 
@@ -26,7 +28,6 @@
     font-weight: 300;
     font-size: $paragraph-font-size-mobile-and-tablet;
     line-height: 1.25;
-    margin-top: 16px;
 
     @media screen and (min-width: 768px) {
       max-width: 515px;
@@ -36,7 +37,6 @@
       min-width: 515px;
       font-size: $paragraph-font-size-desktop;
       line-height: 1.28;
-      margin-top: 24px;
 
       &--left {
         margin-right: 32px;
@@ -53,6 +53,7 @@
 
 // 3D MODELING CREATIONS
 .methods {
+  margin-bottom: 16px;
   @include title-styles($l-h: 1.28);
 
   font-size: 18px;
@@ -62,7 +63,9 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 1.25;
-    margin-top: 16px;
+  }
+  &__item:not(:last-child) {
+    margin-bottom: 16px;
   }
 
   &__item::before {
@@ -145,30 +148,30 @@
 .models {
   &__title {
     @include title-styles();
-
+    margin-bottom: 16px;
     font-size: 16px;
     text-transform: uppercase;
 
     @media screen and (min-width: 768px) {
       max-width: 593px;
       font-size: 24px;
+      margin-bottom: 24px;
     }
 
     @media screen and (min-width: 1440px) {
       max-width: 842px;
       font-size: 36px;
+      margin-bottom: 52px;
     }
   }
 
   &__list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10.77px;
     margin-bottom: 52px;
 
     @media screen and (min-width: 768px) {
       flex-wrap: unset;
-      margin-left: -12.23px;
     }
 
     @media screen and (min-width: 1440px) {
@@ -177,17 +180,16 @@
   }
 
   &__item {
-    margin-top: 16px;
-    margin-left: 10.77px;
     flex-basis: calc((100% - 21.54px) / 2);
+  }
+  &__item--first {
+    margin-bottom: 16px;
+  }
+  &__item:not(:last-child) {
+    margin-right: 10.77px;
 
     @media screen and (min-width: 768px) {
-      margin-top: 24px;
-      margin-left: 12.23px;
-    }
-
-    @media screen and (min-width: 1440px) {
-      margin-top: 52px;
+      margin-right: 12.23px;
     }
   }
 }

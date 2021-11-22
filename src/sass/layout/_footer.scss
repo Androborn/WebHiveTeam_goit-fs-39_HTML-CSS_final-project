@@ -19,8 +19,11 @@
   margin-right: auto;
   text-align: center;
 
-  @media screen and (min-width: 1440px) {
-    &-wrapper {
+  &-wrapper {
+    margin-bottom: 20px;
+
+    @media screen and (min-width: 1440px) {
+      margin-bottom: 0;
       margin-right: 136px;
     }
   }
@@ -30,14 +33,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-
-  @media screen and (min-width: 768px) and (max-width: 1439px) {
-    margin-top: 20px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    margin-top: 0;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -49,7 +45,6 @@
 }
 
 .footer-nav__list {
-  margin-top: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -65,13 +60,24 @@
 
   @media screen and (min-width: 768px) {
     text-align: start;
-    margin-top: 0;
     width: 132px;
   }
 }
 
 .footer-nav__item:not(:last-child) {
   margin-bottom: 8px;
+}
+.footer-nav {
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    margin-right: 55px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    margin-right: 87px;
+  }
 }
 .footer-nav__link {
   @include font-header-footer();
@@ -85,7 +91,15 @@
     color: $accent-color;
   }
 }
-
+.footer-social {
+  margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-right: 145px;
+  }
+}
 .footer-social__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,18 +109,9 @@
   -ms-flex-pack: center;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 
   @media screen and (min-width: 768px) {
-    margin-top: 0;
-    margin-right: 100px;
-    margin-left: 135px;
     align-items: flex-start;
-  }
-
-  @media screen and (min-width: 1440px) {
-    margin-right: 145px;
-    margin-left: 87px;
   }
 }
 
@@ -153,7 +158,6 @@
 }
 
 .footer-contact__wrapper {
-  margin-top: 24px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -162,10 +166,6 @@
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-
-  @media screen and (min-width: 768px) {
-    margin-top: 0;
-  }
 }
 .footer-contact__item {
   &:not(:last-child) {
@@ -216,12 +216,12 @@
     text-align: left;
   }
 }
-.footer-contact_tel-ident {
+.footer-contact__mail-wrapper {
   @media screen and (max-width: 767px) {
-    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   @media screen and (min-width: 768px) {
-    margin-top: 16px;
+    margin-bottom: 16px;
   }
 }

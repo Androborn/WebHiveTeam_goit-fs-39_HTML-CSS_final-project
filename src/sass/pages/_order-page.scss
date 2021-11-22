@@ -7,10 +7,12 @@
   @include title-styles();
   text-align: center;
   font-size: $title-size-in-mobile;
+  margin-bottom: 16px;
 
   @media screen and (min-width: 768px) {
     text-align: left;
     font-size: $title-size-in-tablet;
+    margin-bottom: 24px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -19,26 +21,29 @@
 }
 
 .take-order__box {
+  margin-bottom: 52px;
   @media screen and (min-width: 768px) {
     display: flex;
-    margin-top: 24px;
+  }
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 100px;
   }
 }
 
 .take-order__main-image {
   width: 280px;
-  margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
   overflow: hidden;
+  margin-bottom: 16px;
 
   @media screen and (min-width: 768px) {
     width: 247px;
     height: 116px;
     margin-left: 0;
     margin-right: 20px;
-    margin-top: 0;
+    margin-bottom: 0px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -58,17 +63,16 @@
 }
 
 .take-order__description {
-  margin-top: 16px;
   margin-left: auto;
   margin-right: auto;
 
   @media screen and (min-width: 768px) {
-    margin-top: 0;
     width: 381px;
   }
 
   @media screen and (min-width: 1440px) {
     width: 515px;
+    margin-bottom: 55px;
   }
 }
 
@@ -82,19 +86,17 @@
     font-size: $paragraph-font-size-desktop;
     line-height: 1.28;
   }
-
-  & + .take-order__text {
-    margin-top: 16px;
+  &:not(:last-child) {
+    margin-bottom: 16px;
 
     @media screen and (min-width: 1440px) {
-      margin-top: 24px;
+      margin-bottom: 24px;
     }
   }
 }
 
 .take-order__list {
   display: none;
-  margin-top: 55px;
 
   @media screen and (min-width: 1440px) {
     display: flex;
@@ -144,10 +146,8 @@
 .take-order__form-container {
   display: flex;
   flex-direction: column;
-  margin-top: 52px;
 
   @media screen and (min-width: 1440px) {
-    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -157,22 +157,15 @@
 .take-order__order-form {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 52px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 76px;
+  }
 
   @media screen and (min-width: 1440px) {
     margin-left: 0;
     margin-right: 0;
-  }
-}
-
-.take-order__contacts {
-  margin-top: 52px;
-
-  @media screen and (min-width: 768px) {
-    margin-top: 76px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -183,12 +176,16 @@
     display: unset;
   }
 }
+.take-order__contacts {
+  @media screen and (min-width: 1440px) {
+    margin-bottom: 76px;
+  }
+}
 
 .futuristic-flowerpot__list {
   position: relative;
   width: 530px;
   height: 325px;
-  margin-top: 76px;
 }
 
 .futuristic-flowerpot__item-1 {

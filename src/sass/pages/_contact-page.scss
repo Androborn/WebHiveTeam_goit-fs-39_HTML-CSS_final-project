@@ -2,9 +2,7 @@
 .contact__title {
   font-family: Cera-Pro;
   font-size: $title-size-in-mobile;
-
   @include title-styles();
-
   margin-bottom: 16px;
 }
 
@@ -68,24 +66,11 @@
 }
 
 //  CONTACT FORM
-.contact__desk {
-  display: flex;
-  @media screen and (min-width: 768px) {
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
 
 .contact__form {
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
-  }
-}
-
-.perenos {
-  @media screen and (min-width: 1440px) {
-    display: none;
   }
 }
 
@@ -96,20 +81,14 @@
   .contact__top-part {
     display: flex;
   }
-  .contact__paragraph {
-    margin-left: 0;
-    &:not(:last-child) {
-      margin-bottom: 16px;
-    }
-  }
-
-  .contact__paragraph-section {
-    margin-left: 20px;
+  .contact__paragraph:not(:last-child) {
+    margin-bottom: 16px;
   }
   .video {
     width: 100%;
     height: 192px;
     margin-bottom: 16px;
+    margin-right: 20px;
 
     .contact__video {
       width: 100%;
@@ -118,31 +97,19 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .contact__form-and-desk {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-  }
   .contact__paragraph {
-    margin-left: 0;
     &:not(:last-child) {
       margin-bottom: 24px;
     }
   }
-  .contact__form {
-    margin-top: 0px;
-  }
 
-  .contact__paragraph-section {
-    margin-left: 32px;
-  }
   .smile::after {
     display: block;
-    margin-top: 58px;
     width: 49px;
     height: 49px;
     font-size: 36px;
     padding: 0px;
+    margin-top: 58px;
   }
   .contact__title {
     font-size: $title-size-in-desktop;
@@ -154,12 +121,11 @@
   .contact__video {
     display: block;
   }
-  .contact__desk {
-    margin-left: 0px;
-  }
+
   .video {
     width: 515px;
     height: 315px;
+    margin-right: 32px;
     .contact__video {
       width: 515px;
       height: 315px;
