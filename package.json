@@ -27,5 +27,7 @@
     "sass": "^1.43.4",
     "slick-carousel": "^1.8.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "simplelightbox": "^2.10.1"
+  }
 }
