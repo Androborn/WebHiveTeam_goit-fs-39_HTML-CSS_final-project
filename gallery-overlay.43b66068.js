@@ -6,4 +6,4 @@ var t=arguments[3];function e(t){return(e="function"==typeof Symbol&&"symbol"==t
 },{}],"y0OJ":[function(require,module,exports) {
 "use strict";var e=i(require("simplelightbox"));function i(e){return e&&e.__esModule?e:{default:e}}require("simplelightbox/dist/simple-lightbox.min.css");const t=new e.default(".more-photo__list a");
 },{"simplelightbox":"yx6k","simplelightbox/dist/simple-lightbox.min.css":"kz9M"}]},{},["y0OJ"], null)
-//# sourceMappingURL=/web-hive-team_goit-fs-39/gallery-overlay.43b66068.js.map
+//# sourceMappingURL=/WebHiveTeam_goit-fs-39_HTML-CSS_final-project/gallery-overlay.43b66068.js.map
